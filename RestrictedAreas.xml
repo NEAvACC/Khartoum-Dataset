@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RestrictedAreas>
 	<Areas>
-		<RestrictedArea Type="Danger" Name="HS-D3" AltitudeFloor="0" AltitudeCeiling="17000" DAIWEnabled="true" LinePattern="Solid">
+		<RestrictedArea Type="Danger" Name="HS-D3" AltitudeFloor="0" AltitudeCeiling="17000" DAIWEnabled="true" LinePattern="Broken">
 			<Area>
 		+17.767000+034.083000/
 +17.917000+034.082833/
