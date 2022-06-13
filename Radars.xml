@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Radars>
+  <Radar Name="Atbara ADSB" Type="ADSB" Elevation="1198" MaxRange="256">
+    <Lat>+17.710833</Lat>
+    <Long>+034.054722</Long>
+  </Radar>
+  <Radar Name="Nyala ADSB" Type="ADSB" Elevation="2095" MaxRange="256">
+    <Lat>+12.053639</Lat>
+    <Long>+024.951639</Long>
+  </Radar>
+  <Radar Name="Merowe ADSB" Type="ADSB" Elevation="899" MaxRange="256">
+    <Lat>+18.443939</Lat>
+    <Long>+031.838631</Long>
+  </Radar>
+  <Radar Name="Damazin MSSR" Type="SSR_ModeC" Elevation="1584" MaxRange="256">
+    <Lat>+11.338222</Lat>
+    <Long>+034.338306</Long>
+  </Radar>
+  <Radar Name="Dongola MSSR" Type="SSR_ModeC" Elevation="773" MaxRange="256">
+    <Lat>+19.158445</Lat>
+    <Long>+030.416667</Long>
+  </Radar>
+    </Radar>
+  <Radar Name="El Fashir MSSR" Type="SSR_ModeC" Elevation="2402" MaxRange="256">
+    <Lat>+13.623583</Lat>
+    <Long>+025.326139</Long>
+  </Radar>
+    </Radar>
+  <Radar Name="El Obeid MSSR" Type="SSR_ModeC" Elevation="1928" MaxRange="256">
+    <Lat>+13.152111</Lat>
+    <Long>+030.233333</Long>
+  </Radar>
+      </Radar>
+  <Radar Name="Khartoum MSSR" Type="SSR_ModeC" Elevation="1271" MaxRange="256">
+    <Lat>+15.590445</Lat>
+    <Long>+032.556417</Long>
+  </Radar>
+</Radars>
