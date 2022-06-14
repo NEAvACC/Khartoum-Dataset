@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Sectors>
-  <Sector Frequency="127.3" Name="DAAA" Callsign="DAAA_CTR">
-    <Volumes>DAAA</Volumes>
+  <Sector Frequency="127.5" Name="DAAA" Callsign="HSSS_1_CTR">
+    <Volumes>HSSK_CTR</Volumes>
   </Sector>
 </Sectors>
