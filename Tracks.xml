@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <TrackSymbols>
 	<TrackSymbol Type="Primary">
 		<PathGeometry>
@@ -10,7 +10,7 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-
+	
 	<!-- Special Code 1 Ellipse -->
 	<TrackSymbol Type="ModeA" SpecialCode="0001">
 		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
@@ -18,7 +18,7 @@
 	<TrackSymbol Type="ModeS" SpecialCode="0001">
 		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
 	</TrackSymbol>
-
+	
 	<!-- Special Code 2 Pentagram -->
 	<TrackSymbol Type="ModeA" SpecialCode="2000">
 		<PathGeometry>
@@ -44,9 +44,9 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-
+	
 	<!-- Special Code 3 Open Square -->
-	<TrackSymbol Type="ModeA" SpecialCode="1000">
+	<TrackSymbol Type="ModeA" SpecialCode="0100">
 		<PathGeometry>
 			<Figure Start="-6,-6" FigureBegin="Hollow" FigureEnd="Open">
 				<Line>-6,6</Line>
@@ -55,7 +55,7 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-	<TrackSymbol Type="ModeS" SpecialCode="1000">
+	<TrackSymbol Type="ModeS" SpecialCode="0100">
 		<PathGeometry>
 			<Figure Start="-6,-6" FigureBegin="Hollow" FigureEnd="Open">
 				<Line>-6,6</Line>
@@ -64,9 +64,9 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-
+	
 	<!-- Special Code 4 Hourglass -->
-	<TrackSymbol Type="ModeA" SpecialCode="7000">
+	<TrackSymbol Type="ModeA" SpecialCode="1200">
 		<PathGeometry>
 			<Figure Start="-1,0" FigureBegin="Hollow" FigureEnd="Open">
 				<Line>-6, -5</Line>
@@ -83,7 +83,7 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-	<TrackSymbol Type="ModeS" SpecialCode="7000">
+	<TrackSymbol Type="ModeS" SpecialCode="1200">
 		<PathGeometry>
 			<Figure Start="-1,0" FigureBegin="Hollow" FigureEnd="Open">
 				<Line>-6, -5</Line>
@@ -100,7 +100,7 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-
+	
 	<!-- SSR Circle -->
 	<TrackSymbol Type="ModeA">
 		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
@@ -108,7 +108,7 @@
 	<TrackSymbol Type="ModeS">
 		<EllipseGeometry Center="0,0" RadiusX="6.5" RadiusY="6.5" />
 	</TrackSymbol>
-
+	
 	<!-- ADSB Prop -->
 	<TrackSymbol Type="ADSB">
 		<PathGeometry>
@@ -136,12 +136,12 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-
+	
 	<!--Flight plan square-->
 	<TrackSymbol Type="FlightPlan">
 		<RectangleGeometry TopLeft="-6,-6" BottomRight="6,6" />
 	</TrackSymbol>
-
+	
 	<TrackSymbol Type="Cancelled">
 		<EllipseGeometry Center="0,0" RadiusX="3" RadiusY="3" />
 	</TrackSymbol>
@@ -165,7 +165,7 @@
 		</PathGeometry>
 	</TrackSymbol>
 
-	<!-- Radar Coast Crosshair-->
+	<!-- Radar Coast Crosshair-->	
 	<TrackSymbol Type="CoastRadar" StrokeWidth="3">
 		<PathGeometry>
 			<Figure Start="-3,0" FigureBegin="Hollow" FigureEnd="Open">
@@ -181,9 +181,9 @@
 				<Line>0, 7</Line>
 			</Figure>
 		</PathGeometry>
-	</TrackSymbol>
+	</TrackSymbol>		
 
-	<!-- ADSB Coast Cross-->
+	<!-- ADSB Coast Cross-->	
 	<TrackSymbol Type="CoastADSB" StrokeWidth="3">
 		<PathGeometry>
 			<Figure Start="-3,-3" FigureBegin="Hollow" FigureEnd="Open">
@@ -199,8 +199,8 @@
 				<Line>-7, 7</Line>
 			</Figure>
 		</PathGeometry>
-	</TrackSymbol>
-
+	</TrackSymbol>		
+	
 	<!-- Selection Octagon -->
 	<TrackSymbol Type="Selection">
 		<PathGeometry>
@@ -215,7 +215,7 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-
+			
 	<!-- Ground Diamond -->
 	<TrackSymbol Type="Ground" StrokeWidth="0">
 		<PathGeometry>
@@ -226,17 +226,17 @@
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
-
+	
 	<!-- Ground Circle -->
 	<TrackSymbol Type="GroundLight" StrokeWidth="0">
 		<EllipseGeometry Center="0,0" RadiusX="6" RadiusY="6" />
 	</TrackSymbol>
-
+	
 	<!-- Ground Circle -->
 	<TrackSymbol Type="GroundMedium" StrokeWidth="0">
 		<EllipseGeometry Center="0,0" RadiusX="6" RadiusY="6" />
 	</TrackSymbol>
-
+	
 	<!-- Ground Circle -->
 	<TrackSymbol Type="GroundHeavy" StrokeWidth="5">
 		<EllipseGeometry Center="0,0" RadiusX="5" RadiusY="5" />

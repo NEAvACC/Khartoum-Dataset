@@ -1,23 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Khartoum Center" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="3000">
-    <Sectors>
-		<Sector Name="HSSS" />
-    </Sectors>
+  <Group Name="ACC">
+  <Position Name="HSSS_1_CTR" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="3000">
+  <Sectors>
+    <Sector Name="KRN" />
+    <Sector Name="KRS" />
+    <Sector Name="JUB" />
+    <Sector Name="FSA" />
+    <Sector Name="MRA" />
+    <Sector Name="NYA" />
+    <Sector Name="PZA" />
+    <Sector Name="GNA" />
+    <Sector Name="KRA" />
+  </Sectors>
     <Maps>
-      <Map Name="Coast" />
-	  <Map Name="Airspace" />
     </Maps>
-    <Strips Mode="State" Sort="Time">
+    <Strips Mode="State" Sort="Alpha">
       <Window Type="State" State="Jurisdiction" Visible="true" />
       <Window Type="State" State="Announced" Visible="true" />
       <Window Type="State" State="Preactive" Visible="true" />
     </Strips>
     <CFL QuickLevel="4000" />
-    <ArrivalLists>
-    </ArrivalLists>
     <ControllerInfo>
-      <Line>Khartounm Centre</Line>
+      <Line>Khartoum Center</Line>
     </ControllerInfo>
   </Position>
+
+
+ <Position Name="HSSS_2_CTR" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="3000">
+  <Sectors>
+      <Sector Name="KRS" />
+  </Sectors>
+    <Maps>
+    </Maps>
+    <Strips Mode="State" Sort="Alpha">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ControllerInfo>
+      <Line>Khartoum Center</Line>
+    </ControllerInfo>
+  </Position>
+
+<Position Name="HJJJ_1_CTR" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="3000">
+  <Sectors>
+    <Sector Name="JUB" />
+  </Sectors>
+    <Maps>
+    </Maps>
+    <Strips Mode="State" Sort="Alpha">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ControllerInfo>
+      <Line>Juba Control</Line>
+    </ControllerInfo>
+  </Position>
+    </Group>
 </Positions>

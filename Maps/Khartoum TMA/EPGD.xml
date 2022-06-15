@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System" Name="GD_TMA_L" Priority="0" Centre="+542239.0+0182758.0">
+        <Label HasLeader="True">
+            <Point>VAPOS</Point>
+            <Point>VIZAN</Point>
+            <Point>DEXIR</Point>
+            <Point>NIKMI</Point>
+            <Point>OGDAV</Point>
+            <Point>KOSEX</Point>
+            <Point>RATOR</Point>
+            <Point>OSLOG</Point>
+        </Label>
+        <Label HasLeader="true" LabelOrientation="NW">
+            <Point>IRLUN</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="GD_TMA" Priority="0" Centre="+542239.0+0182758.0">
+        <!--EPGD-->
+        <Runway Name="11/29">
+            <Threshold Name="11" Position="+542251.84+0182707.38" ExtendedCentrelineTrack="293.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+            <Threshold Name="29" Position="+542216.56+0182930.18" ExtendedCentrelineTrack="113.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+        </Runway>
+        <Symbol Type="SolidTriangle">
+            <Point>VAPOS</Point>
+            <Point>VIZAN</Point>
+            <Point>DEXIR</Point>
+            <Point>IRLUN</Point>
+            <Point>NIKMI</Point>
+            <Point>OGDAV</Point>
+            <Point>KOSEX</Point>
+            <Point>RATOR</Point>
+            <Point>IRLUN</Point>
+            <Point>OSLOG</Point>
+        </Symbol>
+    </Map>
+    <Map Type="System" Name="GD_VFR" Priority="1" Centre="+542239.0+0182758.0">
+        <Symbol Type="HollowSquare">
+            <Point>EPGDG</Point>
+            <Point>EPGDI</Point>
+            <Point>EPGDM</Point>
+            <Point>EPGDN</Point>
+            <Point>EPGDS</Point>
+            <Point>EPGDX</Point>
+            <Point>EPGDZ</Point>
+        </Symbol>
+        <Label HasLeader="True">
+            <Point Name="G">EPGDG</Point>
+            <Point Name="I">EPGDI</Point>
+            <Point Name="M">EPGDM</Point>
+            <Point Name="N">EPGDN</Point>
+            <Point Name="S">EPGDS</Point>
+            <Point Name="X">EPGDX</Point>
+            <Point Name="Z">EPGDZ</Point>
+        </Label>
+    </Map>
+</Maps>
