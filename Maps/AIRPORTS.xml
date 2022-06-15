@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Airports>
+  <Airport ICAO="HJAK" Position="+07.777500+033.002500/" />
+  <Airport ICAO="HJAR" Position="+10.053889+032.959722/" />
+  <Airport ICAO="HJAW" Position="+08.791667+027.360278/" />
+  <Airport ICAO="HJBR" Position="+06.191111+031.600278/" />
+  <Airport ICAO="HJBT" Position="+09.308611+029.787222/" />
+  <Airport ICAO="HJFA" Position="+10.528889+032.500556/" />
+  <Airport ICAO="HJJJ" Position="+04.872006+031.601117/" />
+  <Airport ICAO="HJKP" Position="+04.780000+033.586944/" />
+  <Airport ICAO="HJMD" Position="+04.903889+029.443889/" />
+  <Airport ICAO="HJMK" Position="+09.558972+031.652233/" />
+  <Airport ICAO="HJPI" Position="+06.795556+033.128611/" />
+  <Airport ICAO="HJRB" Position="+06.831389+029.668889/" />
+  <Airport ICAO="HJRJ" Position="+08.461111+025.681111/" />
+  <Airport ICAO="HJTR" Position="+04.416944+032.575556/" />
+  <Airport ICAO="HJTU" Position="+05.602222+027.473333/" />
+  <Airport ICAO="HJWW" Position="+07.725833+027.975000/" />
+  <Airport ICAO="HJYA" Position="+04.567222+028.424167/" />
+  <Airport ICAO="HJYE" Position="+04.128889+030.732222/" />
+  <Airport ICAO="HJYL" Position="+06.558889+030.508056/" />
+  <Airport ICAO="HSAT" Position="+17.709722+034.057222/" />
+  <Airport ICAO="HSCG" Position="+18.750000+037.000000/" />
+  <Airport ICAO="HSDB" Position="+18.025000+030.958333/" />
+  <Airport ICAO="HSDL" Position="+12.083333+029.683333/" />
+  <Airport ICAO="HSDN" Position="+19.152500+030.430278/" />
+  <Airport ICAO="HSDZ" Position="+11.786111+034.336667/" />
+  <Airport ICAO="HSFS" Position="+13.615000+025.324722/" />
+  <Airport ICAO="HSGN" Position="+13.483478+022.472511/" />
+  <Airport ICAO="HSKA" Position="+15.387494+036.328842/" />
+  <Airport ICAO="HSLI" Position="+11.137106+029.699239/" />
+  <Airport ICAO="HSMN" Position="+18.443000+031.843583/" />
+  <Airport ICAO="HSNN" Position="+12.053489+024.956125/" />
+  <Airport ICAO="HSNW" Position="+15.355000+035.728333/" />
+  <Airport ICAO="HSOB" Position="+13.152900+030.232700/" />
+  <Airport ICAO="HSPN" Position="+19.433639+037.234075/" />
+  <Airport ICAO="HSSG" Position="+13.477500+022.537222/" />
+  <Airport ICAO="HSSK" Position="+15.590356+032.553153/" />
+  <Airport ICAO="HSSW" Position="+21.802778+031.521944/" />
+</Airports>
