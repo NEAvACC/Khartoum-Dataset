@@ -19,6 +19,7 @@
   <Bin>
     <Rule Remarks="(\/|\b)(SDAF|SSAF|SAF|AF|MILITARY|USAF|RAF|ARMY)\b"/>
     <Codes Start="1001" End="1077"/>
+      </Bin> 
  <!-- Domestic Flights -->
   <Bin>
     <Rule Departure="HS\w{3}" Destination="HS\w{3}"/>
