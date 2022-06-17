@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SSRAssignment>
+<!-- Code "Bins" define available codes and their assigned Regex rules. 
+		Priority is applied by the order they appear in this file. -->
+		
+    <!-- Excluded Codes are never assigned -->
+  <Bin>
+    <Rule Excluded="true"/>
+    <Codes>
+      1234,0000
+    </Codes>
+  </Bin>
+ <!-- VFR Flights -->
+  <Bin>
+    <Rule FlightRule="V" />
+    <Codes Start="7001" End="7077" />
+  </Bin>
+ <!-- Military Flights -->
+  <Bin>
+    <Rule Remarks="(\/|\b)(SDAF|SSAF|SAF|AF|MILITARY|USAF|RAF|ARMY|UN|UNO|UNITED NATIONS)\b"/>
+    <Codes Start="1001" End="1077"/>
+      </Bin> 
+  <Bin>
+    <Rule Callsign="(RCH|USAF|ICE|ASY|SDAF|SSAF|SAF|AF|RAF|UN|UNO)" />
+    <Codes Start="1001" End="1077"/>
+    </Bin> 
+ <!-- Domestic Flights -->
+  <Bin>
+    <Rule Departure="HS\w{2}|HJ\w{2}" Destination="HS\w{2}|HJ\w{2}"/>
+    <Codes Start="5301" End="5377"/>
+  </Bin> 
+    <!-- International Flights -->
+  <Bin>
+    <Rule Departure="HS\w{2}|HJ\w{2}" />
+	  <Codes Start="1201" End="1277"/>
+  </Bin>
+ <!-- Transit Flights -->
+  <Bin>
+	<Codes Start="0101" End="0177"/>
+	<Codes Start="1301" End="1377"/>
+  </Bin>
+</SSRAssignment>
