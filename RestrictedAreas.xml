@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RestrictedAreas>
 	<Areas>
-		<RestrictedArea Type="Danger" Name="HS-D3" AltitudeFloor="0" AltitudeCeiling="17000" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HS-D3" AltitudeFloor="0" AltitudeCeiling="17000" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 		+17.767000+034.083000/
 +17.917000+034.082833/
@@ -12,8 +12,11 @@
 +17.768000+034.216500/
 +17.767000+034.083000
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="A0017/22" AltitudeFloor="0" AltitudeCeiling="29000" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="A0017/22" AltitudeFloor="0" AltitudeCeiling="29000" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 +14.875059+035.371667/
 +14.846710+035.593639/
@@ -64,8 +67,11 @@
 +14.846710+035.149694/
 +14.875059+035.371667
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HH-P1" AltitudeFloor="0" AltitudeCeiling="9999" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HH-P1" AltitudeFloor="0" AltitudeCeiling="9999" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 		+16.224060+036.953500/
 +16.207049+037.087733/
@@ -116,8 +122,11 @@
 +16.207049+036.819266/
 +16.224060+036.953500
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HS-P9" AltitudeFloor="0" AltitudeCeiling="99999" DAIWEnabled="false" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HS-P9" AltitudeFloor="0" AltitudeCeiling="99999" DAIWEnabled="false" LinePattern="Solid">
 			<Area>
 +15.608333+032.483333/
 +15.616667+032.516667/
@@ -128,8 +137,11 @@
 +15.583333+032.500000/
 +15.608333+032.483333
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HS-P10A" AltitudeFloor="0" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HS-P10A" AltitudeFloor="0" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 +15.585833+032.389000/
 +15.586000+030.748333/
@@ -150,8 +162,11 @@
 +15.711665+032.526167/
 +15.585833+032.389000
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HS-P10B" AltitudeFloor="0" AltitudeCeiling="9999" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HS-P10B" AltitudeFloor="0" AltitudeCeiling="9999" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 +15.563000+030.054666/
 +14.839000+029.060666/
@@ -164,8 +179,11 @@
 +17.132333+030.138833/
 +15.930500+027.675833
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HS-P10C" AltitudeFloor="0" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HS-P10C" AltitudeFloor="0" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 +15.586000+030.748333/
 +15.563000+030.054666/
@@ -176,8 +194,11 @@
 +17.255000+031.539666/
 +17.132333+030.138833
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HS-P8" AltitudeFloor="0" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HS-P8" AltitudeFloor="0" AltitudeCeiling="28500" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 +12.124498+034.336111/
 +12.120391+034.389345/
@@ -258,8 +279,11 @@
 +12.108175+034.230955/
 +12.120391+034.282878
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HJ-P1" AltitudeFloor="0" AltitudeCeiling="3000" DAIWEnabled="false" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HJ-P1" AltitudeFloor="0" AltitudeCeiling="3000" DAIWEnabled="false" LinePattern="Solid">
 			<Area>
 +04.859439+031.590278/
 +04.859336+031.591585/
@@ -340,8 +364,11 @@
 +04.859031+031.587695/
 +04.859336+031.588970
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Danger" Name="HK-D30" AltitudeFloor="0" AltitudeCeiling="12000" DAIWEnabled="true" LinePattern="Broken">
+		<RestrictedArea Type="Danger" Name="HK-D30" AltitudeFloor="0" AltitudeCeiling="12000" DAIWEnabled="true" LinePattern="Solid">
 			<Area>
 +04.798735+034.759515/
 +04.793543+034.769948/
@@ -618,8 +645,11 @@
 +04.759397+034.654312/
 +04.798735+034.759515
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
-		<RestrictedArea Type="Restricted" Name="HJ-R1" AltitudeFloor="0" AltitudeCeiling="3000" DAIWEnabled="false" LinePattern="Broken">
+		<RestrictedArea Type="Restricted" Name="HJ-R1" AltitudeFloor="0" AltitudeCeiling="3000" DAIWEnabled="false" LinePattern="Solid">
 			<Area>
 +04.920272+031.598889/
 +04.920170+031.600196/
@@ -700,6 +730,9 @@
 +04.919865+031.596306/
 +04.920170+031.597581
 		</Area>
+		      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
 		</RestrictedArea>
 	</Areas>
 </RestrictedAreas>

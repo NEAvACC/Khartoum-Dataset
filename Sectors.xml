@@ -1,136 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Sectors>
   <!-- Foreign -->
-  <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFC" />
-  <Sector FullName="East Africa Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFE" />
-  <Sector FullName="North Africa Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFN" />
-  <Sector FullName="Africa South Control" Frequency="134.575" Callsign="AFRS_FSS" Name="AFS" />
-  <Sector FullName="Africa West Control" Frequency="132.225" Callsign="AFRW_FSS" Name="AFW" />
-  <Sector FullName="Brazzaville Control" Frequency="127.100" Callsign="FCCC_CTR" Name="FCC" />
-  <Sector FullName="N'Djamena Control" Frequency="120.500" Callsign="FTTT_1_CTR" Name="NJJ" />
-  <Sector FullName="Kinshasa Control" Frequency="126.100" Callsign="FZZA_CTR" Name="FZC" />
-  <Sector FullName="Kisangani Control" Frequency="130.100" Callsign="FZZA_E_CTR" Name="FZE" />
-  <Sector FullName="Gulf Control" Frequency="133.650" Callsign="GULF_FSS" Name="GFC" />
-  <Sector FullName="Gulf Control" Frequency="133.500" Callsign="GULF_W_FSS" Name="GFW" />
-  <Sector FullName="Addis Control" Frequency="125.100" Callsign="HAAA_1_CTR" Name="ADD" />
-  <Sector FullName="Addis Control" Frequency="125.200" Callsign="HAAA_2_CTR" Name="ADE" />
-  <Sector FullName="Cairo Control" Frequency="128.725" Callsign="HECC_1X_CTR" Name="CX1" />
-  <Sector FullName="Cairo Control" Frequency="127.700" Callsign="HECC_1_CTR" Name="CA1" />
-  <Sector FullName="Cairo Control" Frequency="126.725" Callsign="HECC_2X_CTR" Name="CX2" />
-  <Sector FullName="Cairo Control" Frequency="124.700" Callsign="HECC_2_CTR" Name="CA2" />
-  <Sector FullName="Cairo Control" Frequency="123.050" Callsign="HECC_3X_CTR" Name="CX3" />
-  <Sector FullName="Cairo Control" Frequency="126.600" Callsign="HECC_3_CTR" Name="CA3" />
-  <Sector FullName="Cairo Control" Frequency="129.700" Callsign="HECC_4X_CTR" Name="CX4" />
-  <Sector FullName="Cairo Control" Frequency="132.200" Callsign="HECC_4_CTR" Name="CA4" />
-  <Sector FullName="Cairo Control" Frequency="134.500" Callsign="HECC_5X_CTR" Name="CX5" />
-  <Sector FullName="Cairo Control" Frequency="130.900" Callsign="HECC_5_CTR" Name="CA5" />
-  <Sector FullName="Cairo Control" Frequency="124.575" Callsign="HECC_6X_CTR" Name="CX6" />
-  <Sector FullName="Cairo Control" Frequency="129.400" Callsign="HECC_6_CTR" Name="CA6" />
-  <Sector FullName="Cairo Control" Frequency="134.400" Callsign="HECC_A_CTR" Name="CAA" />
-  <Sector FullName="Cairo Control" Frequency="125.175" Callsign="HECC_C_CTR" Name="CAC" />
-  <Sector FullName="Asmara Center" Frequency="129.500" Callsign="HHAA_1_CTR" Name="ASM" />
-  <Sector FullName="Asmara Approach" Frequency="120.700" Callsign="HHAS_APP" Name="ASA" />
-  <Sector FullName="Loki Tower" Frequency="118.900" Callsign="HKLK_TWR" Name="LKT" />
-  <Sector FullName="Nairobi Control" Frequency="121.300" Callsign="HKNA_CTR" Name="NBO" />
-  <Sector FullName="Tripoli Control" Frequency="120.900" Callsign="HLLL_CTR" Name="TBL" />
-  <Sector FullName="Tripoli Control" Frequency="128.400" Callsign="HLLL_S_CTR" Name="TBS" />
-  <Sector FullName="Entebbe Control" Frequency="128.500" Callsign="HUEC_CTR" Name="ETB" />
-  <Sector FullName="Jeddah Control" Frequency="126.5000" Callsign="OEJD_1_CTR" Name="JW1" />
-  <Sector FullName="Jeddah Control" Frequency="125.450" Callsign="OEJN_1_CTR" Name="JD1" />
-  <Sector FullName="Jeddah Approach" Frequency="124.000" Callsign="OEJN_APP" Name="JDA" />
-    <!-- ACC -->
-  <Sector FullName="Khartoum Center" Frequency="127.500" Callsign="HSSS_1_CTR" Name="KRN">
-    <Volumes>HSSS-N</Volumes>
-    <ResponsibleSectors>North Sector</ResponsibleSectors>
+  <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFRC_FSS" />
+  <Sector FullName="East Africa Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFRE_FSS" />
+  <Sector FullName="North Africa Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFRN_FSS" />
+  <Sector FullName="Africa South Control" Frequency="134.575" Callsign="AFRS_FSS" Name="AFRS_FSS" />
+  <Sector FullName="Africa West Control" Frequency="132.225" Callsign="AFRW_FSS" Name="AFRW_FSS" />
+  <Sector FullName="Brazzaville Control" Frequency="127.100" Callsign="FCCC_CTR" Name="FCCC_CTR" />
+  <Sector FullName="N'Djamena Control" Frequency="120.500" Callsign="FTTT_1_CTR" Name="FTTT_1_CTR" />
+  <Sector FullName="Kinshasa Control" Frequency="126.100" Callsign="FZZA_CTR" Name="FZZA_CTR" />
+  <Sector FullName="Kisangani Control" Frequency="130.100" Callsign="FZZA_E_CTR" Name="FZZA_E_CTR" />
+  <Sector FullName="Gulf Control" Frequency="133.650" Callsign="GULF_FSS" Name="GULF_FSS" />
+  <Sector FullName="Gulf Control" Frequency="133.500" Callsign="GULF_W_FSS" Name="GULF_W_FSS" />
+  <Sector FullName="Addis Control" Frequency="125.100" Callsign="HAAA_1_CTR" Name="HAAA_1_CTR" />
+  <Sector FullName="Addis Control" Frequency="125.200" Callsign="HAAA_2_CTR" Name="HAAA_2_CTR" />
+  <Sector FullName="Cairo Control" Frequency="128.725" Callsign="HECC_1X_CTR" Name="HECC_1X_CTR" />
+  <Sector FullName="Cairo Control" Frequency="127.700" Callsign="HECC_1_CTR" Name="HECC_1_CTR" />
+  <Sector FullName="Cairo Control" Frequency="126.725" Callsign="HECC_2X_CTR" Name="HECC_2X_CTR" />
+  <Sector FullName="Cairo Control" Frequency="124.700" Callsign="HECC_2_CTR" Name="HECC_2_CTR" />
+  <Sector FullName="Cairo Control" Frequency="123.050" Callsign="HECC_3X_CTR" Name="HECC_3X_CTR" />
+  <Sector FullName="Cairo Control" Frequency="126.600" Callsign="HECC_3_CTR" Name="HECC_3_CTR" />
+  <Sector FullName="Cairo Control" Frequency="129.700" Callsign="HECC_4X_CTR" Name="HECC_4X_CTR" />
+  <Sector FullName="Cairo Control" Frequency="132.200" Callsign="HECC_4_CTR" Name="HECC_4_CTR" />
+  <Sector FullName="Cairo Control" Frequency="134.500" Callsign="HECC_5X_CTR" Name="HECC_5X_CTR" />
+  <Sector FullName="Cairo Control" Frequency="130.900" Callsign="HECC_5_CTR" Name="HECC_5_CTR" />
+  <Sector FullName="Cairo Control" Frequency="124.575" Callsign="HECC_6X_CTR" Name="HECC_6X_CTR" />
+  <Sector FullName="Cairo Control" Frequency="129.400" Callsign="HECC_6_CTR" Name="HECC_6_CTR" />
+  <Sector FullName="Cairo Control" Frequency="134.400" Callsign="HECC_A_CTR" Name="HECC_A_CTR" />
+  <Sector FullName="Cairo Control" Frequency="125.175" Callsign="HECC_C_CTR" Name="HECC_C_CTR" />
+  <Sector FullName="Asmara Center" Frequency="129.500" Callsign="HHAA_1_CTR" Name="HHAA_1_CTR" />
+  <Sector FullName="Asmara Approach" Frequency="120.700" Callsign="HHAS_APP" Name="HHAS_APP" />
+  <Sector FullName="Loki Tower" Frequency="118.900" Callsign="HKLK_TWR" Name="HKLK_TWR" />
+  <Sector FullName="Nairobi Control" Frequency="121.300" Callsign="HKNA_CTR" Name="HKNA_CTR" />
+  <Sector FullName="Tripoli Control" Frequency="120.900" Callsign="HLLL_CTR" Name="HLLL_CTR" />
+  <Sector FullName="Tripoli Control" Frequency="128.400" Callsign="HLLL_S_CTR" Name="HLLL_S_CTR" />
+  <Sector FullName="Entebbe Control" Frequency="128.500" Callsign="HUEC_CTR" Name="HUEC_CTR" />
+  <Sector FullName="Jeddah Control" Frequency="126.5000" Callsign="OEJD_1_CTR" Name="OEJD_1_CTR" />
+  <Sector FullName="Jeddah Control" Frequency="125.450" Callsign="OEJN_1_CTR" Name="OEJN_1_CTR" />
+  <Sector FullName="Jeddah Approach" Frequency="124.000" Callsign="OEJN_APP" Name="OEJN_APP" />
+<!-- ACC -->
+<Sector FullName="Khartoum Center" Frequency="127.500" Callsign="HSSS_1_CTR" Name="HSSS_1_CTR">
+    <Volumes>KRN,KRS,JUB</Volumes>
   </Sector>
-    <Sector FullName="Khartoum Center" Frequency="127.300" Callsign="HSSS_2_CTR" Name="KRS">
-    <Volumes>HSSS-S</Volumes>
-    <ResponsibleSectors>South Sector</ResponsibleSectors>
+<Sector FullName="Khartoum Center" Frequency="127.300" Callsign="HSSS_2_CTR" Name="HSSS_2_CTR">
+    <Volumes>KRS,JUB</Volumes>
   </Sector>
-    <Sector FullName="Juba Control" Frequency="123.900" Callsign="HJJJ_1_CTR" Name="JUB">
-    <Volumes>HJJJ</Volumes>
-    <ResponsibleSectors>Juba Sector</ResponsibleSectors>
+<Sector FullName="Juba Control" Frequency="123.900" Callsign="HJJJ_1_CTR" Name="HJJJ_1_CTR">
+    <Volumes>JUB</Volumes>
   </Sector>
-      <!-- APP -->
-        <Sector FullName="El-Fasher Approach" Frequency="118.400" Callsign="HSFS_APP" Name="FSA">
+<!-- APP -->
+<Sector FullName="El-Fasher Approach" Frequency="118.400" Callsign="HSFS_APP" Name="HSFS_APP">
     <Volumes>HSFS_TMA</Volumes>
-    <ResponsibleSectors>El-Fasher TMA</ResponsibleSectors>
   </Sector>
-        <Sector FullName="Merowe Approach" Frequency="118.400" Callsign="HSMN_APP" Name="MRA">
+<Sector FullName="Merowe Approach" Frequency="118.400" Callsign="HSMN_APP" Name="HSMN_APP">
     <Volumes>HSMN_TMA</Volumes>
-    <ResponsibleSectors>Merowe TMA</ResponsibleSectors>
   </Sector>
-        <Sector FullName="Nyala Approach" Frequency="118.200" Callsign="HSNN_APP" Name="NYA">
+<Sector FullName="Nyala Approach" Frequency="118.200" Callsign="HSNN_APP" Name="HSNN_APP">
     <Volumes>HSNN_TMA</Volumes>
-    <ResponsibleSectors>Nyala TMA</ResponsibleSectors>
   </Sector>
-        <Sector FullName="Port-Sudan Approach" Frequency="128.100" Callsign="HSPN_APP" Name="PZA">
+<Sector FullName="Port-Sudan Approach" Frequency="128.100" Callsign="HSPN_APP" Name="HSPN_APP">
     <Volumes>HSPN_TMA</Volumes>
-    <ResponsibleSectors>Port-Sudan TMA</ResponsibleSectors>
   </Sector>
-        <Sector FullName="EL-Geneina Approach" Frequency="128.600" Callsign="HSSG_APP" Name="GNA">
+<Sector FullName="EL-Geneina Approach" Frequency="128.600" Callsign="HSSG_APP" Name="HSSG_APP">
     <Volumes>HSSG_TMA</Volumes>
-    <ResponsibleSectors>EL-Geneina TMA</ResponsibleSectors>
   </Sector>
-        <Sector FullName="Khartoum Approach" Frequency="124.700" Callsign="HSSK_APP" Name="KRA">
+<Sector FullName="Khartoum Approach" Frequency="124.700" Callsign="HSSK_APP" Name="HSSK_APP">
     <Volumes>HSSK_A_TMA,HSSK_B_TMA</Volumes>
-    <ResponsibleSectors>Khartoum TMA Upper,Khartoum TMA Lower</ResponsibleSectors>
   </Sector>
-    <!-- TWR -->
-      <Sector FullName="Juba Tower" Frequency="118.400" Callsign="HJJJ_TWR" Name="JUT">
+<!-- TWR -->
+<Sector FullName="Juba Tower" Frequency="118.400" Callsign="HJJJ_TWR" Name="HJJJ_TWR">
     <Volumes>HJJJ_CTR</Volumes>
   </Sector>
-        <Sector FullName="Dongola Tower" Frequency="118.200" Callsign="HSDN_TWR" Name="DOG">
+<Sector FullName="Dongola Tower" Frequency="118.200" Callsign="HSDN_TWR" Name="HSDN_TWR">
     <Volumes>HSDN_CTR</Volumes>
   </Sector>
-          <Sector FullName="El-Fasher Tower" Frequency="118.400" Callsign="HSFS_TWR" Name="FSR">
+<Sector FullName="El-Fasher Tower" Frequency="118.400" Callsign="HSFS_TWR" Name="HSFS_TWR">
     <Volumes>HSFS_CTR</Volumes>
   </Sector>
-          <Sector FullName="Kassala Tower" Frequency="118.200" Callsign="HSKA_TWR" Name="KSL">
+<Sector FullName="Kassala Tower" Frequency="118.200" Callsign="HSKA_TWR" Name="HSKA_TWR">
     <Volumes></Volumes>
   </Sector>
-            <Sector FullName="Merowe Tower" Frequency="118.400" Callsign="HSMN_TWR" Name="MRW">
+<Sector FullName="Merowe Tower" Frequency="118.400" Callsign="HSMN_TWR" Name="HSMN_TWR">
     <Volumes>HSMN_CTR</Volumes>
   </Sector>
-            <Sector FullName="Nyala Tower" Frequency="118.200" Callsign="HSNN_TWR" Name="NYL">
+<Sector FullName="Nyala Tower" Frequency="118.200" Callsign="HSNN_TWR" Name="HSNN_TWR">
     <Volumes>HSNN_CTR</Volumes>
   </Sector>
-            <Sector FullName="El-Obeid Tower" Frequency="118.500" Callsign="HSOB_TWR" Name="OBD">
+<Sector FullName="El-Obeid Tower" Frequency="118.500" Callsign="HSOB_TWR" Name="HSOB_TWR">
     <Volumes>HSOB_CTR</Volumes>
   </Sector>
-            <Sector FullName="Port-Sudan Tower" Frequency="128.100" Callsign="HSPN_TWR" Name="PZU">
+<Sector FullName="Port-Sudan Tower" Frequency="128.100" Callsign="HSPN_TWR" Name="HSPN_TWR">
     <Volumes>HSPN_CTR</Volumes>
   </Sector>
-            <Sector FullName="EL-Geneina Tower" Frequency="128.600" Callsign="HSSG_TWR" Name="GNT">
+<Sector FullName="EL-Geneina Tower" Frequency="128.600" Callsign="HSSG_TWR" Name="HSSG_TWR">
     <Volumes>HSSG_CTR</Volumes>
   </Sector>
-            <Sector FullName="Khartoum Tower" Frequency="119.200" Callsign="HSSK_TWR" Name="KRT">
+<Sector FullName="Khartoum Tower" Frequency="119.200" Callsign="HSSK_TWR" Name="HSSK_TWR">
     <Volumes>HSSK_CTR</Volumes>
   </Sector>
    <!-- Radio -->
-     <Sector FullName="Wadi Halfa Radio" Frequency="120.900" Callsign="HSSW_I_TWR" Name="WHF">
+<Sector FullName="Wadi Halfa Radio" Frequency="120.900" Callsign="HSSW_I_TWR" Name="HSSW_I_TWR">
     <Volumes></Volumes>
   </Sector>
-       <Sector FullName="Atbara Radio" Frequency="118.500" Callsign="HSAT_I_TWR" Name="ATB">
+<Sector FullName="Atbara Radio" Frequency="118.500" Callsign="HSAT_I_TWR" Name="HSAT_I_TWR">
     <Volumes></Volumes>
   </Sector>
-        <Sector FullName="Wau Radio" Frequency="119.200" Callsign="HSWW_I_TWR" Name="WUU">
+<Sector FullName="Wau Radio" Frequency="119.200" Callsign="HSWW_I_TWR" Name="HSWW_I_TWR">
     <Volumes></Volumes>
   </Sector>
-        <Sector FullName="Malakal Radio" Frequency="118.200" Callsign="HSSM_I_TWR" Name="MAK">
+<Sector FullName="Malakal Radio" Frequency="118.200" Callsign="HSSM_I_TWR" Name="HSSM_I_TWR">
     <Volumes></Volumes>
   </Sector>
-        <Sector FullName="Kadugli Radio" Frequency="120.700" Callsign="HSLI_I_TWR" Name="KDG">
+<Sector FullName="Kadugli Radio" Frequency="120.700" Callsign="HSLI_I_TWR" Name="HSLI_I_TWR">
     <Volumes></Volumes>
   </Sector>
-        <Sector FullName="Damazin Radio" Frequency="118.400" Callsign="HSDZ_I_TWR" Name="DAZ">
+<Sector FullName="Damazin Radio" Frequency="118.400" Callsign="HSDZ_I_TWR" Name="HSDZ_I_TWR">
     <Volumes></Volumes>
   </Sector>
-  </Sectors>
-  
-  
-  
-  
-  
-  
+</Sectors>

@@ -7,7 +7,7 @@
   <Bin>
     <Rule Excluded="true"/>
     <Codes>
-      1234,0000,0040,2050,2077,7501,7577,7601
+      1234,0000
     </Codes>
   </Bin>
  <!-- VFR Flights -->
@@ -17,23 +17,22 @@
   </Bin>
  <!-- Military Flights -->
   <Bin>
-    <Rule Remarks="(\/|\b)(SDAF|SSAF|SAF|AF|MILITARY|USAF|RAF|ARMY)\b"/>
+    <Rule Remarks="(\/|\b)(SDAF|SSAF|SAF|AF|MILITARY|USAF|RAF|ARMY|UN|UNO|UNITED NATIONS)\b"/>
     <Codes Start="1001" End="1077"/>
       </Bin> 
+  <Bin>
+    <Rule Callsign="(RCH|USAF|ICE|ASY|SDAF|SSAF|SAF|AF|RAF|UN|UNO)" />
+    <Codes Start="1001" End="1077"/>
+    </Bin> 
  <!-- Domestic Flights -->
   <Bin>
-    <Rule Departure="HS\w{3}" Destination="HS\w{3}"/>
+    <Rule Departure="HS\w{2}|HJ\w{2}" Destination="HS\w{2}|HJ\w{2}"/>
     <Codes Start="5301" End="5377"/>
   </Bin> 
     <!-- International Flights -->
   <Bin>
-      <Rule Departure="HS\w"/>
+    <Rule Departure="HS\w{2}|HJ\w{2}" />
 	  <Codes Start="1201" End="1277"/>
-  </Bin>
- <!-- Area Control Center Arrivals -->
-  <Bin>
-    <Rule Destination="HS\w"/>
-    <Codes Start="5201" End="5277"/>
   </Bin>
  <!-- Transit Flights -->
   <Bin>

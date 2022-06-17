@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Profile Name="Khartoum FIR" FullName="TopSky (HSSS/HJJJ)">
-	<Version AIRAC="2205" Revision="a" PublishDate="20220519" UpdateURL="https://vatsys.sawbe.com/downloads/data/Australia" />
+<Profile Name="Sudan" FullName="TopSky Sudan">
+	<Version AIRAC="2206" Revision="a" PublishDate="20220616" UpdateURL="https://github.com/NEAvACC/Sudan-vatSys" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="https://sawbe.com/GRIB/" />

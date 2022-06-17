@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="ALL Airports" Priority="1" Center="+153400.000+0323312.000">
+    <Symbol Type="Reticle">
+      <Point>HJAK</Point>
+      <Point>HJAR</Point>
+      <Point>HJAW</Point>
+      <Point>HJBR</Point>
+      <Point>HJBT</Point>
+      <Point>HJFA</Point>
+      <Point>HJJJ</Point>
+      <Point>HJKP</Point>
+      <Point>HJMD</Point>
+      <Point>HJMK</Point>
+      <Point>HJPI</Point>
+      <Point>HJRB</Point>
+      <Point>HJRJ</Point>
+      <Point>HJTR</Point>
+      <Point>HJTU</Point>
+      <Point>HJWW</Point>
+      <Point>HJYA</Point>
+      <Point>HJYE</Point>
+      <Point>HJYL</Point>
+      <Point>HSAT</Point>
+      <Point>HSCG</Point>
+      <Point>HSDB</Point>
+      <Point>HSDL</Point>
+      <Point>HSDN</Point>
+      <Point>HSDZ</Point>
+      <Point>HSFS</Point>
+      <Point>HSGN</Point>
+      <Point>HSKA</Point>
+      <Point>HSLI</Point>
+      <Point>HSMN</Point>
+      <Point>HSNN</Point>
+      <Point>HSNW</Point>
+      <Point>HSOB</Point>
+      <Point>HSPN</Point>
+      <Point>HSSG</Point>
+      <Point>HSSK</Point>
+      <Point>HSSW</Point>
+    </Symbol>
+  </Map>
+    <Map Type="System2" Name="Airport Labels" Priority="1" Center="+153400.000+0323312.000">
+    <Label HasLeader="false" LabelOrientation="NE">
+      <Point>HJAK</Point>
+      <Point>HJAR</Point>
+      <Point>HJAW</Point>
+      <Point>HJBR</Point>
+      <Point>HJBT</Point>
+      <Point>HJFA</Point>
+      <Point>HJJJ</Point>
+      <Point>HJKP</Point>
+      <Point>HJMD</Point>
+      <Point>HJMK</Point>
+      <Point>HJPI</Point>
+      <Point>HJRB</Point>
+      <Point>HJRJ</Point>
+      <Point>HJTR</Point>
+      <Point>HJTU</Point>
+      <Point>HJWW</Point>
+      <Point>HJYA</Point>
+      <Point>HJYE</Point>
+      <Point>HJYL</Point>
+      <Point>HSAT</Point>
+      <Point>HSCG</Point>
+      <Point>HSDB</Point>
+      <Point>HSDL</Point>
+      <Point>HSDN</Point>
+      <Point>HSDZ</Point>
+      <Point>HSFS</Point>
+      <Point>HSGN</Point>
+      <Point>HSKA</Point>
+      <Point>HSLI</Point>
+      <Point>HSMN</Point>
+      <Point>HSNN</Point>
+      <Point>HSNW</Point>
+      <Point>HSOB</Point>
+      <Point>HSPN</Point>
+      <Point>HSSG</Point>
+      <Point>HSSK</Point>
+      <Point>HSSW</Point>
+  </Label>
+  </Map>
+</Maps>

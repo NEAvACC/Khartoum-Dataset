@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="All VORs" Priority="1" Center="+153400.000+0323312.000">
+    <Symbol Type="HollowSquare">
+      <Point>ADS VOR</Point>
+      <Point>ASM VOR</Point>
+      <Point>BDR VOR</Point>
+      <Point>BRO VOR</Point>
+      <Point>BUT VOR</Point>
+      <Point>DOG VOR</Point>
+      <Point>FSR VOR</Point>
+      <Point>GNA VOR</Point>
+      <Point>GWZ VOR</Point>
+      <Point>IA VOR</Point>
+      <Point>IRO VOR</Point>
+      <Point>JDW VOR</Point>
+      <Point>JUB VOR</Point>
+      <Point>KFB VOR</Point>
+      <Point>KNA VOR</Point>
+      <Point>KSL VOR</Point>
+      <Point>KTM VOR</Point>
+      <Point>LOV VOR</Point>
+      <Point>MLK VOR</Point>
+      <Point>MRW VOR</Point>
+      <Point>NYL VOR</Point>
+      <Point>OBD VOR</Point>
+      <Point>PSD VOR</Point>
+      <Point>QHA VOR</Point>
+      <Point>SGD VOR</Point>
+    </Symbol>
+</Map>
+        <Map Type="System2" Name="VORs Labels" Priority="1" Center="+153400.000+0323312.000">
+    <Label HasLeader="false" LabelOrientation="NE">
+          <Point>ADS VOR</Point>
+      <Point>ASM VOR</Point>
+      <Point>BDR VOR</Point>
+      <Point>BRO VOR</Point>
+      <Point>BUT VOR</Point>
+      <Point>DOG VOR</Point>
+      <Point>FSR VOR</Point>
+      <Point>GNA VOR</Point>
+      <Point>GWZ VOR</Point>
+      <Point>IA VOR</Point>
+      <Point>IRO VOR</Point>
+      <Point>JDW VOR</Point>
+      <Point>JUB VOR</Point>
+      <Point>KFB VOR</Point>
+      <Point>KNA VOR</Point>
+      <Point>KSL VOR</Point>
+      <Point>KTM VOR</Point>
+      <Point>LOV VOR</Point>
+      <Point>MLK VOR</Point>
+      <Point>MRW VOR</Point>
+      <Point>NYL VOR</Point>
+      <Point>OBD VOR</Point>
+      <Point>PSD VOR</Point>
+      <Point>QHA VOR</Point>
+      <Point>SGD VOR</Point>
+        </Label>
+  </Map>
+</Maps>
