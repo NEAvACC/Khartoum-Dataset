@@ -1498,4 +1498,426 @@
     <Point Name="QHA" Type="Navaid" NavaidType="VOR" Frequency="116.600">+132821.979+0393129.089</Point>
     <Point Name="SGD" Type="Navaid" NavaidType="VOR" Frequency="115.700">+153741.970+0330422.170</Point>
   </Intersections>
+<Airways>
+  <!--LOW-->  
+    <Airway Name="P751">
+ALEBA/
+PSD VOR/
+TOKAR/
+</Airway>
+    <Airway Name="A410">
+VATEN/ 
+RADKA/
+IMSUT/
+OBD VOR/
+RADAG/
+ALMAM/
+KAFIA/
+</Airway>
+    <Airway Name="A727">
+NUBAR/
+SOMAK/ 
+MRW VOR/
+ALPOX/
+GOPDA/
+KNA VOR/
+AVONO/
+AMATO/
+ANTAX/
+</Airway>
+    <Airway Name="B612">
+MLK VOR/
+OBD VOR/
+DELAM/
+ALVOR/
+SOGIN/
+SOGIN/
+ORNAT/
+</Airway>
+    <Airway Name="UA727">
+AMATO/
+ANTAX/
+</Airway>
+    <Airway Name="M220">
+AVAGI/ 
+UTOLI/
+</Airway>
+    <Airway Name="UM220">
+AVAGI/ 
+UTOLI/
+</Airway>
+    <Airway Name="G660">
+GNA VOR/ 
+FSR VOR/
+OBD VOR/ 
+IMSUT/ 
+KTM VOR/ 
+BOPID/ 
+PSD VOR/
+BOGUM/ 
+MIPOL/
+</Airway>
+    <Airway Name="B535">
+DAGAP/ 
+TAPOS/ 
+JUB VOR/
+</Airway>
+    <Airway Name="B526">
+KTM VOR/ 
+DENDI/ 
+KSL VOR/ 
+</Airway>
+    <Airway Name="R611">
+EMITA/ 
+TIKAT/
+</Airway>
+    <Airway Name="B527">
+OVELA/ 
+JUB VOR/ 
+MLK VOR/ 
+RABAK/ 
+SUVRI/ 
+KTM VOR/
+</Airway>
+    <Airway Name="G656">
+JUB VOR/ 
+ATUGA/
+</Airway>
+    <Airway Name="G656">
+PSD VOR/ 
+MAHDI/
+KAROX/ 
+DENBU/
+</Airway>
+
+<!--HIGH-->  
+    <Airway Name="UP751">
+ALEBA/ 
+TOMRU/
+PSD VOR/ 
+TOKAR/
+</Airway>
+    <Airway Name="UL311">
+KAFIA/ 
+ALMAM/ 
+RADAG/ 
+OBD VOR/ 
+IMSUT/ 
+RADKA/ 
+VATEN/ 
+PASIL/ 
+MAHDI/ 
+KAROX/
+</Airway>
+    <Airway Name="UP322">
+MONAN/ 
+ALMAM/ 
+DEMTI/ 
+SITIK/ 
+AVONO/
+</Airway>
+    <Airway Name="UQ733">
+ORNAT/ 
+EGSUM/ 
+RAGEN/ 
+LAMAB/ 
+ALPOX/ 
+KUVTI/
+</Airway>
+    <Airway Name="A727">
+AMATO/ 
+ANTAX/
+</Airway>
+    <Airway Name="UA727">
+AMATO/ 
+ANTAX/
+</Airway>
+    <Airway Name="UM863">
+KITOB/ 
+ASKOL/ 
+SOGIN/ 
+TAVNA/ 
+UMIDA/ 
+RAGSI/ 
+SOMAK/ 
+DARIB/ 
+TOMRU/ 
+GIBAP/
+</Airway>
+    <Airway Name="UL558">
+ASKON/ 
+DASAG/ 
+EGBIM/ 
+IMDUR/ 
+DASTU/
+</Airway>
+    <Airway Name="UL561">
+ASKON/ 
+ZENUB/ 
+NABUS/ 
+SUVRI/ 
+MAHDI/
+</Airway>
+    <Airway Name="UN311">
+ASKON/ 
+SIGNO/ 
+JEBRA/ 
+DATIM/ 
+TOVIL/ 
+NUBAR/ 
+</Airway>
+    <Airway Name="UP556">
+ASKON/ 
+PEDOS/ 
+SISOR/ 
+ELULA/ 
+IMLAS/ 
+BOGUM/
+</Airway>
+    <Airway Name="UL317">
+KAFIA/ 
+LOVAB/ 
+KAPIB/ 
+ITGAL/ 
+ASNON/ 
+AZAZA/ 
+MAHDI/
+</Airway>
+    <Airway Name="UM568">
+DEKUM/ 
+KINOV/ 
+KASAB/ 
+ASNON/ 
+UMIDA/ 
+NUBAR/
+</Airway>
+    <Airway Name="UP313">
+/IPONO
+GAMAR/ 
+DEBOX/ 
+DELAM/ 
+ASNON/ 
+KAREP/ 
+VATEN/
+</Airway>
+    <Airway Name="UP566">
+ILBIB/ 
+FSR VOR/ 
+DELAM/ 
+ASNON/ 
+KAREP/ 
+VATEN/
+</Airway>
+    <Airway Name="UL427">
+GNA VOR/ 
+GIPSA/ 
+BOXIG/ 
+ASRAV/ 
+BILAL/ 
+KAROX/
+</Airway>
+    <Airway Name="M220">
+AVAGI/ 
+UTOLI/
+</Airway>
+    <Airway Name="UM220">
+AVAGI/ 
+UTOLI/
+</Airway>
+    <Airway Name="UN321">
+NUBAR/ 
+BILAL/ 
+BOPID/
+</Airway>
+    <Airway Name="UM562">
+VATEN/ 
+PASIL/ 
+BOPID/ 
+IMTAR/ 
+PSD VOR/ 
+BOGUM/ 
+MIPOL/
+</Airway>
+    <Airway Name="UM320">
+IMDUR/ 
+BOTOK/ 
+EGTOT/ 
+MIPOL/
+</Airway>
+    <Airway Name="UP309">
+NUBAR/ 
+SOGAD/ 
+KUVTI/ 
+ELULA/ 
+SODIL/ 
+BOTOK/ 
+AVONO/
+</Airway>
+    <Airway Name="UN320">
+KISAL/ 
+GINKA/ 
+BOXIG/ 
+TAVNA/ 
+LAMAB/ 
+NUBAR/
+</Airway>
+    <Airway Name="UT944">
+MRW VOR/ 
+DANUD/ 
+KUVTI/
+</Airway>
+    <Airway Name="UM565">
+NUBAR/ 
+DARIB/ 
+IMTAR/ 
+ELONO/ 
+GIDAR/ 
+EGTOT/ 
+ALRAP/
+</Airway>
+    <Airway Name="UL320">
+KISAL/ 
+HASAN/ 
+DELAM/ 
+DATIM/ 
+SOGAD/ 
+RAKTA/ 
+KAROX/
+</Airway>
+    <Airway Name="UL563">
+IMDUR/ 
+DEDVA/ 
+SODIL/ 
+ELUDU/ 
+PSD VOR/ 
+MAHDI/
+</Airway>
+    <Airway Name="UY866">
+DENDI/ 
+KSL VOR/
+</Airway>
+    <Airway Name="UL554">
+JUB VOR/ 
+EGBIM/ 
+KUNDI/ 
+MLK VOR/ 
+ITOXA/ 
+SISOR/ 
+PASAB/ 
+NUBAR/
+</Airway>
+    <Airway Name="UP565">
+KAFIA/ 
+LOPON/ 
+GINKA/ 
+HAMID/ 
+EGSUM/ 
+ATMUL/
+</Airway>
+    <Airway Name="UZ980">
+EMITA/ 
+TIKAT/
+</Airway>
+    <Airway Name="UQ727">
+GAGNI/ 
+SODIL/
+</Airway>
+    <Airway Name="UP562">
+KISAL/ 
+GAILY/
+VATEN/
+</Airway>
+    <Airway Name="UY613">
+OBD VOR/ 
+GINPU/ 
+MLK VOR/ 
+IMDUR/ 
+TAPOS/ 
+EPLAS/
+</Airway>
+    <Airway Name="UP324">
+GNA VOR/ 
+HAMID/ 
+DELAM/ 
+</Airway>
+    <Airway Name="UP315">
+NUBAR/ 
+SOMAK/ 
+MRW VOR/ 
+ITOMO/ 
+IMDUR/
+</Airway>
+    <Airway Name="UB527">
+OVELA/ 
+JUB VOR/ 
+IMDUR/
+</Airway>
+    <Airway Name="UB535">
+JUB VOR/ 
+TAPOS/ 
+DAGAP/
+</Airway>
+    <Airway Name="UG656">
+JUB VOR/ 
+ATUGA/
+</Airway>
+    <Airway Name="UT238">
+JUB VOR/ 
+KABLA/
+</Airway>
+    <Airway Name="B407">
+KAROX/ 
+DENBU/
+</Airway>
+    <Airway Name="UV790">
+PSD VOR/ 
+FEREB/
+</Airway>
+    <Airway Name="UQ622">
+SISOR/ 
+SUVRI/
+</Airway>
+    <Airway Name="UM554">
+TOKAR/ 
+MIPOL/
+</Airway>
+    <Airway Name="UM863">
+IPONO/ 
+KITOB/
+ASKOL/
+</Airway>
+    <Airway Name="UL323">
+ATMUL/ 
+ELUXO/
+ASKOL/
+</Airway>
+    <Airway Name="T139">
+KUTOP/
+DASTU/
+</Airway>
+</Airway>
+    <Airway Name="UA727">
+AMATO/
+EPSIX/
+KUTOP/
+AVONO/
+</Airway>
+    <Airway Name="UB535">
+DAGAP/
+EPSIX/
+IMTOR/
+</Airway>
+    <Airway Name="B21">
+ORNAT/ 
+KFR VOR/
+</Airway>
+    <Airway Name="R2">
+ATMUL/ 
+TULOP/
+</Airway>
+    <Airway Name="P751">
+ALEBA/
+UMINI/
+</Airway>
+</Airways>
 </Airspace>
