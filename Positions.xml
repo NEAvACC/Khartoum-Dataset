@@ -2,7 +2,8 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <!--ACC Positions-->  
   <Group Name="ACC">
-  <Position Name="Khartoum North (Bandbox)" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="4000">
+
+  <Position Name="Khartoum North (Bandbox)" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="3000">
   <Sectors>
     <Sector Name="HSSS_1_CTR" />
     <Sector Name="HSSS_2_CTR" />
@@ -16,9 +17,6 @@
       <Window Type="State" State="Preactive" Visible="true" />
     </Strips>
     <CFL QuickLevel="4000" />
-    <CFL QuickLevel="6000" />
-    <CFL QuickLevel="15000" />
-    <CFL QuickLevel="24000" />
     <ArrivalLists>
     <Airport Name="HSSK" />
     <Airport Name="HSPN" />
@@ -31,7 +29,7 @@
     </ControllerInfo>
   </Position>
 
-  <Position Name="Khartoum Center South" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="4000">
+  <Position Name="Khartoum Center South" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="3000">
   <Sectors>
     <Sector Name="HSSS_2_CTR" />
     <Sector Name="HJJJ_1_CTR" />
@@ -44,9 +42,6 @@
       <Window Type="State" State="Preactive" Visible="true" />
     </Strips>
     <CFL QuickLevel="4000" />
-    <CFL QuickLevel="6000" />
-    <CFL QuickLevel="15000" />
-    <CFL QuickLevel="24000" />
     <ArrivalLists>
     <Airport Name="HJJJ" />
     </ArrivalLists>
@@ -56,7 +51,7 @@
     </ControllerInfo>
   </Position>
 
-  <Position Name="Juba Control" Type="ASD" DefaultCenter="+15.566092+032.553378" DefaultRange="4000">
+  <Position Name="Juba Control" Type="ASD" DefaultCenter="+04.871944+031.601111" DefaultRange="2500">
   <Sectors>
     <Sector Name="HJJJ_1_CTR" />
     </Sectors>
@@ -68,15 +63,457 @@
       <Window Type="State" State="Preactive" Visible="true" />
     </Strips>
     <CFL QuickLevel="4000" />
-    <CFL QuickLevel="6000" />
-    <CFL QuickLevel="15000" />
-    <CFL QuickLevel="24000" />
     <ArrivalLists>
     <Airport Name="HJJJ" />
     </ArrivalLists>
     <ControllerInfo>
   <Line>"Juba Approach" | Covering Juba FIR upto FL245</Line>
   <Line>Procedural Control Position Reports Mandatory</Line>
+    </ControllerInfo>
+  </Position>
+</Group>
+
+  <!--APP Positions-->  
+  <Group Name="APP">
+  <Position Name="Khartoum Approach" Type="ASD" DefaultCenter="+15.589444+032.553056" DefaultRange="500">
+  <Sectors>
+    <Sector Name="HSSK_APP" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSSK" />
+    </ArrivalLists>
+    <DepartureLists>
+    <Airport Name="HSSK" />
+    </DepartureLists>
+    <ControllerInfo>
+  <Line>"Khartoum Approach" | Covering Khartoum TMA upto FL285</Line>
+  <Line>ATIS on 118.100</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Merowe Approach" Type="ASD" DefaultCenter="+18.443056+031.843056" DefaultRange="300">
+  <Sectors>
+    <Sector Name="HSMN_APP" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSMN" />
+    </ArrivalLists>
+      <ControllerInfo>
+  <Line>"Merowe Approach"</Line>
+  <Line>Covering Merowe TMA upto FL195</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="El-Fashir Approach" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="300">
+  <Sectors>
+    <Sector Name="HSFS_APP" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSFS" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSFS" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"El-Fashir Approach"</Line>
+  <Line>Covering El-Fashir TMA upto FL145</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+    <Position Name="Genina Approach" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="300">
+  <Sectors>
+    <Sector Name="HSSG_APP" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSSG" />
+    <Airport Name="HSGN" />
+    <DepartureLists>
+    <Airport Name="HSSG" />
+    </DepartureLists>
+    <DepartureLists>
+    <Airport Name="HSGN" />
+    </DepartureLists>
+    </ArrivalLists>
+      <ControllerInfo>
+  <Line>"Genina Approach"</Line>
+  <Line>Covering Genina Approach TMA upto FL145</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+      <Position Name="Port Sudan Approach" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="300">
+  <Sectors>
+    <Sector Name="HSPN_APP" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSPN" />
+    </ArrivalLists>
+    <DepartureLists>
+    <Airport Name="HSPN" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Port Sudan Approach"</Line>
+  <Line>Covering Port Sudan TMA upto FL195</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+</Group>
+
+<!--TWR Positions-->  
+  <Group Name="TWR">
+  <Position Name="Khartoum Tower" Type="ASD" DefaultCenter="+15.589444+032.553056" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSSK_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSSK" />
+    </ArrivalLists>
+    <DepartureLists>
+    <Airport Name="HSSK" />
+    </DepartureLists>
+    <ControllerInfo>
+  <Line>"Khartoum Tower"</Line>
+  <Line>ATIS on 118.100</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Port Sudan Tower" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSPN_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSPN" />
+    </ArrivalLists>
+      <ControllerInfo>
+  <Line>"Port Sudan Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Merowe Tower" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSMN_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSMN" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSMN" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Merowe Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+    <Position Name="Genina Tower" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSSG_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSSG" />
+    <DepartureLists>
+    <Airport Name="HSSG" />
+    </DepartureLists>
+    </ArrivalLists>
+      <ControllerInfo>
+  <Line>"Genina Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="El-Fashir Tower" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSFS_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSFS" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSFS" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"El-Fashir Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Neyala Tower" Type="ASD" DefaultCenter="+12.053611+024.956111" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSNN_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSNN" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSNN" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Neyala Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Dongola Tower" Type="ASD" DefaultCenter="+19.153611+030.430000" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSDN_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSDN" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSDN" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Dongola Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="El-Obied Tower" Type="ASD" DefaultCenter="+13.152833+030.232833" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSOB_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSOB" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSOB" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"El-Obied Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+  <Position Name="Kassala Tower" Type="ASD" DefaultCenter="+15.387222+036.328611" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSKA_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSKA" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSKA" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Kassala Tower"</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+</Group>
+
+<!--Procedural TWR Positions-->  
+  <Group Name="Procedural TWR">
+<Position Name="Juba Tower" Type="ASD" DefaultCenter="+04.871944+031.601111" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HJJJ_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HJJJ" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HJJJ" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Juba Tower" | Procedural Service</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+<Position Name="Atbara Radio" Type="ASD" DefaultCenter="+17.709667+034.057167" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSAT_I_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSAT" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSAT" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Atbara Radio" | Procedural Service</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+<Position Name="Wadi Halfa Radio" Type="ASD" DefaultCenter="+21.802833+031.522000" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSSW_I_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSSW" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSSW" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Wadi Halfa Radio" | Procedural Service</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
+    </ControllerInfo>
+  </Position>
+
+<Position Name="Damazin Radio" Type="ASD" DefaultCenter="+11.786167+034.333333" DefaultRange="50">
+  <Sectors>
+    <Sector Name="HSDZ_I_TWR" />
+    </Sectors>
+  <Maps>
+    </Maps>
+  <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="4000" />
+    <ArrivalLists>
+    <Airport Name="HSDZ" />
+    </ArrivalLists>
+      <DepartureLists>
+      <Airport Name="HSDZ" />
+    </DepartureLists>
+      <ControllerInfo>
+  <Line>"Damazin Radio" | Procedural Service</Line>
+  <Line>We love feedback! vts.im/neafeedback</Line>
     </ControllerInfo>
   </Position>
 </Group>

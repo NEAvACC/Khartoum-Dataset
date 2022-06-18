@@ -1935,60 +1935,60 @@
     </Volume>
 
 <!-- TMA Volume -->
-<Volume Name="Dongola TMA" LowerLimit="2500" UpperLimit="10500">
+<Volume Name="HSDN_TMA" LowerLimit="2500" UpperLimit="10500">
     <Boundaries>HSDN_TMA</Boundaries>
   </Volume> 
-<Volume Name="El-Fasher TMA" LowerLimit="4800" UpperLimit="14500">
+<Volume Name="HSFS_TMA" LowerLimit="4800" UpperLimit="14500">
     <Boundaries>HSFS_TMA</Boundaries>
   </Volume> 
-<Volume Name="Merowe TMA" LowerLimit="2500" UpperLimit="19500">
+<Volume Name="HSMN_TMA" LowerLimit="2500" UpperLimit="19500">
     <Boundaries>HSMN_TMA</Boundaries>
   </Volume> 
-<Volume Name="Nyala TMA" LowerLimit="4800" UpperLimit="14500">
+<Volume Name="HSNN_TMA" LowerLimit="4800" UpperLimit="14500">
     <Boundaries>HSNN_TMA</Boundaries>
   </Volume> 
-<Volume Name="El-Obeid TMA" LowerLimit="3500" UpperLimit="14500">
+<Volume Name="HSOB_TMA" LowerLimit="3500" UpperLimit="14500">
     <Boundaries>HSOB_TMA</Boundaries>
   </Volume> 
-<Volume Name="Port-Sudan TMA" LowerLimit="2500" UpperLimit="19500">
+<Volume Name="HSPN_TMA" LowerLimit="2500" UpperLimit="19500">
     <Boundaries>HSPN_TMA</Boundaries>
   </Volume> 
-<Volume Name="EL-Geneina TMA" LowerLimit="4400" UpperLimit="14500">
+<Volume Name="HSSG_TMA" LowerLimit="4400" UpperLimit="14500">
     <Boundaries>HSSG_TMA</Boundaries>
   </Volume> 
-<Volume Name="Khartoum TMA Lower" LowerLimit="3500" UpperLimit="19500">
+<Volume Name="HSSK_A_TMA" LowerLimit="3500" UpperLimit="19500">
     <Boundaries>HSSK_A_TMA</Boundaries>
   </Volume> 
-<Volume Name="Khartoum TMA Upper" LowerLimit="19500" UpperLimit="28500">
+<Volume Name="HSSK_B_TMA" LowerLimit="19500" UpperLimit="28500">
     <Boundaries>HSSK_B_TMA</Boundaries>
   </Volume> 
 
 <!-- CTR Volume -->
-<Volume Name="Juba CTR" LowerLimit="0000" UpperLimit="6000">
+<Volume Name="HJJJ_CTR" LowerLimit="0000" UpperLimit="6000">
     <Boundaries>HJJJ_CTR</Boundaries>
   </Volume> 
-<Volume Name="Dongola CTR" LowerLimit="0000" UpperLimit="2500">
+<Volume Name="HSDN_CTR" LowerLimit="0000" UpperLimit="2500">
     <Boundaries>HSDN_CTR</Boundaries>
   </Volume> 
-<Volume Name="El-Fasher CTR" LowerLimit="0000" UpperLimit="14500">
+<Volume Name="HSFS_CTR" LowerLimit="0000" UpperLimit="14500">
     <Boundaries>HSFS_CTR</Boundaries>
   </Volume> 
-<Volume Name="Merowe CTR" LowerLimit="0000" UpperLimit="2500">
+<Volume Name="HSMN_CTR" LowerLimit="0000" UpperLimit="2500">
     <Boundaries>HSMN_CTR</Boundaries>
   </Volume> 
-<Volume Name="Nyala CTR" LowerLimit="0000" UpperLimit="2500">
+<Volume Name="HSNN_CTR" LowerLimit="0000" UpperLimit="2500">
     <Boundaries>HSNN_CTR</Boundaries>
   </Volume> 
-<Volume Name="El-Obeid CTR" LowerLimit="0000" UpperLimit="3500">
+<Volume Name="HSOB_CTR" LowerLimit="0000" UpperLimit="3500">
     <Boundaries>HSOB_CTR</Boundaries>
   </Volume> 
-<Volume Name="Port-Sudan CTR" LowerLimit="2500" UpperLimit="19500">
+<Volume Name="HSPN_CTR" LowerLimit="2500" UpperLimit="19500">
     <Boundaries>HSPN_CTR</Boundaries>
   </Volume> 
-<Volume Name="EL-Geneina CTR" LowerLimit="0000" UpperLimit="14500">
+<Volume Name="HSSG_CTR" LowerLimit="0000" UpperLimit="14500">
     <Boundaries>HSSG_CTR</Boundaries>
   </Volume> 
-<Volume Name="Khartoum CTR" LowerLimit="0000" UpperLimit="3500">
+<Volume Name="HSSK_CTR" LowerLimit="0000" UpperLimit="3500">
     <Boundaries>HSSK_CTR</Boundaries>
   </Volume> 
 </Volumes> 
