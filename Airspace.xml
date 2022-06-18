@@ -1,45 +1,6 @@
 <?xml version="1.0"?>
 <Airspace>
-  <Airports>
-    <Airport ICAO="HJAK" Position="+074638.999+0330008.999" />
-    <Airport ICAO="HJAR" Position="+100314.000+0325734.999" />
-    <Airport ICAO="HJAW" Position="+084730.001+0272137.000" />
-    <Airport ICAO="HJBR" Position="+061127.999+0313601.000" />
-    <Airport ICAO="HJBT" Position="+091830.999+0294713.999" />
-    <Airport ICAO="HJFA" Position="+103144.000+0323002.001" />
-    <Airport ICAO="HJJJ" Position="+045219.221+0313604.021" />
-    <Airport ICAO="HJKP" Position="+044648.000+0333512.998" />
-    <Airport ICAO="HJMD" Position="+045414.000+0292638.000" />
-    <Airport ICAO="HJMK" Position="+093332.299+0313908.038" />
-    <Airport ICAO="HJPI" Position="+064744.001+0330742.999" />
-    <Airport ICAO="HJRB" Position="+064953.000+0294008.000" />
-    <Airport ICAO="HJRJ" Position="+082739.999+0254051.999" />
-    <Airport ICAO="HJTR" Position="+042500.998+0323432.001" />
-    <Airport ICAO="HJTU" Position="+053607.999+0272823.998" />
-    <Airport ICAO="HJWW" Position="+074332.998+0275830.000" />
-    <Airport ICAO="HJYA" Position="+043401.999+0282527.001" />
-    <Airport ICAO="HJYE" Position="+040744.000+0304355.999" />
-    <Airport ICAO="HJYL" Position="+063332.000+0303029.001" />
-    <Airport ICAO="HSAT" Position="+174234.999+0340325.999" />
-    <Airport ICAO="HSCG" Position="+184500.000+0370000.000" />
-    <Airport ICAO="HSDB" Position="+180129.999+0305729.998" />
-    <Airport ICAO="HSDL" Position="+120459.998+0294059.998" />
-    <Airport ICAO="HSDN" Position="+190908.999+0302549.000" />
-    <Airport ICAO="HSDZ" Position="+114709.999+0342012.001" />
-    <Airport ICAO="HSFS" Position="+133654.000+0251928.999" />
-    <Airport ICAO="HSGN" Position="+132900.520+0222821.039" />
-    <Airport ICAO="HSKA" Position="+152314.978+0361943.831" />
-    <Airport ICAO="HSLI" Position="+110813.581+0294157.260" />
-    <Airport ICAO="HSMN" Position="+182634.800+0315036.898" />
-    <Airport ICAO="HSNN" Position="+120312.560+0245722.050" />
-    <Airport ICAO="HSNW" Position="+152118.000+0354341.998" />
-    <Airport ICAO="HSOB" Position="+130910.440+0301357.720" />
-    <Airport ICAO="HSPN" Position="+192601.100+0371402.669" />
-    <Airport ICAO="HSSG" Position="+132838.999+0223213.999" />
-    <Airport ICAO="HSSK" Position="+153525.281+0323311.350" />
-    <Airport ICAO="HSSW" Position="+214810.000+0313118.998" />
-  </Airports>
-  <Intersections>
+<Intersections>
     <Point Name="02ADS" Type="Fix">+085903.379+0384954.411</Point>
     <Point Name="04ADS" Type="Fix">+085936.589+0385150.979</Point>
     <Point Name="05ADS" Type="Fix">+090008.258+0385244.489</Point>
@@ -1497,7 +1458,7 @@
     <Point Name="PSD" Type="Navaid" NavaidType="VOR" Frequency="113.100">+192404.118+0371430.210</Point>
     <Point Name="QHA" Type="Navaid" NavaidType="VOR" Frequency="116.600">+132821.979+0393129.089</Point>
     <Point Name="SGD" Type="Navaid" NavaidType="VOR" Frequency="115.700">+153741.970+0330422.170</Point>
-  </Intersections>
+</Intersections>
 <Airways>
   <!--LOW-->  
     <Airway Name="P751">
@@ -1919,4 +1880,118 @@ ALEBA/
 UMINI/
 </Airway>
 </Airways>
+<Airports>
+     <Airport>
+    <Airport ICAO="HJAK" Position="+074638.999+0330008.999" />
+    <Airport ICAO="HJAR" Position="+100314.000+0325734.999" />
+    <Airport ICAO="HJAW" Position="+084730.001+0272137.000" />
+    <Airport ICAO="HJBR" Position="+061127.999+0313601.000" />
+    <Airport ICAO="HJBT" Position="+091830.999+0294713.999" />
+    <Airport ICAO="HJFA" Position="+103144.000+0323002.001" />
+    <Airport ICAO="HJJJ" Position="+045219.221+0313604.021" />
+    <Runway Name="13" Position="+04.883103+031.588033" />
+    <Runway Name="31" Position="+04.865003+031.609372" />
+    <Airport>
+    </Airport>
+    <Airport ICAO="HJKP" Position="+044648.000+0333512.998" />
+    <Airport ICAO="HJMD" Position="+045414.000+0292638.000" />
+    <Airport ICAO="HJMK" Position="+093332.299+0313908.038" />
+    <Runway Name="04" Position="+09.552528+031.645922" />
+    <Runway Name="22" Position="+09.565417+031.658544" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HJPI" Position="+064744.001+0330742.999" />
+    <Airport ICAO="HJRB" Position="+064953.000+0294008.000" />
+    <Runway Name="01" Position="+06.822125+029.667372" />
+    <Runway Name="19" Position="+06.837464+029.670353" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HJRJ" Position="+082739.999+0254051.999" />
+    <Airport ICAO="HJTR" Position="+042500.998+0323432.001" />
+    <Airport ICAO="HJTU" Position="+053607.999+0272823.998" />
+    <Airport ICAO="HJWW" Position="+074332.998+0275830.000" />
+    <Runway Name="09" Position="+07.725825+027.963436" />
+    <Runway Name="27" Position="+07.725658+027.986075" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HJYA" Position="+043401.999+0282527.001" />
+    <Airport ICAO="HJYE" Position="+040744.000+0304355.999" />
+    <Airport ICAO="HJYL" Position="+063332.000+0303029.001" />
+  <!--Sudan-->
+    <Airport ICAO="HSAT" Position="+174234.999+0340325.999" />
+    <Runway Name="01" Position="+17.701678+034.054625" />
+    <Runway Name="19" Position="+17.717989+034.059681" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSCG" Position="+184500.000+0370000.000" />
+    <Airport ICAO="HSDB" Position="+180129.999+0305729.998" />
+    <Airport ICAO="HSDL" Position="+120459.998+0294059.998" />
+    <Airport ICAO="HSDN" Position="+190908.999+0302549.000" />
+    <Runway Name="17" Position="+19.167353+030.428775" />
+    <Runway Name="35" Position="+19.140372+030.431417" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSDZ" Position="+114709.999+0342012.001" />
+    <Runway Name="17" Position="+11.797089+034.334719" />
+    <Runway Name="35" Position="+11.772575+034.338931" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSFS" Position="+133654.000+0251928.999" />
+    <Runway Name="05" Position="+13.606781+025.314008" />
+    <Runway Name="23" Position="+13.623214+025.335572" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSGN" Position="+132900.520+0222821.039" />
+    <Runway Name="04" Position="+13.473206+022.463369" />
+    <Runway Name="22" Position="+13.484183+022.473172" />
+    <Runway Name="11" Position="+13.487628+022.458478" />
+    <Runway Name="29" Position="+13.482675+022.475344" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSKA" Position="+152314.978+0361943.831" />
+    <Runway Name="02" Position="+15.375419+036.323803" />
+    <Runway Name="20" Position="+15.396353+036.332536" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSLI" Position="+110813.581+0294157.260" />
+    <Runway Name="06" Position="+11.132747+029.690761" />
+    <Runway Name="24" Position="+11.143358+029.711469" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSMN" Position="+182634.800+0315036.898" />
+    <Runway Name="02" Position="+18.426422+031.836092" />
+    <Runway Name="20" Position="+18.459756+031.851181" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSNN" Position="+120312.560+0245722.050" />
+    <Runway Name="04" Position="+12.043303+024.946997" />
+    <Runway Name="22" Position="+12.063642+024.965233" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSNW" Position="+152118.000+0354341.998" />
+    <Airport ICAO="HSOB" Position="+130910.440+0301357.720" />
+    <Runway Name="01" Position="+13.139800+030.230736" />
+    <Runway Name="19" Position="+13.166567+030.234756" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSPN" Position="+192601.100+0371402.669" />
+    <Runway Name="16" Position="+19.444644+037.231486" />
+    <Runway Name="34" Position="+19.422600+037.236672" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSSG" Position="+132838.999+0223213.999" />
+    <Runway Name="04" Position="+13.467633+022.528206" />
+    <Runway Name="22" Position="+13.487764+022.546714" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSSK" Position="+153525.281+0323311.350" />
+    <Runway Name="18" Position="+15.602975+032.553039" />
+    <Runway Name="36" Position="+15.576050+032.553289" />
+    </Airport>
+    <Airport>
+    <Airport ICAO="HSSW" Position="+214810.000+0313118.998" />
+    <Runway Name="06" Position="+21.798481+031.513486" />
+    <Runway Name="24" Position="+21.807114+031.530483" />
+    </Airport>
+  </Airports>
 </Airspace>
