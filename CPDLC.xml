@@ -131,9 +131,7 @@
     <Message Response="NE">CLEARED TO [ADES] VIA [SID] DEP [TEXT]</Message>
     <Message Response="NE">ROUTE [ROUTE]</Message>
     <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
-    <Message Response="NE">DEP FREQ [FREQUENCY]</Message>
     <Message Response="NE">SQUAWK [SSR]</Message>
-	<Message Response="NE">ONLY READBACK SID, SQUAWK CODE, AND BAY NO. ON [FREQUENCY]</Message>
   </Category>
   <Category name="Speed">
     <Message Response="WU">MAINTAIN [SPEED]</Message>
