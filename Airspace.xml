@@ -1,5 +1,189 @@
 <?xml version="1.0"?>
 <Airspace>
+<SystemRunways>
+    <Airport Name="HSSK">
+        <Runway Name="18" DataRunway="18">
+        <SID Name="GERAP1A" />
+        <SID Name="KAREP1A" />
+        <SID Name="KUVTI1A" />
+        <SID Name="PASIL1A" />
+        <SID Name="RADKA1A" />
+        <SID Name="SIVIL1A" />
+        <SID Name="SODAB1A" />
+        <SID Name="TABKO1A" />
+        <SID Name="TABKO1C" />
+        <STAR Name="GERAP1A" />
+        <STAR Name="KAREP1A" />
+        <STAR Name="KUVTI1A" />
+        <STAR Name="PASIL1A" />
+        <STAR Name="RADKA1A" />
+        <STAR Name="SIVIL1A" />
+        <STAR Name="SODAB1A" />
+        <STAR Name="TABKO1A" />
+        </Runway>
+        <Runway Name="36" DataRunway="36">
+        <SID Name="GERAP1B" />
+        <SID Name="KAREP1B" />
+        <SID Name="KUVTI1B" />
+        <SID Name="PASIL1B" />
+        <SID Name="RADKA1B" />
+        <SID Name="SIVIL1B" />
+        <SID Name="SODAB1B" />
+        <SID Name="TABKO1B" />
+        <STAR Name="GERAP1B" />
+        <STAR Name="KAREP1B" />
+        <STAR Name="KUVTI1B" />
+        <STAR Name="PASIL1B" />
+        <STAR Name="RADKA1B" />
+        <STAR Name="SIVIL1B" />
+        <STAR Name="SODAB1B" />
+        <STAR Name="TABKO1B" />
+        </Runway>
+        </Airport>
+
+    <Airport Name="HSPN">
+        <Runway Name="16" DataRunway="16">
+        <SID Name="DAPEN1S" Type="NonJet"/>
+        <SID Name="GEPIT1S" Type="NonJet"/>
+        <SID Name="NABUT1S" Type="NonJet"/>
+        <SID Name="PEKAB1S" Type="NonJet"/>
+        <SID Name="PURAG1S" Type="NonJet"/>
+        <SID Name="SENKA1S" Type="NonJet"/>
+        <SID Name="DAPEN1B" />
+        <SID Name="GEPIT1B" />
+        <SID Name="NABUT1B" />
+        <SID Name="PEKAB1B" />
+        <SID Name="PURAG1B" />
+        <SID Name="SENKA1B" />
+        <STAR Name="ALKET1" Type="NonJet"/> 
+        <STAR Name="DAPEN1" Type="NonJet"/>
+        <STAR Name="NABUT1" Type="NonJet"/>
+        <STAR Name="PEKAB1" Type="NonJet"/>
+        <STAR Name="PURAG1" Type="NonJet"/>
+        <STAR Name="SENKA1" Type="NonJet"/>
+        <STAR Name="ALKET1B" />
+        <STAR Name="DAPEN1B" />
+		<STAR Name="NABUT1B" />
+		<STAR Name="PEKAB1B" />
+        <STAR Name="PURAG1B" />
+        <STAR Name="SENKA1B" />
+        </Runway>
+        <Runway Name="34" DataRunway="34">
+        <SID Name="DAPEN1N" Type="NonJet"/>
+        <SID Name="GEPIT1N" Type="NonJet"/>
+        <SID Name="NABUT1N" Type="NonJet"/>
+        <SID Name="PEKAB1N" Type="NonJet"/>
+        <SID Name="PURAG1N" Type="NonJet"/>
+        <SID Name="SENKA1N" Type="NonJet"/>
+        <SID Name="DAPEN1A" />
+        <SID Name="GEPIT1A" />
+        <SID Name="NABUT1A" />
+        <SID Name="PEKAB1A" />
+        <SID Name="PURAG1A" />
+        <SID Name="SENKA1A" />
+        <STAR Name="ALKET1" Type="NonJet"/> 
+        <STAR Name="DAPEN1" Type="NonJet"/>
+        <STAR Name="NABUT1" Type="NonJet"/>
+        <STAR Name="PEKAB1" Type="NonJet"/>
+        <STAR Name="PURAG1" Type="NonJet"/>
+        <STAR Name="SENKA1" Type="NonJet"/>
+        <STAR Name="ALKET1A" />
+        <STAR Name="DAPEN1A" />
+		<STAR Name="NABUT1A" />
+		<STAR Name="PEKAB1A" />
+        <STAR Name="PURAG1A" />
+        <STAR Name="SENKA1A" />
+        </Runway>
+        </Airport>
+
+    <Airport Name="HSMN">
+        <Runway Name="02" DataRunway="02">
+        <SID Name="GERAS1N" Type="NonJet"/>
+        <SID Name="KURTI1N" Type="NonJet"/>
+        <SID Name="ORKAL1N" Type="NonJet"/>
+        <SID Name="ROTAP1N" Type="NonJet"/>
+        <SID Name="SOLEV1N" Type="NonJet"/>
+        <SID Name="GERAS1A" />
+		<SID Name="KURTI1A" />
+        <SID Name="ORKAL1A" />
+        <SID Name="ROTAP1A" />
+        <SID Name="SOLEV1A" />
+        <STAR Name="GERAS1N" Type="NonJet"/>
+        <STAR Name="KURTI1N" Type="NonJet"/>
+		<STAR Name="ORKAL1N" Type="NonJet"/>
+		<STAR Name="ROTAP1N" Type="NonJet"/>
+        <STAR Name="SOLEV1N" Type="NonJet"/>
+        <STAR Name="GERAS1A" />
+        <STAR Name="KURTI1A" />
+        <STAR Name="ORKAL1A" />
+		<STAR Name="ROTAP1A" />
+		<STAR Name="SOLEV1A" />
+        </Runway>
+        <Runway Name="20" DataRunway="20">
+        <SID Name="GERAS1S" Type="NonJet"/>
+        <SID Name="KURTI1S" Type="NonJet"/>
+        <SID Name="ORKAL1S" Type="NonJet"/>
+        <SID Name="ROTAP1S" Type="NonJet"/>
+        <SID Name="SOLEV1S" Type="NonJet"/>
+        <SID Name="GERAS1B" />
+		<SID Name="KURTI1B" />
+        <SID Name="ORKAL1B" />
+        <SID Name="ROTAP1B" />
+        <SID Name="SOLEV1B" />
+        <STAR Name="GERAS1S" Type="NonJet"/>
+        <STAR Name="KURTI1S" Type="NonJet"/>
+		<STAR Name="ORKAL1S" Type="NonJet"/>
+		<STAR Name="ROTAP1S" Type="NonJet"/>
+        <STAR Name="SOLEV1S" Type="NonJet"/>
+        <STAR Name="GERAS1B" />
+        <STAR Name="KURTI1B" />
+        <STAR Name="ORKAL1B" />
+		<STAR Name="ROTAP1B" />
+		<STAR Name="SOLEV1B" />
+        </Runway>
+        </Airport>
+
+
+    <Airport Name="HSFS">
+      <Runway Name="05" DataRunway="05">
+        <SID Name="ASMAG1E" Type="NonJet"/>
+        <SID Name="IMLOK1E" Type="NonJet"/>
+        <SID Name="IVOSA1E" Type="NonJet"/>
+        <SID Name="RAMGI1E" Type="NonJet"/>
+        <SID Name="ASMAG1A" />
+        <SID Name="IMLOK1A" />
+		<SID Name="IVOSA1A" />
+        <SID Name="RAMGI1A" />
+        <STAR Name="ASMAG1E" Type="NonJet"/>
+        <STAR Name="IMLOK1E" Type="NonJet"/>
+		<STAR Name="IVOSA1E" Type="NonJet"/>
+		<STAR Name="RAMGI1E" Type="NonJet"/>
+        <STAR Name="ASMAG1A" />
+        <STAR Name="IMLOK1A" />
+        <STAR Name="IVOSA1A" />
+        <STAR Name="RAMGI1A" />
+        </Runway>
+        <Runway Name="23" DataRunway="23">
+        <SID Name="ASMAG1W" Type="NonJet"/>
+        <SID Name="IMLOK1W" Type="NonJet"/>
+        <SID Name="IVOSA1W" Type="NonJet"/>
+        <SID Name="RAMGI1W" Type="NonJet"/>
+        <SID Name="ASMAG1B" />
+        <SID Name="IMLOK1B" />
+		<SID Name="IVOSA1B" />
+        <SID Name="RAMGI1B" />
+        <STAR Name="ASMAG1W" Type="NonJet"/>
+        <STAR Name="IMLOK1W" Type="NonJet"/>
+		<STAR Name="IVOSA1W" Type="NonJet"/>
+		<STAR Name="RAMGI1W" Type="NonJet"/>
+        <STAR Name="ASMAG1B" />
+        <STAR Name="IMLOK1B" />
+        <STAR Name="IVOSA1B" />
+        <STAR Name="RAMGI1B" />
+        </Runway>
+        </Airport>
+  </SystemRunways>
+
 <Intersections>
     <Point Name="02ADS" Type="Fix">+085903.379+0384954.411</Point>
     <Point Name="04ADS" Type="Fix">+085936.589+0385150.979</Point>
@@ -1994,4 +2178,473 @@ UMINI/
     <Runway Name="24" Position="+21.807114+031.530483" />
     </Airport>
   </Airports>
+
+  <SIDSTARs>
+  	<!--HSSK-->
+    <SID Name="GERAP1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS610/SS618/GERAP</Route>
+    </SID>
+    <SID Name="KAREP1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS604/KAREP</Route>
+    </SID>
+    <SID Name="KUVTI1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS612/SS614/SS626/SS628/KUVTI</Route>
+    </SID>
+    <SID Name="PASIL1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS612/SS614/SS626/PASIL</Route>
+    </SID>
+    <SID Name="RADKA1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS606/RADKA</Route>
+    </SID>
+    <SID Name="SIVIL1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS608/SIVIL</Route>
+    </SID>
+    <SID Name="SODAB1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS608/SODAB</Route>
+    </SID>
+    <SID Name="TABKO1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS612/SS624/TABKO</Route>
+    </SID>
+    <SID Name="TABKO1C" Airport="HSSK" Runways="18">
+      <Route Runway="18">SS602/SS610/SS618/SS620/TABKO</Route>
+    </SID>
+    <SID Name="GERAP1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/SS712/SS714/GERAP</Route>
+    </SID>
+    <SID Name="KAREP1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/KTM/SS720/KAREP</Route>
+    </SID>
+    <SID Name="KUVTI1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/SS704/KUVTI</Route>
+    </SID>
+    <SID Name="PASIL1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/SS706/SS708/SS710/PASIL</Route>
+    </SID>
+    <SID Name="RADKA1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/KTM VOR/SS718/RADKA</Route>
+    </SID>
+    <SID Name="SIVIL1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/SS712/SS714/SS716/SIVIL</Route>
+    </SID>
+    <SID Name="SODAB1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/SS712/SS714/SS716/SODAB</Route>
+    </SID>
+    <SID Name="TABKO1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SS702/SS706/SS708/SS710/TABKO</Route>
+    </SID>
+    <STAR Name="GERAP1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">GERAP/SOGEX/SS408/MISAL</Route>
+    </STAR>
+    <STAR Name="KAREP1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">KAREP/SS450/SS408/MISAL</Route>
+    </STAR>
+    <STAR Name="KUVTI1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">KUVTI/MISAL</Route>
+    </STAR>
+    <STAR Name="PASIL1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">PASIL/MISAL</Route>
+    </STAR>
+    <STAR Name="RADKA1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">RADKA/SS450/SS408/MISAL</Route>
+    </STAR>
+    <STAR Name="SIVIL1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SIVIL/SS416/SS414/SS412/SS408/MISAL</Route>
+    </STAR>
+    <STAR Name="SODAB1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">SODAB/SS416/SS414/SS412/SS408/MISAL</Route>
+    </STAR>
+    <STAR Name="TABKO1A" Airport="HSSK" Runways="18">
+      <Route Runway="18">TABKO/SOGEX/SS408/MISAL</Route>
+    </STAR>
+    <STAR Name="GERAP1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">GERAP/BOROG</Route>
+    </STAR>
+    <STAR Name="KAREP1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">KAREP/SS518/BOROG</Route>
+    </STAR>
+    <STAR Name="KUVTI1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">KUVTI/SS514/SS512/SS510/SS508/BOROG</Route>
+    </STAR>
+    <STAR Name="PASIL1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">PASIL/SS514/SS512/SS510/SS508/BOROG</Route>
+    </STAR>
+    <STAR Name="RADKA1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">RADKA/BOROG</Route>
+    </STAR>
+    <STAR Name="SIVIL1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SIVIL/BOROG</Route>
+    </STAR>
+    <STAR Name="SODAB1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">SODAB/BOROG</Route>
+    </STAR>
+    <STAR Name="TABKO1B" Airport="HSSK" Runways="36">
+      <Route Runway="36">TABKO/SOGEX/SS516/SS510/SS508/BOROG</Route>
+    </STAR>
+  	<!--HSPN-->
+    <SID Name="DAPEN1S" Airport="HSPN" Runways="16">
+      <Route Runway="16">PSD VOR/R164C/PSD37/37PSD/DAPEN</Route>
+    </SID>
+    <SID Name="GEPIT1S" Airport="HSPN" Runways="16">
+      <Route Runway="16">PSD VOR/R164C/GEPIT</Route>
+    </SID>
+    <SID Name="NABUT1S" Airport="HSPN" Runways="16">
+      <Route Runway="16">PSD VOR/R164C/NABUT</Route>
+    </SID>
+    <SID Name="PEKAB1S" Airport="HSPN" Runways="16">
+      <Route Runway="16">PSD VOR/R164C/PEKAB</Route>
+    </SID>
+    <SID Name="PURAG1S" Airport="HSPN" Runways="16">
+      <Route Runway="16">PSD VOR/R164C/PSD VOR/PURAG</Route>
+    </SID>
+    <SID Name="SENKA1S" Airport="HSPN" Runways="16">
+      <Route Runway="16">PSD/R164C/PSD VOR/SENKA</Route>
+    </SID>
+    <SID Name="DAPEN1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PN802/PN810/PN770/DAPEN</Route>
+    </SID>
+    <SID Name="GEPIT1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PN802/PN804/GEPIT</Route>
+    </SID>
+    <SID Name="NABUT1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PN802/PN810/PN770/NABUT</Route>
+    </SID>
+    <SID Name="PEKAB1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PN802/PN850/PEKAB</Route>
+    </SID>
+      <SID Name="PURAG1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PN802/PSD VOR/PN840/PURAG</Route>
+    </SID>
+    <SID Name="SENKA1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PN802/PSD VOR/PN830/SENKA</Route>
+    </SID>
+        <SID Name="DAPEN1N" Airport="HSPN" Runways="34">
+      <Route Runway="34">PSD06/PSD37/37PSD/DAPEN</Route>
+    </SID>
+    <SID Name="GEPIT1N" Airport="HSPN" Runways="34">
+      <Route Runway="34">PSD06/GEPIT</Route>
+    </SID>
+    <SID Name="PEKAB1N" Airport="HSPN" Runways="34">
+      <Route Runway="34">PSD06/PEKAB</Route>
+    </SID>
+    <SID Name="PURAG1N" Airport="HSPN" Runways="34">
+      <Route Runway="34">PSD06/PSD VOR/PURAG</Route>
+    </SID>
+    <SID Name="SENKA1N" Airport="HSPN" Runways="34">
+      <Route Runway="34">PSD06/PSD VOR/SENKA</Route>
+    </SID>
+    <SID Name="DAPEN1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PN702/PN720/PN770/DAPEN</Route>
+    </SID>
+    <SID Name="GEPIT1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PN702/PN710/GEPIT</Route>
+    </SID>
+    <SID Name="NABUT1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PN702/PN720/PN770/NABUT</Route>
+    </SID>
+    <SID Name="PEKAB1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PN702/PN704/PEKAB</Route>
+    </SID>
+    <SID Name="PURAG1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PN702/PSD VOR/PN750/PURAG</Route>
+    </SID>
+    <SID Name="SENKA1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PN702/PSD VOR/PN740/SENKA</Route>
+    </SID>
+      <SID Name="NABUT1N" Airport="HSPN" Runways="34">
+      <Route Runway="34">PSD06/NABUT</Route>
+    </SID>
+    <STAR Name="ALKET1" Airport="HSPN" Runways="16">
+      <Route Runway="16">ALKET/R018I/PSD VOR</Route>
+    </STAR>
+      <STAR Name="DAPEN1" Airport="HSPN" Runways="16">
+      <Route Runway="16">DAPEN/PSD35/PSD28/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="NABUT1" Airport="HSPN" Runways="16">
+      <Route Runway="16">NABUT/R119Y/R119U/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="PEKAB1" Airport="HSPN" Runways="16">
+      <Route Runway="16">PEKAB/R324Y/R324I/PSD VOR</Route>
+    </STAR>
+      <STAR Name="PURAG1" Airport="HSPN" Runways="16">
+      <Route Runway="16">PURAG/R257Y/R257U/R242U/R197U/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="SENKA1" Airport="HSPN" Runways="16">
+      <Route Runway="16">SENKA/PSD29/R227Y/R227U/R197U/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="ALKET1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">ALKET/PN404</Route>
+    </STAR>
+      <STAR Name="ALKET1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">ALKET/PN404</Route>
+    </STAR>
+      <STAR Name="DAPEN1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">DAPEN/PN770/PN412/PN406/PN404</Route>
+    </STAR>
+      <STAR Name="NABUT1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">NABUT/PN770/PN412/PN406/PN404</Route>
+    </STAR>
+      <STAR Name="PEKAB1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PEKAB/PN410/PN404</Route>
+    </STAR>
+    <STAR Name="PURAG1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">PURAG/PN411/PN409/PN407/PN405/PN404</Route>
+    </STAR>
+    <STAR Name="SENKA1B" Airport="HSPN" Runways="16">
+      <Route Runway="16">SENKA/PN413/PN409/PN407/PN405/PN404</Route>
+    </STAR>
+     <STAR Name="ALKET1" Airport="HSPN" Runways="34">
+      <Route Runway="34">ALKET/R018I/PSD VOR</Route>
+    </STAR>
+      <STAR Name="DAPEN1" Airport="HSPN" Runways="34">
+      <Route Runway="34">DAPEN/PSD35/PSD28/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="NABUT1" Airport="HSPN" Runways="34">
+      <Route Runway="34">NABUT/R119Y/R119U/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="PEKAB1" Airport="HSPN" Runways="34">
+      <Route Runway="34">PEKAB/R324Y/R324I/PSD VOR</Route>
+    </STAR>
+      <STAR Name="PURAG1" Airport="HSPN" Runways="34">
+      <Route Runway="34">PURAG/R257Y/R257U/R242U/R197U/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="SENKA1" Airport="HSPN" Runways="34">
+      <Route Runway="34">SENKA/PSD29/R227Y/R227U/R197U/R164U/RADSI</Route>
+    </STAR>
+      <STAR Name="ALKET1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">ALKET/PN528/PN508/RADSI</Route>
+    </STAR>
+      <STAR Name="DAPEN1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">DAPEN/PN824/RADSI</Route>
+    </STAR>
+      <STAR Name="NABUT1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">NABUT/PN826/PN508/RADSI</Route>
+    </STAR>
+      <STAR Name="PEKAB1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PEKAB/PN512/PN510/RADSI</Route>
+    </STAR>
+      <STAR Name="PURAG1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">PURAG/PN515/PN514/PN510/RADSI</Route>
+    </STAR>
+    <STAR Name="SENKA1A" Airport="HSPN" Runways="34">
+      <Route Runway="34">SENKA/PN518/PN516/PN510/RADSI</Route>
+    </STAR>
+  	<!--HSMN-->
+    <SID Name="GERAS1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">GERAS</Route>
+    </SID>
+      <SID Name="KURTI1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">KURTI</Route>
+    </SID>
+      <SID Name="ORKAL1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">ORKAL</Route>
+    </SID>
+      <SID Name="ROTAP1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">ROTAP</Route>
+    </SID>
+      <SID Name="SOLEV1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">SOLEV</Route>
+    </SID>
+      <SID Name="GERAS1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">MN600/GERAS</Route>
+    </SID>
+      <SID Name="KURTI1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">MN600/KURTI</Route>
+    </SID>
+      <SID Name="ORKAL1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">MN600/ORKAL</Route>
+    </SID>
+        <SID Name="ROTAP1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">MN600/MN601/ROTAP</Route>
+    </SID>
+      <SID Name="SOLEV1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">MN600/SOLEV</Route>
+    </SID>
+      <SID Name="GERAS1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">MRW VOR/GERAS</Route>
+    </SID>
+      <SID Name="KURTI1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">MRW VOR/KURTI</Route>
+    </SID>
+      <SID Name="ORKAL1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">MRW VOR/ORKAL</Route>
+    </SID>
+      <SID Name="ROTAP1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">MRW VOR/ROTAP</Route>
+    </SID>
+      <SID Name="SOLEV1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">MRW VOR/SOLEV</Route>
+    </SID>
+      <SID Name="GERAS1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">MN700/MN702/MN704/GERAS</Route>
+    </SID>
+      <SID Name="KURTI1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">MN700/KURTI</Route>
+    </SID>
+      <SID Name="ORKAL1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">MN700/ORKALL</Route>
+    </SID>
+        <SID Name="ROTAP1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">MN700/ROTAP</Route>
+    </SID>
+      <SID Name="SOLEV1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">MN700/SOLEV</Route>
+    </SID>
+    <STAR Name="GERAS1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">GERAS/MRW VOR</Route>
+    </STAR>
+    <STAR Name="KURTI1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">KURTI/MRW VOR</Route>
+    </STAR>
+    <STAR Name="ORKAL1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">ORKAL/MRW VOR</Route>
+    </STAR>
+    <STAR Name="ROTAP1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">ROTAP/MRW VOR</Route>
+    </STAR>
+    <STAR Name="SOLEV1N" Airport="HSMN" Runways="02">
+      <Route Runway="02">SOLEV/MRW VOR</Route>
+    </STAR>
+    <STAR Name="GERAS1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">GERAS/MN414/MN408/MN406</Route>
+    </STAR>
+    <STAR Name="KURTI1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">KURTI/MN412/MN410/MN406</Route>
+    </STAR>
+    <STAR Name="ORKAL1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">ORKAL/MN412/MN410/MN406</Route>
+    </STAR>
+    <STAR Name="ROTAP1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">ROTAP/MN406</Route>
+    </STAR>
+    <STAR Name="SOLEV1A" Airport="HSMN" Runways="02">
+      <Route Runway="02">SOLEV/MN412/MN410/MN406</Route>
+    </STAR>
+      <STAR Name="GERAS1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">GERAS/MRW VOR</Route>
+    </STAR>
+    <STAR Name="KURTI1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">KURTI/MRW VOR</Route>
+    </STAR>
+    <STAR Name="ORKAL1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">ORKAL/MRW VOR</Route>
+    </STAR>
+    <STAR Name="ROTAP1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">ROTAP/MRW VOR</Route>
+    </STAR>
+    <STAR Name="SOLEV1S" Airport="HSMN" Runways="20">
+      <Route Runway="20">SOLEV/MRW VOR</Route>
+    </STAR>
+    <STAR Name="GERAS1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">GERAS/MN510/MN508</Route>
+    </STAR>
+    <STAR Name="KURTI1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">KURTI/MN506</Route>
+    </STAR>
+    <STAR Name="ORKAL1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">ORKAL/MN506</Route>
+    </STAR>
+    <STAR Name="ROTAP1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">ROTAP/MN510/MN508</Route>
+    </STAR>
+    <STAR Name="SOLEV1B" Airport="HSMN" Runways="20">
+      <Route Runway="20">SOLEV/MN506</Route>
+    </STAR>
+  	<!--HSFS-->
+      <SID Name="ASMAG1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">ASMAG</Route>
+    </SID>
+      <SID Name="IMLOK1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">IMLOK</Route>
+    </SID>
+    <SID Name="IVOSA1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">IVOSA</Route>
+    </SID>
+      <SID Name="RAMGI1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">RAMGI</Route>
+    </SID>
+      <SID Name="ASMAG1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">FS390/ASMAG</Route>
+    </SID>
+      <SID Name="IMLOK1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">FS390/IMLOK</Route>
+    </SID>
+      <SID Name="IVOSA1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">FS390/IVOSA</Route>
+    </SID>
+      <SID Name="RAMGI1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">FS390 FS391 RAMGI</Route>
+    </SID>
+      <SID Name="ASMAG1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">FSR VOR/ASMAG</Route>
+    </SID>
+      <SID Name="IMLOK1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">FSR VOR/IMLOK</Route>
+    </SID>
+    <SID Name="IVOSA1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">FSR VOR/FSR15/IVOSA</Route>
+    </SID>
+      <SID Name="RAMGI1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">FSR VOR/RAMGI</Route>
+    </SID>
+      <SID Name="ASMAG1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">FS400/FS401/ASMAG</Route>
+    </SID>
+      <SID Name="IMLOK1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">FS400/IMLOK</Route>
+    </SID>
+      <SID Name="IVOSA1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">FS400/FS401/IVOSA</Route>
+    </SID>
+      <SID Name="RAMGI1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">FS400/RAMGI</Route>
+    </SID>
+    <STAR Name="ASMAG1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">ASMAG/R092U/R229U/ALSUG</Route>
+    </STAR>
+    <STAR Name="IMLOK1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">IMLOK/D248/R229U/ALSUG</Route>
+    </STAR>
+    <STAR Name="IVOSA1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">IVOSA/R071U/R229U/ALSUG</Route>
+    </STAR>
+    <STAR Name="RAMGI1E" Airport="HSFS" Runways="05">
+      <Route Runway="05">RAMGI/R189U/R229U/ALSUG</Route>
+    </STAR>
+    <STAR Name="ASMAG1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">ASMAG/FS393/FS394/FS367</Route>
+    </STAR>
+    <STAR Name="IMLOK1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">IMLOK/FS395/FS369</Route>
+    </STAR>
+    <STAR Name="IVOSA1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">IVOSA/FS393/FS394/FS367</Route>
+    </STAR>
+    <STAR Name="RAMGI1A" Airport="HSFS" Runways="05">
+      <Route Runway="05">RAMGI/FS369</Route>
+    </STAR>
+    <STAR Name="ASMAG1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">ASMAG/R092U/R049U/RANPU</Route>
+    </STAR>
+    <STAR Name="IMLOK1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">IMLOK/D277/R357U/R049U/RANPU</Route>
+    </STAR>
+    <STAR Name="IVOSA1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">IVOSA/R071U/R049U/RANPU</Route>
+    </STAR>
+    <STAR Name="RAMGI1W" Airport="HSFS" Runways="23">
+      <Route Runway="23">RAMGI/R189U/R049U/RANPU</Route>
+    </STAR>
+    <STAR Name="ASMAG1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">ASMAG/FS378</Route>
+    </STAR>
+    <STAR Name="IMLOK1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">IMLOK/FS405/FS380</Route>
+    </STAR>
+    <STAR Name="IVOSA1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">IVOSA/FS378</Route>
+    </STAR>
+    <STAR Name="RAMGI1B" Airport="HSFS" Runways="23">
+      <Route Runway="23">RAMGI/FS406/FS379</Route>
+    </STAR>
+</SIDSTARs>
 </Airspace>
