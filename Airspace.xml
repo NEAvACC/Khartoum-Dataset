@@ -1,3 +1,22 @@
+    <!--Navaids-->
+<Navaids>
+    <Point Frequency="112.300" Name="DOG" NavaidType="VOR" Type="Navaid">+19.182569+030.427283</Point>
+    <Point Frequency="115.000" Name="FSR" NavaidType="VOR" Type="Navaid">+13.598358+025.302961</Point>
+    <Point Frequency="116.300" Name="GNA" NavaidType="VOR" Type="Navaid">+13.473442+022.535361</Point>
+    <Point Frequency="115.400" Name="KNA" NavaidType="VOR" Type="Navaid">+13.027978+032.906442</Point>
+    <Point Frequency="114.800" Name="KSL" NavaidType="VOR" Type="Navaid">+15.407639+036.337222</Point>
+    <Point Frequency="112.100" Name="KTM" NavaidType="VOR" Type="Navaid">+15.566092+032.553378</Point>
+    <Point Frequency="116.000" Name="MRW" NavaidType="VOR" Type="Navaid">+18.413558+031.830264</Point>
+    <Point Frequency="116.300" Name="NYL" NavaidType="VOR" Type="Navaid">+12.071786+024.972536</Point>
+    <Point Frequency="115.800" Name="OBD" NavaidType="VOR" Type="Navaid">+13.111258+030.226458</Point>
+    <Point Frequency="113.100" Name="PSD" NavaidType="VOR" Type="Navaid">+19.401144+037.241725</Point>
+    <Point Frequency="113.100" Name="JUB" NavaidType="VOR" Type="Navaid">+04.875953+031.599675</Point> 
+    <Point Frequency="112.700" Name="MLK" NavaidType="VOR" Type="Navaid">+09.563167+031.653170</Point> 
+    <Point Frequency="115.700" Name="SGD" NavaidType="VOR" Type="Navaid">+15.628325+033.072825</Point>
+    <Point Frequency="343.000" Name="DMZ" NavaidType="NDB" Type="Navaid">+11.790917+034.340139</Point>
+    <Point Frequency="380.000" Name="MRW" NavaidType="NDB" Type="Navaid">+18.454944+031.851944</Point>
+    <Point Frequency="339.000" Name="PSD" NavaidType="NDB" Type="Navaid">+19.422481+037.242086</Point>
+</Navaids>
 <Airports>
     <Airport Name="HJJJ">
       <Runway Name="13" DataRunway="13">
