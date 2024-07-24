@@ -2,64 +2,44 @@
 <Maps>
     <Map Name="ALL_AIRPORTS" Priority="0" Type="System2">
         <Symbol Type="HollowSquare">
-            <Point>HAAB</Point>
-            <Point>HAAM</Point>
-            <Point>HAAX</Point>
-            <Point>HABD</Point>
-            <Point>HADC</Point>
-            <Point>HADR</Point>
-            <Point>HAGB</Point>
-            <Point>HAGM</Point>
-            <Point>HAGN</Point>
-            <Point>HAGO</Point>
-            <Point>HAJJ</Point>
-            <Point>HAJM</Point>
-            <Point>HAKD</Point>
-            <Point>HALA</Point>
-            <Point>HALL</Point>
-            <Point>HAMK</Point>
-            <Point>HASM</Point>
-            <Point>HASO</Point>
-            <Point>HASR</Point>
-            <Point>HCMH</Point>
-            <Point>HCMR</Point>
-            <Point>HCMV</Point>
-            <Point>HDAM</Point>
-            <Point>HHAS</Point>
-            <Point>HHSB</Point>
-            <Point>HKFG</Point>
+            <Point>HJJJ</Point>
+            <Point>HJMK</Point>
+            <Point>HJWW</Point>
             <Point>HKLG</Point>
-            <Point>HKMA</Point>
+            <Point>HKLK</Point>
+            <Point>HSAT</Point>
+            <Point>HSDN</Point>
+            <Point>HSDZ</Point>
+            <Point>HSFS</Point>
+            <Point>HSKA</Point>
+            <Point>HSLI</Point>
+            <Point>HSMN</Point>
+            <Point>HSNN</Point>
+            <Point>HSOB</Point>
+            <Point>HSPN</Point>
+            <Point>HSSG</Point>
+            <Point>HSSK</Point>
+            <Point>HSSW</Point>
         </Symbol>
         <Label hasLeader="true">
-            <Point Name="HAAB">HAAB</Point>
-            <Point Name="HAAM">HAAM</Point>
-            <Point Name="HAAX">HAAX</Point>
-            <Point Name="HABD">HABD</Point>
-            <Point Name="HADC">HADC</Point>
-            <Point Name="HADR">HADR</Point>
-            <Point Name="HAGB">HAGB</Point>
-            <Point Name="HAGM">HAGM</Point>
-            <Point Name="HAGN">HAGN</Point>
-            <Point Name="HAGO">HAGO</Point>
-            <Point Name="HAJJ">HAJJ</Point>
-            <Point Name="HAJM">HAJM</Point>
-            <Point Name="HAKD">HAKD</Point>
-            <Point Name="HALA">HALA</Point>
-            <Point Name="HALL">HALL</Point>
-            <Point Name="HAMK">HAMK</Point>
-            <Point Name="HASM">HASM</Point>
-            <Point Name="HASO">HASO</Point>
-            <Point Name="HASR">HASR</Point>
-            <Point Name="HCMH">HCMH</Point>
-            <Point Name="HCMR">HCMR</Point>
-            <Point Name="HCMV">HCMV</Point>
-            <Point Name="HDAM">HDAM</Point>
-            <Point Name="HHAS">HHAS</Point>
-            <Point Name="HHSB">HHSB</Point>
-            <Point Name="HKFG">HKFG</Point>
+            <Point Name="HJJJ">HJJJ</Point>
+            <Point Name="HJMK">HJMK</Point>
+            <Point Name="HJWW">HJWW</Point>
             <Point Name="HKLG">HKLG</Point>
-            <Point Name="HKMA">HKMA</Point>
+            <Point Name="HKLK">HKLK</Point>
+            <Point Name="HSAT">HSAT</Point>
+            <Point Name="HSDN">HSDN</Point>
+            <Point Name="HSDZ">HSDZ</Point>
+            <Point Name="HSFS">HSFS</Point>
+            <Point Name="HSKA">HSKA</Point>
+            <Point Name="HSLI">HSLI</Point>
+            <Point Name="HSMN">HSMN</Point>
+            <Point Name="HSNN">HSNN</Point>
+            <Point Name="HSOB">HSOB</Point>
+            <Point Name="HSPN">HSPN</Point>
+            <Point Name="HSSG">HSSG</Point>
+            <Point Name="HSSK">HSSK</Point>
+            <Point Name="HSSW">HSSW</Point>
         </Label>
     </Map>
 </Maps>

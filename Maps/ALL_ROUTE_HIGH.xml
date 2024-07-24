@@ -1,320 +1,198 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Maps>
     <Map Name="ALL_ROUTE_HIGH" Priority="0" Type="System">
-        <Line Name="A408">BOPSA.A408.OKMAB</Line>
-        <Line Name="A451">DEKRA.A451.ASM VOR</Line>
-        <Line Name="A727">AVONO.A727.ANTAX</Line>
-        <Line Name="B403">MAV VOR.B403.MUSBI</Line>
-        <Line Name="B535">TORBA.B535.DAGAP</Line>
-        <Line Name="B736">AVONO.B736.GWZ VOR</Line>
-        <Line Name="G300">MAV VOR.G300.TIKAT</Line>
-        <Line Name="G650">KONET.G650.ASM VOR</Line>
-        <Line Name="G651">MURAL.G651.KUSUB</Line>
-        <Line Name="G657">MAV VOR.G657.ASKEN</Line>
-        <Line Name="G667">DTI VOR.G667.PARIM</Line>
-        <Line Name="L432">EKBUL.L432.GWZ VOR</Line>
-        <Line Name="L558">IMDUR.L558.DASTU</Line>
-        <Line Name="M216">RUDOL.M216.AXAPO</Line>
+        <Line Name="A410">VATEN.A410.KAFIA</Line>
+        <Line Name="A727">SML VOR.A727.ANTAX</Line>
+        <Line Name="B407">PSD VOR.B407.DENBU</Line>
+        <Line Name="B526">SS450.B526.TESON</Line>
+        <Line Name="B527">OVELA.B527.KTM VOR</Line>
+        <Line Name="B736">AVONO.B736.USUBA</Line>
+        <Line Name="G656">JUB VOR.G656.ATUGA</Line>
+        <Line Name="L311">KAFIA.L311.KAROX</Line>
+        <Line Name="L317">KAFIA.L317.MAHDI</Line>
+        <Line Name="L320">KISAL.L320.KAROX</Line>
+        <Line Name="L321">SML VOR.L321.LUGAV</Line>
+        <Line Name="L323">ASKOL.L323.TONTU</Line>
+        <Line Name="L427">GNA VOR.L427.KAROX</Line>
+        <Line Name="L554">JUB VOR.L554.NUBAR</Line>
+        <Line Name="L558">ASKON.L558.DASTU</Line>
+        <Line Name="L561">ASKON.L561.MAHDI</Line>
+        <Line Name="L567">OVELA.L567.IMDUR</Line>
         <Line Name="M220">AVAGI.M220.AXOTI</Line>
-        <Line Name="M308">RUDOL.M308.KONET</Line>
-        <Line Name="M997">AVEDI.M997.ASTAR</Line>
-        <Line Name="N301">TIKAT.N301.GWZ VOR</Line>
-        <Line Name="N304">AVUSI.N304.DWA VOR</Line>
-        <Line Name="P751">DEKRA.P751.ARABO</Line>
-        <Line Name="Q554">MAV VOR.Q554.DWA VOR</Line>
-        <Line Name="Q555">MAV VOR.Q555.AVONO</Line>
-        <Line Name="R775">SB NDB.R775.SOLUL</Line>
-        <Line Name="R777">ARABO.R777.TORBA</Line>
-        <Line Name="R780">SETIT.R780.ASM VOR</Line>
-        <Line Name="R993">ASM VOR.R993.DILKA</Line>
-        <Line Name="T111">QHA VOR.T111.LAKBE</Line>
-        <Line Name="T112">QHA VOR.T112.ERDIR</Line>
-        <Line Name="T113">QHA VOR.T113.DUKRI</Line>
-        <Line Name="T114">GWZ VOR.T114.QHA VOR</Line>
-        <Line Name="T115">GWZ VOR.T115.ETBUN</Line>
-        <Line Name="T116">GESEL.T116.GWZ VOR</Line>
-        <Line Name="T117">BDR VOR.T117.DUKRI</Line>
-        <Line Name="T118">BDR VOR.T118.LAKBE</Line>
-        <Line Name="T119">GESEL.T119.QHA VOR</Line>
-        <Line Name="T124">ALRAP.T124.GWZ VOR</Line>
-        <Line Name="T129">ALEMU.T129.GETOL</Line>
-        <Line Name="T139">DASTU.T139.GWZ VOR</Line>
-        <Line Name="T222">BDR VOR.T222.QHA VOR</Line>
-        <Line Name="T223">BDR VOR.T223.IMKUM</Line>
-        <Line Name="T224">BDR VOR.T224.TIMAG</Line>
-        <Line Name="T225">BDR VOR.T225.GESEL</Line>
-        <Line Name="T226">GERIG.T226.BDR VOR</Line>
-        <Line Name="T227">GERIG.T227.GESEL</Line>
-        <Line Name="T228">TIKAT.T228.QHA VOR</Line>
-        <Line Name="T229">GESEL.T229.ETBUN</Line>
-        <Line Name="T333">GESEL.T333.IMKUM</Line>
-        <Line Name="T334">GERIG.T334.ETBUN</Line>
-        <Line Name="T335">TIMAG.T335.ETBUN</Line>
-        <Line Name="T336">IMKUM.T336.ETBUN</Line>
-        <Line Name="T337">ETBUN.T337.QHA VOR</Line>
-        <Line Name="T338">GERIG.T338.QHA VOR</Line>
-        <Line Name="T339">GERIG.T339.TIMAG</Line>
-        <Line Name="T444">TIMAG.T444.QHA VOR</Line>
-        <Line Name="T445">IMKUM.T445.QHA VOR</Line>
-        <Line Name="T446">BDR VOR.T446.GWZ VOR</Line>
-        <Line Name="T447">GWZ VOR.T447.ERDIR</Line>
-        <Line Name="T448">BDR VOR.T448.ETBUN</Line>
-        <Line Name="T449">GWZ VOR.T449.DUKRI</Line>
-        <Line Name="T500">DUKRI.T500.ERDIR</Line>
-        <Line Name="T666">TIKAT.T666.BDR VOR</Line>
-        <Line Name="T667">BRO VOR.T667.DWA VOR</Line>
-        <Line Name="UA408">BOPSA.UA408.OKMAB</Line>
-        <Line Name="UA451">DEKRA.UA451.ASM VOR</Line>
+        <Line Name="M320">IMDUR.M320.MIPOL</Line>
+        <Line Name="M554">TOKAR.M554.MIPOL</Line>
+        <Line Name="M562">VATEN.M562.MIPOL</Line>
+        <Line Name="M565">LUGAV.M565.ALRAP</Line>
+        <Line Name="M568">DEKUM.M568.NUBAR</Line>
+        <Line Name="M713">OBD VOR.M713.EPLAS</Line>
+        <Line Name="M723">ORNAT.M723.KUVTI</Line>
+        <Line Name="M863">KITOB.M863.GIBAP</Line>
+        <Line Name="N311">ASKON.N311.NUBAR</Line>
+        <Line Name="N314">ATMUL.N314.TIKAT</Line>
+        <Line Name="N320">KISAL.N320.NUBAR</Line>
+        <Line Name="N321">NUBAR.N321.TIKAT</Line>
+        <Line Name="N558">DEKUM.N558.ASRAV</Line>
+        <Line Name="N568">ATMUL.N568.AVONO</Line>
+        <Line Name="N574">ATMUL.N574.JUB VOR</Line>
+        <Line Name="N720">PSD VOR.N720.FEREB</Line>
+        <Line Name="P309">NUBAR.P309.AVONO</Line>
+        <Line Name="P313">IPONO.P313.VATEN</Line>
+        <Line Name="P315">NUBAR.P315.IMDUR</Line>
+        <Line Name="P318">JUB VOR.P318.KABLA</Line>
+        <Line Name="P322">MONAN.P322.AVONO</Line>
+        <Line Name="P324">GNA VOR.P324.DELAM</Line>
+        <Line Name="P556">ASKON.P556.BOGUM</Line>
+        <Line Name="P557">NUBAR.P557.ALKED</Line>
+        <Line Name="P562">KISAL.P562.VATEN</Line>
+        <Line Name="P565">KAFIA.P565.ATMUL</Line>
+        <Line Name="P566">ILBIB.P566.VATEN</Line>
+        <Line Name="P568">ORNAT.P568.EPLAS</Line>
+        <Line Name="P720">EMITA.P720.TIKAT</Line>
+        <Line Name="P751">ALEBA.P751.TOKAR</Line>
+        <Line Name="Q555">EGMER.Q555.AVONO</Line>
+        <Line Name="Q563">IMDUR.Q563.MAHDI</Line>
+        <Line Name="Q622">SISOR.Q622.SUVRI</Line>
+        <Line Name="Q727">GAGNI.Q727.SODIL</Line>
+        <Line Name="R611">SS450.R611.TIKAT</Line>
+        <Line Name="T944">MRW VOR.T944.KUVTI</Line>
         <Line Name="UA727">AVONO.UA727.ANTAX</Line>
-        <Line Name="UB403">MAV VOR.UB403.MUSBI</Line>
-        <Line Name="UB535">DAGAP.UB535.TORBA</Line>
-        <Line Name="UB736">AVONO.UB736.GWZ VOR</Line>
-        <Line Name="UG300">MAV VOR.UG300.TIKAT</Line>
-        <Line Name="UG650">KONET.UG650.ASM VOR</Line>
-        <Line Name="UG651">MURAL.UG651.KUSUB</Line>
-        <Line Name="UG657">MAV VOR.UG657.ASKEN</Line>
-        <Line Name="UG667">DTI VOR.UG667.PARIM</Line>
-        <Line Name="UL432">EKBUL.UL432.BOPSA</Line>
-        <Line Name="UM216">RUDOL.UM216.HARGA</Line>
+        <Line Name="UB526">KSL VOR.UB526.TESON</Line>
         <Line Name="UM220">AVAGI.UM220.AXOTI</Line>
-        <Line Name="UM308">RUDOL.UM308.KONET</Line>
-        <Line Name="UM651">HARGA.UM651.KUSUB</Line>
-        <Line Name="UM997">AVEDI.UM997.DTI VOR</Line>
-        <Line Name="UN301">ALEMU.UN301.TIKAT</Line>
-        <Line Name="UN303">PARIM.UN303.HARGA</Line>
-        <Line Name="UN304">AVUSI.UN304.DWA VOR</Line>
-        <Line Name="UP312">MAV VOR.UP312.HARGA</Line>
-        <Line Name="UQ554">MAV VOR.UQ554.DWA VOR</Line>
-        <Line Name="UQ555">MAV VOR.UQ555.AVONO</Line>
-        <Line Name="UR775">SB NDB.UR775.SOLUL</Line>
-        <Line Name="UR780">SETIT.UR780.ASM VOR</Line>
-        <Line Name="UR993">ASM VOR.UR993.DILKA</Line>
-        <Line Name="UT111">QHA VOR.UT111.LAKBE</Line>
-        <Line Name="UT112">QHA VOR.UT112.ERDIR</Line>
-        <Line Name="UT113">QHA VOR.UT113.DUKRI</Line>
-        <Line Name="UT114">GWZ VOR.UT114.QHA VOR</Line>
-        <Line Name="UT115">GWZ VOR.UT115.ETBUN</Line>
-        <Line Name="UT116">GESEL.UT116.GWZ VOR</Line>
-        <Line Name="UT117">BDR VOR.UT117.DUKRI</Line>
-        <Line Name="UT118">BDR VOR.UT118.LAKBE</Line>
-        <Line Name="UT119">GESEL.UT119.QHA VOR</Line>
-        <Line Name="UT124">ALRAP.UT124.GWZ VOR</Line>
-        <Line Name="UT129">ALEMU.UT129.GETOL</Line>
-        <Line Name="UT139">DASTU.UT139.GWZ VOR</Line>
-        <Line Name="UT222">BDR VOR.UT222.QHA VOR</Line>
-        <Line Name="UT223">BDR VOR.UT223.IMKUM</Line>
-        <Line Name="UT224">BDR VOR.UT224.TIMAG</Line>
-        <Line Name="UT225">BDR VOR.UT225.GESEL</Line>
-        <Line Name="UT226">GERIG.UT226.BDR VOR</Line>
-        <Line Name="UT227">GERIG.UT227.GESEL</Line>
-        <Line Name="UT228">TIKAT.UT228.QHA VOR</Line>
-        <Line Name="UT229">GESEL.UT229.ETBUN</Line>
-        <Line Name="UT333">GESEL.UT333.IMKUM</Line>
-        <Line Name="UT334">GERIG.UT334.ETBUN</Line>
-        <Line Name="UT335">TIMAG.UT335.ETBUN</Line>
-        <Line Name="UT336">IMKUM.UT336.ETBUN</Line>
-        <Line Name="UT337">ETBUN.UT337.QHA VOR</Line>
-        <Line Name="UT338">GERIG.UT338.QHA VOR</Line>
-        <Line Name="UT339">GERIG.UT339.TIMAG</Line>
-        <Line Name="UT444">TIMAG.UT444.QHA VOR</Line>
-        <Line Name="UT445">IMKUM.UT445.QHA VOR</Line>
-        <Line Name="UT446">BDR VOR.UT446.GWZ VOR</Line>
-        <Line Name="UT447">GWZ VOR.UT447.ERDIR</Line>
-        <Line Name="UT448">BDR VOR.UT448.ETBUN</Line>
-        <Line Name="UT449">GWZ VOR.UT449.DUKRI</Line>
-        <Line Name="UT500">DUKRI.UT500.ERDIR</Line>
-        <Line Name="UT666">TIKAT.UT666.BDR VOR</Line>
-        <Line Name="UT667">BRO VOR.UT667.DWA VOR</Line>
-        <Line Name="UW885">DWA VOR.UW885.HARGA</Line>
-        <Line Name="UY248">AXOTI.UY248.ETOKO</Line>
-        <Line Name="W180">SB NDB.W180.OKMAB</Line>
-        <Line Name="W885">DWA VOR.W885.HARGA</Line>
-        <Line Name="Y248">AXOTI.Y248.ETOKO</Line>
+        <Line Name="UQ555">EGMER.UQ555.AVONO</Line>
+        <Line Name="Y866">DENDI.Y866.KSL VOR</Line>
         <Symbol Type="HollowTriangle">
-            <Point>BOPSA</Point>
-            <Point>IBRAD</Point>
-            <Point>OKMAB</Point>
-            <Point>DEKRA</Point>
-            <Point>SB41</Point>
-            <Point>GEREK</Point>
-            <Point>EKBOR</Point>
+            <Point>VATEN</Point>
+            <Point>RADKA</Point>
+            <Point>IMSUT</Point>
+            <Point>RADAG</Point>
+            <Point>ALMAM</Point>
+            <Point>KAFIA</Point>
+            <Point>TOKAR</Point>
+            <Point>NUBAR</Point>
+            <Point>SOMAK</Point>
+            <Point>ALPOX</Point>
+            <Point>GOPDA</Point>
+            <Point>GAGNI</Point>
             <Point>AVONO</Point>
-            <Point>KUTOP</Point>
             <Point>EPSIX</Point>
             <Point>AMATO</Point>
             <Point>ANTAX</Point>
-            <Point>GIBAX</Point>
-            <Point>GABDA</Point>
-            <Point>ALKOS</Point>
-            <Point>MUSBI</Point>
-            <Point>HARGA</Point>
-            <Point>TORBA</Point>
-            <Point>KASOL</Point>
-            <Point>LAKBE</Point>
-            <Point>NIDEG</Point>
-            <Point>ASOLE</Point>
-            <Point>ITPOG</Point>
-            <Point>KOFTA</Point>
-            <Point>APKOD</Point>
-            <Point>IMTOR</Point>
+            <Point>ORNAT</Point>
+            <Point>MAHDI</Point>
+            <Point>KAROX</Point>
+            <Point>DENBU</Point>
+            <Point>LADEN</Point>
+            <Point>SS450</Point>
+            <Point>DENDI</Point>
+            <Point>TESON</Point>
+            <Point>OVELA</Point>
+            <Point>RABAK</Point>
+            <Point>SUVRI</Point>
             <Point>DAGAP</Point>
+            <Point>TAPOS</Point>
+            <Point>SAGBU</Point>
             <Point>USUBA</Point>
-            <Point>EGNAK</Point>
-            <Point>ETOKO</Point>
-            <Point>IBTAN</Point>
-            <Point>UTSOR</Point>
-            <Point>UVDEB</Point>
-            <Point>MASLO</Point>
-            <Point>GETOL</Point>
-            <Point>ETIVA</Point>
-            <Point>GETIN</Point>
-            <Point>ETONI</Point>
-            <Point>APLIR</Point>
-            <Point>ANTUM</Point>
             <Point>TIKAT</Point>
-            <Point>KONET</Point>
-            <Point>MURAL</Point>
-            <Point>KUSUB</Point>
-            <Point>BELDI</Point>
-            <Point>EGMES</Point>
-            <Point>ASKEN</Point>
-            <Point>PARIM</Point>
+            <Point>ATUGA</Point>
+            <Point>BOPID</Point>
+            <Point>BOGUM</Point>
+            <Point>MIPOL</Point>
+            <Point>PASIL</Point>
+            <Point>LOVAB</Point>
+            <Point>KAPIB</Point>
+            <Point>ITGAL</Point>
+            <Point>ASNON</Point>
+            <Point>AZAZA</Point>
+            <Point>KISAL</Point>
+            <Point>HASAN</Point>
+            <Point>DELAM</Point>
+            <Point>DATIM</Point>
+            <Point>SOGAD</Point>
+            <Point>RAKTA</Point>
+            <Point>LUGAV</Point>
+            <Point>ASKOL</Point>
+            <Point>ELOXO</Point>
+            <Point>ENABU</Point>
+            <Point>TONTU</Point>
+            <Point>GIPSA</Point>
+            <Point>BOXIG</Point>
+            <Point>ASRAV</Point>
+            <Point>BILAL</Point>
             <Point>EKBUL</Point>
-            <Point>ETGOM</Point>
-            <Point>BENDO</Point>
+            <Point>EGBIM</Point>
+            <Point>KUNDI</Point>
+            <Point>ITOXA</Point>
+            <Point>SISOR</Point>
+            <Point>PASAB</Point>
+            <Point>ASKON</Point>
+            <Point>DASAG</Point>
             <Point>IMDUR</Point>
             <Point>DASTU</Point>
-            <Point>RUDOL</Point>
-            <Point>IMKIT</Point>
-            <Point>ERBUN</Point>
-            <Point>ETLOT</Point>
-            <Point>DUSKU</Point>
-            <Point>XAPSA</Point>
-            <Point>AXAPO</Point>
+            <Point>ZENUB</Point>
+            <Point>NABUS</Point>
             <Point>AVAGI</Point>
             <Point>UTOLI</Point>
             <Point>EGMER</Point>
             <Point>AXOTI</Point>
-            <Point>OKNET</Point>
-            <Point>SHALA</Point>
-            <Point>RANSO</Point>
-            <Point>UMTOK</Point>
-            <Point>ETGUL</Point>
-            <Point>AVUNI</Point>
-            <Point>TEXOK</Point>
+            <Point>BOTOK</Point>
+            <Point>EGTAD</Point>
+            <Point>IMPAX</Point>
+            <Point>SISID</Point>
+            <Point>DAREV</Point>
+            <Point>GIDAX</Point>
             <Point>ALRAP</Point>
-            <Point>AVEDI</Point>
-            <Point>UTANO</Point>
-            <Point>NIGUS</Point>
-            <Point>AXIDA</Point>
-            <Point>ASTAR</Point>
-            <Point>AXEBI</Point>
-            <Point>DAVIT</Point>
-            <Point>EPREK</Point>
-            <Point>MARCO</Point>
-            <Point>AVUSI</Point>
-            <Point>EPTOV</Point>
-            <Point>ARABO</Point>
-            <Point>ADABA</Point>
-            <Point>TADRA</Point>
-            <Point>NETIN</Point>
-            <Point>ANVEX</Point>
-            <Point>MANDA</Point>
-            <Point>APKIX</Point>
-            <Point>LUBAR</Point>
-            <Point>ALNAB</Point>
-            <Point>SOLUL</Point>
-            <Point>SETIT</Point>
-            <Point>DILKA</Point>
-            <Point>GADGI</Point>
-            <Point>APMUX</Point>
-            <Point>UNKEG</Point>
-            <Point>XADOX</Point>
-            <Point>ERDIR</Point>
-            <Point>UNKID</Point>
-            <Point>GEROB</Point>
-            <Point>DUKRI</Point>
-            <Point>MEKEL</Point>
-            <Point>EKBOB</Point>
-            <Point>ETLAL</Point>
-            <Point>XUDAM</Point>
-            <Point>EXELI</Point>
-            <Point>OKBID</Point>
-            <Point>ETBUN</Point>
-            <Point>GESEL</Point>
-            <Point>DUDMU</Point>
-            <Point>UDKON</Point>
-            <Point>UBTIK</Point>
-            <Point>IBGOB</Point>
-            <Point>UNGOT</Point>
-            <Point>TIDEX</Point>
-            <Point>ANSUV</Point>
-            <Point>XUGUD</Point>
-            <Point>VEXOD</Point>
-            <Point>EGRUR</Point>
-            <Point>TIBOR</Point>
-            <Point>DURTA</Point>
-            <Point>AVUKU</Point>
-            <Point>ESRUD</Point>
-            <Point>TIKOD</Point>
-            <Point>IMRIN</Point>
-            <Point>UNDIX</Point>
-            <Point>UDBET</Point>
-            <Point>SIMEN</Point>
-            <Point>TIGEN</Point>
-            <Point>DUTVA</Point>
-            <Point>AMUDO</Point>
-            <Point>LABLA</Point>
-            <Point>ALEMU</Point>
-            <Point>GUDER</Point>
-            <Point>APDAN</Point>
-            <Point>GEPIP</Point>
-            <Point>OKTAK</Point>
-            <Point>TEVUG</Point>
-            <Point>EXASI</Point>
-            <Point>XUBEL</Point>
-            <Point>UVMED</Point>
-            <Point>TEXOL</Point>
-            <Point>AXAGA</Point>
-            <Point>EVEDA</Point>
-            <Point>IMKUM</Point>
-            <Point>IXADA</Point>
-            <Point>ETMAM</Point>
-            <Point>DUSDI</Point>
-            <Point>UDMUL</Point>
-            <Point>TIMAG</Point>
-            <Point>GERIG</Point>
-            <Point>EGSIK</Point>
-            <Point>EPLIM</Point>
-            <Point>EPTUX</Point>
-            <Point>ESTID</Point>
-            <Point>AXAMI</Point>
-            <Point>XABAD</Point>
-            <Point>UTVIX</Point>
-            <Point>UTEDU</Point>
-            <Point>UNPOK</Point>
-            <Point>IBRAX</Point>
-            <Point>EGLOG</Point>
-            <Point>EPVER</Point>
-            <Point>DUTMI</Point>
-            <Point>GABKA</Point>
-            <Point>IBGIL</Point>
-            <Point>UTVEX</Point>
-            <Point>UVMIR</Point>
-            <Point>EPVAN</Point>
-            <Point>EGTOX</Point>
-            <Point>TILUD</Point>
-            <Point>XUBIG</Point>
-            <Point>MASHO</Point>
-            <Point>NETUG</Point>
-            <Point>APGUS</Point>
-            <Point>USUNO</Point>
-            <Point>MIWAS</Point>
-            <Point>GISHE</Point>
-            <Point>NAPGO</Point>
-            <Point>AVIDO</Point>
-            <Point>ARSHI</Point>
-            <Point>UBTOD</Point>
+            <Point>DEKUM</Point>
+            <Point>KINOV</Point>
+            <Point>KASAB</Point>
+            <Point>UMIDA</Point>
+            <Point>GINPU</Point>
+            <Point>EPLAS</Point>
+            <Point>EGSUM</Point>
+            <Point>RAGEN</Point>
+            <Point>LAMAB</Point>
+            <Point>KUVTI</Point>
+            <Point>KITOB</Point>
+            <Point>SOGIN</Point>
+            <Point>TAVNA</Point>
+            <Point>RAGSI</Point>
+            <Point>TOMRU</Point>
+            <Point>GIBAP</Point>
+            <Point>SIGNO</Point>
+            <Point>JEBRA</Point>
+            <Point>TOVIL</Point>
+            <Point>ATMUL</Point>
+            <Point>GINKA</Point>
+            <Point>68KTM</Point>
+            <Point>LOROG</Point>
+            <Point>DEDVA</Point>
+            <Point>KISOV</Point>
+            <Point>SITIK</Point>
+            <Point>FEREB</Point>
+            <Point>ELULA</Point>
+            <Point>SODIL</Point>
+            <Point>IPONO</Point>
+            <Point>GAMAR</Point>
+            <Point>DEBOX</Point>
+            <Point>KAREP</Point>
+            <Point>ITOMO</Point>
+            <Point>KABLA</Point>
+            <Point>MONAN</Point>
+            <Point>DEMTI</Point>
+            <Point>HAMID</Point>
+            <Point>PEDOS</Point>
+            <Point>ALKED</Point>
+            <Point>GAILY</Point>
+            <Point>LOPON</Point>
+            <Point>ILBIB</Point>
+            <Point>EMAMU</Point>
+            <Point>RAMKO</Point>
+            <Point>PEBOR</Point>
+            <Point>EMITA</Point>
+            <Point>ALEBA</Point>
+            <Point>ELUDU</Point>
+            <Point>DANUD</Point>
+            <Point>KITEK</Point>
+            <Point>KURAM</Point>
         </Symbol>
     </Map>
 </Maps>
