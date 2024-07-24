@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Maps>
+    <Map Name="ALL_AIRPORTS" Priority="0" Type="System2">
+        <Symbol Type="HollowSquare">
+            <Point>HAAB</Point>
+            <Point>HAAM</Point>
+            <Point>HAAX</Point>
+            <Point>HABD</Point>
+            <Point>HADC</Point>
+            <Point>HADR</Point>
+            <Point>HAGB</Point>
+            <Point>HAGM</Point>
+            <Point>HAGN</Point>
+            <Point>HAGO</Point>
+            <Point>HAJJ</Point>
+            <Point>HAJM</Point>
+            <Point>HAKD</Point>
+            <Point>HALA</Point>
+            <Point>HALL</Point>
+            <Point>HAMK</Point>
+            <Point>HASM</Point>
+            <Point>HASO</Point>
+            <Point>HASR</Point>
+            <Point>HCMH</Point>
+            <Point>HCMR</Point>
+            <Point>HCMV</Point>
+            <Point>HDAM</Point>
+            <Point>HHAS</Point>
+            <Point>HHSB</Point>
+            <Point>HKFG</Point>
+            <Point>HKLG</Point>
+            <Point>HKMA</Point>
+        </Symbol>
+        <Label hasLeader="true">
+            <Point Name="HAAB">HAAB</Point>
+            <Point Name="HAAM">HAAM</Point>
+            <Point Name="HAAX">HAAX</Point>
+            <Point Name="HABD">HABD</Point>
+            <Point Name="HADC">HADC</Point>
+            <Point Name="HADR">HADR</Point>
+            <Point Name="HAGB">HAGB</Point>
+            <Point Name="HAGM">HAGM</Point>
+            <Point Name="HAGN">HAGN</Point>
+            <Point Name="HAGO">HAGO</Point>
+            <Point Name="HAJJ">HAJJ</Point>
+            <Point Name="HAJM">HAJM</Point>
+            <Point Name="HAKD">HAKD</Point>
+            <Point Name="HALA">HALA</Point>
+            <Point Name="HALL">HALL</Point>
+            <Point Name="HAMK">HAMK</Point>
+            <Point Name="HASM">HASM</Point>
+            <Point Name="HASO">HASO</Point>
+            <Point Name="HASR">HASR</Point>
+            <Point Name="HCMH">HCMH</Point>
+            <Point Name="HCMR">HCMR</Point>
+            <Point Name="HCMV">HCMV</Point>
+            <Point Name="HDAM">HDAM</Point>
+            <Point Name="HHAS">HHAS</Point>
+            <Point Name="HHSB">HHSB</Point>
+            <Point Name="HKFG">HKFG</Point>
+            <Point Name="HKLG">HKLG</Point>
+            <Point Name="HKMA">HKMA</Point>
+        </Label>
+    </Map>
+</Maps>

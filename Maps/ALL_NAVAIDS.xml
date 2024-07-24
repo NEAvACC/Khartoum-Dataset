@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Maps>
+    <Map Name="ALL_NAVAIDS" Priority="0" Type="System">
+        <Symbol Type="Hexagon">
+            <Point>ABI</Point>
+            <Point>ADS</Point>
+            <Point>ASM</Point>
+            <Point>BDR</Point>
+            <Point>BRO</Point>
+            <Point>DTI</Point>
+            <Point>DWA</Point>
+            <Point>GWZ</Point>
+            <Point>MAV</Point>
+            <Point>QHA</Point>
+        </Symbol>
+        <Symbol Type="DotFillCircle">
+            <Point>AB</Point>
+            <Point>AM</Point>
+            <Point>AS</Point>
+            <Point>AX</Point>
+            <Point>AY</Point>
+            <Point>AZZ</Point>
+            <Point>BL</Point>
+            <Point>DM</Point>
+            <Point>GO</Point>
+            <Point>JM</Point>
+            <Point>LA</Point>
+            <Point>LLB</Point>
+            <Point>MK</Point>
+            <Point>SB</Point>
+            <Point>TN</Point>
+        </Symbol>
+    </Map>
+    <Map Name="ALL_NAVAIDS_NAMES" Priority="0" Type="System">
+        <Label hasLeader="true">
+        <!-- VORs -->
+            <Point Name="ABI">ABI</Point>
+            <Point Name="ADS">ADS</Point>
+            <Point Name="ASM">ASM</Point>
+            <Point Name="BDR">BDR</Point>
+            <Point Name="BRO">BRO</Point>
+            <Point Name="DTI">DTI</Point>
+            <Point Name="DWA">DWA</Point>
+            <Point Name="GWZ">GWZ</Point>
+            <Point Name="MAV">MAV</Point>
+            <Point Name="QHA">QHA</Point>
+        <!-- NDBs -->
+            <Point Name="AB">AB</Point>
+            <Point Name="AM">AM</Point>
+            <Point Name="AS">AS</Point>
+            <Point Name="AX">AX</Point>
+            <Point Name="AY">AY</Point>
+            <Point Name="AZZ">AZZ</Point>
+            <Point Name="BL">BL</Point>
+            <Point Name="DM">DM</Point>
+            <Point Name="GO">GO</Point>
+            <Point Name="JM">JM</Point>
+            <Point Name="LA">LA</Point>
+            <Point Name="LLB">LLB</Point>
+            <Point Name="MK">MK</Point>
+            <Point Name="SB">SB</Point>
+            <Point Name="TN">TN</Point>
+        </Label>
+    </Map>
+</Maps>
