@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Profile Name="Sudan" FullName="TopSky Sudan">
-	<Version AIRAC="2206" Revision="a" PublishDate="20220616" UpdateURL="https://github.com/NEAvACC/Sudan-vatSys" />
+<?xml version="1.0" encoding="utf-8"?>
+<Profile Name="Khartoum" FullName="Eurocat">
+	<Version AIRAC="2407" Revision="b" PublishDate="20240724" />
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="https://sawbe.com/GRIB/" />
 		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
-	</Servers>	
+		<SweatBox url="sweatbox01-training.vatpac.org" />
+		<SweatBox2 url="sweatbox02-training.vatpac.org" />
+	</Servers>
 </Profile>
