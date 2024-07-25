@@ -1,3 +1,3 @@
-# VATSYS Sudan Sector File
+# Khartoum-Dataset
 
-A vatSys Dataset for the Addis Ababa FIR on VATSIM.
+A vatSys Dataset for the Khartoum FIR on VATSIM.
