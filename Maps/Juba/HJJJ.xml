@@ -352,7 +352,7 @@
             <Point>JJ509</Point>
             <Point>JJ503</Point>
         </Label>
-        <Symbol Type="HollowTriangle">
+        <Symbol Type="SolidStar">
             <Point>TUKLA</Point>
             <Point>JJ505</Point>
             <Point>JJ507</Point>
@@ -371,7 +371,7 @@
             <Point>JJ608</Point>
             <Point>JJ604</Point>
         </Label>
-        <Symbol Type="HollowTriangle">
+        <Symbol Type="SolidStar">
             <Point>MOGIP</Point>
             <Point>JJ610</Point>
             <Point>JJ606</Point>
