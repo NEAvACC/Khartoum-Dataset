@@ -1,7 +1,7 @@
 <Maps>
 
-    <Map Name="RWY18" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
-        <Runway Name="18">
+    <Map Name="RWY36" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
+        <Runway Name="36">
             <Threshold Name="18" Position="+15.602931+032.553030" ExtendedCentrelineTrack="179.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
             <Threshold Name="36" Position="+15.576167+032.553319" />
         </Runway>
@@ -43,7 +43,7 @@
         </Line>
     </Map>
 
-    <Map Name="RWY36" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
+    <Map Name="RWY18" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
         <Runway Name="18">
             <Threshold Name="18" Position="+15.602931+032.553030" />
             <Threshold Name="36" Position="+15.576167+032.553319" ExtendedCentrelineTrack="359.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
