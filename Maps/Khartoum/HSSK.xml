@@ -2,13 +2,13 @@
 
     <Map Name="RWY18" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
         <Runway Name="18">
-            <Threshold Name="18" Position="+15.602931+032.553030" ExtendedCentrelineTrack="179.2" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="18" Position="+15.602931+032.553030" ExtendedCentrelineTrack="179.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
             <Threshold Name="36" Position="+15.576167+032.553319" />
         </Runway>
     </Map>
 
     <!-- Runway 18 STARs -->
-    <Map Type="System" Name="18 STARs" Priority="0">
+    <Map Type="System" Name="RWY18 STARs" Priority="0" Center="+15.590354+032.553153">
         <Line Pattern="Solid">
             <!--STAR HSSK:18:GERAP1A-->
         GERAP/SOGEX/SS408/MISAL
@@ -46,12 +46,12 @@
     <Map Name="RWY36" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
         <Runway Name="18">
             <Threshold Name="18" Position="+15.602931+032.553030" />
-            <Threshold Name="36" Position="+15.576167+032.553319" ExtendedCentrelineTrack="359.3" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="+15.576167+032.553319" ExtendedCentrelineTrack="359.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
         </Runway>
     </Map>
 
     <!-- Runway 36 STARs -->
-    <Map Type="System" Name="36 STARs" Priority="0">
+    <Map Type="System" Name="RWY36 STARs" Priority="0" Center="+15.590354+032.553153">
         <Line Pattern="Solid">
             <!--STAR HSSK:36:GERAP1B-->
         GERAP/BOROG
@@ -87,7 +87,7 @@
     </Map>
 
     <!-- Runway 18 SIDs -->
-    <Map Type="System" Name="18 SIDs" Priority="0">
+    <Map Type="System" Name="RWY18 SIDs" Priority="0" Center="+15.590354+032.553153">
         <Line Pattern="Solid">
             <!--SID HSSK:18:GERAP1A-->
         SS602/SS610/SS618/GERAP
@@ -127,7 +127,7 @@
     </Map>
 
     <!-- Runway 36 SIDs -->
-    <Map Type="System" Name="36 SIDs" Priority="0">
+    <Map Type="System" Name="RWY36 SIDs" Priority="0" Center="+15.590354+032.553153">
         <Line Pattern="Solid">
             <!--SID HSSK:36:GERAP2B-->
         SS702/SS712/SS714/GERAP
@@ -163,7 +163,7 @@
     </Map>
 
     <!-- Symbols and Labels for Runway 18 STARs -->
-    <Map Type="System" Name="18 STARs Labels" Priority="0">
+    <Map Type="System" Name="RWY18 STARs Labels" Priority="0" Center="+15.590354+032.553153">
         <Symbol Type="HollowStar">
             <Point>GERAP</Point>
             <Point>SOGEX</Point>
@@ -201,7 +201,7 @@
     </Map>
 
     <!-- Symbols and Labels for Runway 36 STARs -->
-    <Map Type="System" Name="36 STARs Labels" Priority="0">
+    <Map Type="System" Name="RWY36 STARs Labels" Priority="0" Center="+15.590354+032.553153">
         <Symbol Type="HollowStar">
             <Point>GERAP</Point>
             <Point>BOROG</Point>
@@ -241,7 +241,7 @@
     </Map>
 
     <!-- Symbols and Labels for Runway 18 SIDs -->
-    <Map Type="System" Name="18 SIDs Labels" Priority="0">
+    <Map Type="System" Name="RWY18 SIDs Labels" Priority="0" Center="+15.590354+032.553153">
         <Symbol Type="HollowTriangle">
             <Point>SS602</Point>
             <Point>SS610</Point>
@@ -289,7 +289,7 @@
     </Map>
 
     <!-- Symbols and Labels for Runway 36 SIDs -->
-    <Map Type="System" Name="36 SIDs Labels" Priority="0">
+    <Map Type="System" Name="RWY36 SIDs Labels" Priority="0" Center="+15.590354+032.553153">
         <Symbol Type="HollowTriangle">
             <Point>SS702</Point>
             <Point>SS712</Point>
