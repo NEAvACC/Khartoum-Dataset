@@ -6,7 +6,7 @@
     <Volumes>HSSS_N</Volumes>
     <ResponsibleSectors>KRA,MRA,PSA,DNA</ResponsibleSectors>
   </Sector>
-  <Sector Name="KRS" FullName="Khartoum Center" Frequency="125.700" Callsign="HSSS_1_CTR">
+  <Sector Name="KRS" FullName="Khartoum Center" Frequency="125.700" Callsign="HSSS_2_CTR">
     <Volumes>HSSS_S</Volumes>
     <ResponsibleSectors>OBA,NYA,GNA,FSA,JUB</ResponsibleSectors>
   </Sector>
@@ -93,4 +93,5 @@
   <Sector Name="JB SMC" FullName="Juba Ground" Frequency="121.900" Callsign="HJJJ_GND">
     <Volumes>HJJJ_CTR</Volumes>
   </Sector>
+
 </Sectors>
