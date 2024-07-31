@@ -333,4 +333,31 @@
             <Point>TABKO</Point>
         </Label>
     </Map>
+
+    <Map Name="RWY18_RNP" Type="System" Pattern="Solid" Priority="0" Center="+15.590354+032.553153">
+        <Label HasLeader="true">
+            <Point>MISAL</Point>
+            <Point>SS404</Point>
+            <Point>SS402</Point>
+        </Label>
+        <Symbol Type="SolidStar">
+            <Point>MISAL</Point>
+            <Point>SS404</Point>
+            <Point>SS402</Point>
+        </Symbol>
+        <Line>MISAL/SS404/SS402/+15.666656+032.552467/+15.602975+032.553039/+15.602975+032.553039</Line>
+    </Map>
+    <Map Name="RWY36_RNP" Type="System" Pattern="Solid" Priority="0" Center="+15.590354+032.553153">
+        <Label HasLeader="true">
+            <Point>BOROG</Point>
+            <Point>SS504</Point>
+            <Point>SS502</Point>
+        </Label>
+        <Symbol Type="SolidStar">
+            <Point>BOROG</Point>
+            <Point>SS504</Point>
+            <Point>SS502</Point>
+        </Symbol>
+        <Line>BOROG/SS504/SS502/+15.511969+032.553867/+15.576050+032.553289/+15.576050+032.553289/</Line>
+    </Map>
 </Maps>
