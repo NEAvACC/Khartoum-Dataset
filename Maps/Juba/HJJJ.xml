@@ -1,0 +1,385 @@
+<Maps>
+
+    <Map Name="RWY31" Type="System" Pattern="Solid" Priority="1" Center="+04.871944+031.601111">
+        <Runway Name="18">
+            <Threshold Name="31" Position="+04.865069+031.609319" ExtendedCentrelineTrack="310.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="13" Position="+04.882943+031.588206" />
+        </Runway>
+    </Map>
+    <Map Name="RWY13" Type="System" Pattern="Solid" Priority="1" Center="+04.871944+031.601111">
+        <Runway Name="18">
+            <Threshold Name="31" Position="+04.865069+031.609319" />
+            <Threshold Name="13" Position="+04.882943+031.588206" ExtendedCentrelineTrack="130.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+        </Runway>
+    </Map>
+
+
+    <Map Type="System" Name="RWY13 STARs" Priority="1" Center="+04.871944+031.601111">>
+        <Line Pattern="Solid">ATUGA/JJ967/JJ963/JJ551/JJ962/JJ941/JJ507</Line>
+        <Line Pattern="Solid">
+        EGBIM/JJ525/JJ519/JJ513/JJ511/TUKLA</Line>
+        <Line Pattern="Solid">
+        EPLAS/JJ549/JJ547/JJ543/JJ941/JJ507</Line>
+        <Line Pattern="Solid">
+        IMDUR/JJ535/JJ529/JJ523/JJ521/TUKLA</Line>
+        <Line Pattern="Solid">
+        KABLA/JJ557/JJ555/JJ553/JJ551/JJ962/JJ941/JJ507</Line>
+        <Line Pattern="Solid">
+        OVELA/JJ977/JJ975/JJ963/JJ551/JJ962/JJ941/JJ507</Line>
+        <Line Pattern="Solid">
+        SAGBU/JJ589/JJ587/JJ583/JJ581/TUKLA</Line>
+        <Line Pattern="Solid">
+        TAPOS/JJ539/JJ537/JJ533/JJ531/JJ507</Line>
+    </Map>
+    <Map Type="System" Name="RWY13 STARs Labels" Priority="1" Center="+04.871944+031.601111">>
+        <Symbol Type="HollowStar">
+            <Point>KABLA</Point>
+            <Point>JJ537</Point>
+            <Point>JJ535</Point>
+            <Point>JJ523</Point>
+            <Point>JJ555</Point>
+            <Point>SAGBU</Point>
+            <Point>JJ557</Point>
+            <Point>JJ967</Point>
+            <Point>JJ507</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ962</Point>
+            <Point>JJ583</Point>
+            <Point>JJ521</Point>
+            <Point>JJ549</Point>
+            <Point>JJ581</Point>
+            <Point>JJ547</Point>
+            <Point>JJ589</Point>
+            <Point>OVELA</Point>
+            <Point>JJ533</Point>
+            <Point>TAPOS</Point>
+            <Point>JJ513</Point>
+            <Point>JJ587</Point>
+            <Point>EPLAS</Point>
+            <Point>JJ529</Point>
+            <Point>EGBIM</Point>
+            <Point>JJ963</Point>
+            <Point>JUB</Point>
+            <Point>JJ543</Point>
+            <Point>JJ511</Point>
+            <Point>JJ977</Point>
+            <Point>JJ941</Point>
+            <Point>ATUGA</Point>
+            <Point>TUKLA</Point>
+            <Point>JJ519</Point>
+            <Point>JJ551</Point>
+            <Point>JJ539</Point>
+            <Point>JJ531</Point>
+            <Point>JJ975</Point>
+            <Point>JJ525</Point>
+            <Point>JJ553</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>KABLA</Point>
+            <Point>JJ537</Point>
+            <Point>JJ535</Point>
+            <Point>JJ523</Point>
+            <Point>JJ555</Point>
+            <Point>SAGBU</Point>
+            <Point>JJ557</Point>
+            <Point>JJ967</Point>
+            <Point>JJ507</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ962</Point>
+            <Point>JJ583</Point>
+            <Point>JJ521</Point>
+            <Point>JJ549</Point>
+            <Point>JJ581</Point>
+            <Point>JJ547</Point>
+            <Point>JJ589</Point>
+            <Point>OVELA</Point>
+            <Point>JJ533</Point>
+            <Point>TAPOS</Point>
+            <Point>JJ513</Point>
+            <Point>JJ587</Point>
+            <Point>EPLAS</Point>
+            <Point>JJ529</Point>
+            <Point>EGBIM</Point>
+            <Point>JJ963</Point>
+            <Point>JUB</Point>
+            <Point>JJ543</Point>
+            <Point>JJ511</Point>
+            <Point>JJ977</Point>
+            <Point>JJ941</Point>
+            <Point>ATUGA</Point>
+            <Point>TUKLA</Point>
+            <Point>JJ519</Point>
+            <Point>JJ551</Point>
+            <Point>JJ539</Point>
+            <Point>JJ531</Point>
+            <Point>JJ975</Point>
+            <Point>JJ525</Point>
+            <Point>JJ553</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="RWY31 STARs" Priority="1" Center="+04.871944+031.601111">
+        <Line Pattern="Solid">ATUGA/JJ967/JJ963/JJ962/JJ941/JJ610</Line>
+        <Line Pattern="Solid">EGBIM/JJ618/JJ616/JJ614/JJ612/JJ610</Line>
+        <Line Pattern="Solid">EPLAS/JJ648/JJ646/JJ652/JJ644/JJ642/MOGIP</Line>
+        <Line Pattern="Solid">IMDUR/JJ698/JJ628/JJ626/JJ624/JJ622/JJ610</Line>
+        <Line Pattern="Solid">KABLA/JJ656/JJ654/JJ652/JJ644/JJ642/MOGIP</Line>
+        <Line Pattern="Solid">OVELA/JJ977/JJ975/JJ963/JJ962/JJ941/JJ610</Line>
+        <Line Pattern="Solid">SAGBU/JJ688/JJ963/JJ962/JJ941/JJ610</Line>
+        <Line Pattern="Solid">TAPOS/JJ638/JJ636/JJ634/JJ632/JJ610</Line>
+    </Map>
+    <Map Type="System" Name="RWY31 STARs Labels" Priority="1" Center="+04.871944+031.601111">
+        <Symbol Type="HollowStar">
+            <Point>JJ652</Point>
+            <Point>JJ688</Point>
+            <Point>KABLA</Point>
+            <Point>JJ612</Point>
+            <Point>JJ656</Point>
+            <Point>JJ654</Point>
+            <Point>SAGBU</Point>
+            <Point>JJ626</Point>
+            <Point>JJ638</Point>
+            <Point>JJ618</Point>
+            <Point>JJ616</Point>
+            <Point>JJ610</Point>
+            <Point>JJ628</Point>
+            <Point>JJ967</Point>
+            <Point>JJ636</Point>
+            <Point>JJ644</Point>
+            <Point>JJ614</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ642</Point>
+            <Point>JJ962</Point>
+            <Point>JJ634</Point>
+            <Point>JJ624</Point>
+            <Point>OVELA</Point>
+            <Point>JJ648</Point>
+            <Point>TAPOS</Point>
+            <Point>EPLAS</Point>
+            <Point>EGBIM</Point>
+            <Point>JJ963</Point>
+            <Point>JJ977</Point>
+            <Point>JJ941</Point>
+            <Point>JJ698</Point>
+            <Point>ATUGA</Point>
+            <Point>JJ632</Point>
+            <Point>JJ975</Point>
+            <Point>JJ622</Point>
+            <Point>MOGIP</Point>
+            <Point>JJ646</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>JJ652</Point>
+            <Point>JJ688</Point>
+            <Point>KABLA</Point>
+            <Point>JJ612</Point>
+            <Point>JJ656</Point>
+            <Point>JJ654</Point>
+            <Point>SAGBU</Point>
+            <Point>JJ626</Point>
+            <Point>JJ638</Point>
+            <Point>JJ618</Point>
+            <Point>JJ616</Point>
+            <Point>JJ610</Point>
+            <Point>JJ628</Point>
+            <Point>JJ967</Point>
+            <Point>JJ636</Point>
+            <Point>JJ644</Point>
+            <Point>JJ614</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ642</Point>
+            <Point>JJ962</Point>
+            <Point>JJ634</Point>
+            <Point>JJ624</Point>
+            <Point>OVELA</Point>
+            <Point>JJ648</Point>
+            <Point>TAPOS</Point>
+            <Point>EPLAS</Point>
+            <Point>EGBIM</Point>
+            <Point>JJ963</Point>
+            <Point>JJ977</Point>
+            <Point>JJ941</Point>
+            <Point>JJ698</Point>
+            <Point>ATUGA</Point>
+            <Point>JJ632</Point>
+            <Point>JJ975</Point>
+            <Point>JJ622</Point>
+            <Point>MOGIP</Point>
+            <Point>JJ646</Point>
+        </Label>
+    </Map>
+
+    <Map Type="System" Name="RWY13 SIDs" Priority="1" Center="+04.871944+031.601111">
+        <Line Pattern="Solid">JJ700/JJ767/JJ759/JJ760/ATUGA</Line>
+        <Line Pattern="Solid">JJ700/JJ701/JJ703/JJ705/JJ707/JJ709/DEMRA/EGBIM</Line>
+        <Line Pattern="Solid">JJ700/JJ701/JJ740/EPLAS</Line>
+        <Line Pattern="Solid">JJ700/JJ701/JJ703/JJ705/JJ707/JJ719/EMENO/IMDUR</Line>
+        <Line Pattern="Solid">JJ700/JJ767/JJ759/JJ750/KABLA</Line>
+        <Line Pattern="Solid">JJ700/JJ767/JJ769/JJ770/OVELA</Line>
+        <Line Pattern="Solid">JJ700/JJ767/JJ769/JJ780/SAGBU</Line>
+        <Line Pattern="Solid">JJ700/JJ701/JJ703/GIDUD/TAPOS</Line>
+    </Map>
+    <Map Type="System" Name="RWY13 SIDs Labels" Priority="1" Center="+04.871944+031.601111">
+        <Symbol Type="HollowTriangle">
+            <Point>JJ705</Point>
+            <Point>KABLA</Point>
+            <Point>JJ703</Point>
+            <Point>JJ750</Point>
+            <Point>SAGBU</Point>
+            <Point>DEMRA</Point>
+            <Point>JJ701</Point>
+            <Point>JJ740</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ770</Point>
+            <Point>JJ767</Point>
+            <Point>OVELA</Point>
+            <Point>JJ760</Point>
+            <Point>JJ707</Point>
+            <Point>TAPOS</Point>
+            <Point>JJ769</Point>
+            <Point>JJ759</Point>
+            <Point>JJ719</Point>
+            <Point>EPLAS</Point>
+            <Point>GIDUD</Point>
+            <Point>EGBIM</Point>
+            <Point>EMENO</Point>
+            <Point>JJ709</Point>
+            <Point>ATUGA</Point>
+            <Point>JJ780</Point>
+            <Point>JJ700</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>JJ705</Point>
+            <Point>KABLA</Point>
+            <Point>JJ703</Point>
+            <Point>JJ750</Point>
+            <Point>SAGBU</Point>
+            <Point>DEMRA</Point>
+            <Point>JJ701</Point>
+            <Point>JJ740</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ770</Point>
+            <Point>JJ767</Point>
+            <Point>OVELA</Point>
+            <Point>JJ760</Point>
+            <Point>JJ707</Point>
+            <Point>TAPOS</Point>
+            <Point>JJ769</Point>
+            <Point>JJ759</Point>
+            <Point>JJ719</Point>
+            <Point>EPLAS</Point>
+            <Point>GIDUD</Point>
+            <Point>EGBIM</Point>
+            <Point>EMENO</Point>
+            <Point>JJ709</Point>
+            <Point>ATUGA</Point>
+            <Point>JJ780</Point>
+            <Point>JJ700</Point>
+        </Label>
+    </Map>
+    <Map Type="System" Name="RWY31 SIDs" Priority="1" Center="+04.871944+031.601111">
+        <Line Pattern="Solid">JJ802/JJ832/JJ834/JJ836/JJ860/ATUGA</Line>
+        <Line Pattern="Solid">JJ802/JJ804/JJ806/JJ810/EGBIM</Line>
+        <Line Pattern="Solid">JJ802/JJ832/JJ834/JJ836/JJ860/JJ838/LADVA/EPLAS</Line>
+        <Line Pattern="Solid">JJ802/JJ804/JJ806/JJ618/IMKOL/IMDUR</Line>
+        <Line Pattern="Solid">JJ802/JJ832/JJ834/JJ836/JJ860/JJ850/KABLA</Line>
+        <Line Pattern="Solid">JJ802/JJ832/JJ834/JJ868/JJ870/OVELA</Line>
+        <Line Pattern="Solid">JJ802/JJ832/JJ880/SAGBU</Line>
+        <Line Pattern="Solid">JJ802/JJ804/JJ828/KATIV/TAPOS</Line>
+    </Map>
+    <Map Type="System" Name="RWY31 SIDs Labels" Priority="1" Center="+04.871944+031.601111">
+        <Symbol Type="HollowTriangle">
+            <Point>KABLA</Point>
+            <Point>JJ836</Point>
+            <Point>LADVA</Point>
+            <Point>SAGBU</Point>
+            <Point>KATIV</Point>
+            <Point>JJ618</Point>
+            <Point>JJ850</Point>
+            <Point>JJ802</Point>
+            <Point>JJ870</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ838</Point>
+            <Point>JJ806</Point>
+            <Point>OVELA</Point>
+            <Point>TAPOS</Point>
+            <Point>JJ834</Point>
+            <Point>EPLAS</Point>
+            <Point>JJ810</Point>
+            <Point>JJ832</Point>
+            <Point>EGBIM</Point>
+            <Point>IMKOL</Point>
+            <Point>JJ880</Point>
+            <Point>ATUGA</Point>
+            <Point>JJ868</Point>
+            <Point>JJ804</Point>
+            <Point>JJ860</Point>
+            <Point>JJ828</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>KABLA</Point>
+            <Point>JJ836</Point>
+            <Point>LADVA</Point>
+            <Point>SAGBU</Point>
+            <Point>KATIV</Point>
+            <Point>JJ618</Point>
+            <Point>JJ850</Point>
+            <Point>JJ802</Point>
+            <Point>JJ870</Point>
+            <Point>IMDUR</Point>
+            <Point>JJ838</Point>
+            <Point>JJ806</Point>
+            <Point>OVELA</Point>
+            <Point>TAPOS</Point>
+            <Point>JJ834</Point>
+            <Point>EPLAS</Point>
+            <Point>JJ810</Point>
+            <Point>JJ832</Point>
+            <Point>EGBIM</Point>
+            <Point>IMKOL</Point>
+            <Point>JJ880</Point>
+            <Point>ATUGA</Point>
+            <Point>JJ868</Point>
+            <Point>JJ804</Point>
+            <Point>JJ860</Point>
+            <Point>JJ828</Point>
+        </Label>
+    </Map>
+    <Map Name="RWY13_RNP" Type="System" Pattern="Solid" Priority="0" Center="+04.871944+031.601111">
+        <Label HasLeader="true">
+            <Point>TUKLA</Point>
+            <Point>JJ505</Point>
+            <Point>JJ507</Point>
+            <Point>JJ509</Point>
+            <Point>JJ503</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+            <Point>TUKLA</Point>
+            <Point>JJ505</Point>
+            <Point>JJ507</Point>
+            <Point>JJ509</Point>
+            <Point>JJ503</Point>
+        </Symbol>
+        <Line>JJ509/JJ505/JJ503/+04.883106+031.588033/+04.883106+031.588033/</Line>
+        <Line>JJ507/JJ505/JJ503/+04.883106+031.588033/+04.883106+031.588033/</Line>
+        <Line>TUKLA/JJ505/JJ503/+04.883106+031.588033/+04.883106+031.588033/</Line>
+    </Map>
+    <Map Name="RWY31_RNP" Type="System" Pattern="Solid" Priority="0" Center="+04.871944+031.601111">
+        <Label HasLeader="true">
+            <Point>MOGIP</Point>
+            <Point>JJ610</Point>
+            <Point>JJ606</Point>
+            <Point>JJ608</Point>
+            <Point>JJ604</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+            <Point>MOGIP</Point>
+            <Point>JJ610</Point>
+            <Point>JJ606</Point>
+            <Point>JJ608</Point>
+            <Point>JJ604</Point>
+        </Symbol>
+        <Line>JJ610/JJ606/JJ604/+04.798878+031.687342/+04.865006+031.609381/</Line>
+        <Line>JJ608/JJ606/JJ604/+04.798878+031.687342/+04.865006+031.609381/</Line>
+        <Line>MOGIP/JJ606/JJ604/+04.798878+031.687342/+04.865006+031.609381/</Line>
+    </Map>
+</Maps>
