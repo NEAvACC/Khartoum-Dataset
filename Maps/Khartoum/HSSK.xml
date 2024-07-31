@@ -1,14 +1,451 @@
 <Maps>
-    <Map Name="HSSK_RWY18" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
-        <Runway Name="18">
-            <Threshold Name="18" Position="+15.602931+032.553030" ExtendedCentrelineTrack="179.2" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+
+    <Map Name="RWY36" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
+        <Runway Name="36">
+            <Threshold Name="18" Position="+15.602931+032.553030" ExtendedCentrelineTrack="179.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
             <Threshold Name="36" Position="+15.576167+032.553319" />
         </Runway>
     </Map>
-    <Map Name="HSSK_RWY36" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
+
+    <!-- Runway 18 STARs -->
+    <Map Type="System" Name="RWY18 STARs" Priority="0" Center="+15.590354+032.553153">
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:GERAP1A-->
+        GERAP/SOGEX/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:KAREP1A-->
+        KAREP/SS450/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:KUVTI1A-->
+        KUVTI/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:PASIL1A-->
+        PASIL/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:RADKA1A-->
+        RADKA/SS450/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:SIVIL1A-->
+        SIVIL/SS416/SS414/SS412/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:SODAB1A-->
+        SODAB/SS416/SS414/SS412/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:TABKO1A-->
+        TABKO/SOGEX/SS408/MISAL
+        </Line>
+    </Map>
+
+    <Map Name="RWY18" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
         <Runway Name="18">
             <Threshold Name="18" Position="+15.602931+032.553030" />
-            <Threshold Name="36" Position="+15.576167+032.553319" ExtendedCentrelineTrack="359.3" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+            <Threshold Name="36" Position="+15.576167+032.553319" ExtendedCentrelineTrack="359.3" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
         </Runway>
+    </Map>
+
+    <!-- Runway 36 STARs -->
+    <Map Type="System" Name="RWY36 STARs" Priority="0" Center="+15.590354+032.553153">
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:GERAP1B-->
+        GERAP/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:KAREP1B-->
+        KAREP/SS518/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:KUVTI1B-->
+        KUVTI/SS514/SS512/SS510/SS508/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:PASIL1B-->
+        PASIL/SS514/SS512/SS510/SS508/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:RADKA1B-->
+        RADKA/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:SIVIL1B-->
+        SIVIL/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:SODAB1B-->
+        SODAB/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:TABKO1B-->
+        TABKO/SOGEX/SS516/SS510/SS508/BOROG
+        </Line>
+    </Map>
+
+    <!-- Runway 18 SIDs -->
+    <Map Type="System" Name="RWY18 SIDs" Priority="0" Center="+15.590354+032.553153">
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:GERAP1A-->
+        SS602/SS610/SS618/GERAP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:KAREP1A-->
+        SS602/SS604/KAREP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:KUVTI1A-->
+        SS602/SS612/SS614/SS626/SS628/KUVTI
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:PASIL1A-->
+        SS602/SS612/SS614/SS626/PASIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:RADKA1A-->
+        SS602/SS606/RADKA
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:SIVIL1A-->
+        SS602/SS608/SIVIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:SODAB1A-->
+        SS602/SS608/SODAB
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:TABKO1A-->
+        SS602/SS612/SS624/TABKO
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:TABKO1C-->
+        SS602/SS610/SS618/SS620/TABKO
+        </Line>
+    </Map>
+
+    <!-- Runway 36 SIDs -->
+    <Map Type="System" Name="RWY36 SIDs" Priority="0" Center="+15.590354+032.553153">
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:GERAP2B-->
+        SS702/SS712/SS714/GERAP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:KAREP2B-->
+        SS702/+15.665392+032.552464/
+        +15.665392+032.552464/
+        +15.665392+032.552464/
+        +15.667574+032.552542/
+        +15.667574+032.552542/
+        +15.669741+032.552816/
+        +15.669741+032.552816/
+        +15.671878+032.553283/
+        +15.671878+032.553283/
+        +15.673967+032.553941/
+        +15.673967+032.553941/
+        +15.675994+032.554783/
+        +15.675994+032.554783/
+        +15.677943+032.555805/
+        +15.677943+032.555805/
+        +15.679799+032.556998/
+        +15.679799+032.556998/
+        +15.681549+032.558353/
+        +15.681549+032.558353/
+        +15.683180+032.559861/
+        +15.683180+032.559861/
+        +15.684678+032.561509/
+        +15.684678+032.561509/
+        +15.686034+032.563286/
+        +15.686034+032.563286/
+        +15.687237+032.565178/
+        +15.687237+032.565178/
+        +15.688277+032.567170/
+        +15.688277+032.567170/
+        +15.689148+032.569249/
+        +15.689148+032.569249/
+        +15.689841+032.571398/
+        +15.689841+032.571398/
+        +15.690354+032.573602/
+        +15.690354+032.573602/
+        +15.690680+032.575843/
+        +15.690680+032.575843/
+        +15.690819+032.578105/
+        +15.690819+032.578105/
+        +15.690768+032.580371/
+        +15.690768+032.580371/
+        +15.690529+032.582624/
+        +15.690529+032.582624/
+        +15.690103+032.584847/
+        +15.690103+032.584847/
+        +15.689493+032.587024/
+        +15.689493+032.587024/
+        +15.688705+032.589137/
+        +15.688705+032.589137/
+        +15.687743+032.591172/
+        +15.687743+032.591172/
+        +15.686615+032.593113/
+        +15.686615+032.593113/
+        +15.685329+032.594945/
+        +15.685329+032.594945/
+        +15.683896+032.596655/
+        +15.683896+032.596655/
+        +15.682325+032.598229/
+        +15.682325+032.598229/
+        +15.680629+032.599657/
+        +15.680629+032.599657/
+        +15.678821+032.600927/
+        +15.678821+032.600927/
+        +15.676913+032.602029/
+        +15.676913+032.602029/
+        +15.674921+032.602956/
+        +15.674921+032.602956/
+        +15.672859+032.603701/
+        +15.672859+032.603701/
+        +15.670742+032.604258/
+        +15.670742+032.604258/
+        +15.668588+032.604622/
+        +15.668588+032.604622/
+        +15.666410+032.604791/
+        +15.666410+032.604791/
+        +15.664227+032.604765/
+        +15.664227+032.604765/
+        +15.662055+032.604542/
+        +15.662055+032.604542/
+        +15.659908+032.604125/
+        +15.659908+032.604125/
+        +15.657805+032.603516/
+        +15.657805+032.603516/
+        +15.655761+032.602721/
+        +15.655761+032.602721/
+        +15.653790+032.601746/
+        +15.653790+032.601746/
+        +15.566092+032.553378/
+        +15.566092+032.553378/SS450/SS720/KAREP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:KUVTI2B-->
+        SS702/SS704/KUVTI
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:PASIL2B-->
+        SS702/SS706/SS708/SS710/PASIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:RADKA2B-->
+        SS702/SS450/SS718/RADKA
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:SIVIL2B-->
+        SS702/SS712/SS714/SS716/SIVIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:SODAB2B-->
+        SS702/SS712/SS714/SS716/SODAB
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:TABKO2B-->
+        SS702/SS706/SS708/SS710/TABKO
+        </Line>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 18 STARs -->
+    <Map Type="System" Name="RWY18 STARs Labels" Priority="0" Center="+15.590354+032.553153">
+        <Symbol Type="HollowStar">
+            <Point>GERAP</Point>
+            <Point>SOGEX</Point>
+            <Point>SS408</Point>
+            <Point>MISAL</Point>
+            <Point>KAREP</Point>
+            <Point>SS450</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SS416</Point>
+            <Point>SS414</Point>
+            <Point>SS412</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>GERAP</Point>
+            <Point>SOGEX</Point>
+            <Point>SS408</Point>
+            <Point>MISAL</Point>
+            <Point>KAREP</Point>
+            <Point>SS450</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SS416</Point>
+            <Point>SS414</Point>
+            <Point>SS412</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Label>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 36 STARs -->
+    <Map Type="System" Name="RWY36 STARs Labels" Priority="0" Center="+15.590354+032.553153">
+        <Symbol Type="HollowStar">
+            <Point>GERAP</Point>
+            <Point>BOROG</Point>
+            <Point>KAREP</Point>
+            <Point>SS518</Point>
+            <Point>KUVTI</Point>
+            <Point>SS514</Point>
+            <Point>SS512</Point>
+            <Point>SS510</Point>
+            <Point>SS508</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+            <Point>SOGEX</Point>
+            <Point>SS516</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>GERAP</Point>
+            <Point>BOROG</Point>
+            <Point>KAREP</Point>
+            <Point>SS518</Point>
+            <Point>KUVTI</Point>
+            <Point>SS514</Point>
+            <Point>SS512</Point>
+            <Point>SS510</Point>
+            <Point>SS508</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+            <Point>SOGEX</Point>
+            <Point>SS516</Point>
+        </Label>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 18 SIDs -->
+    <Map Type="System" Name="RWY18 SIDs Labels" Priority="0" Center="+15.590354+032.553153">
+        <Symbol Type="HollowTriangle">
+            <Point>SS602</Point>
+            <Point>SS610</Point>
+            <Point>SS618</Point>
+            <Point>GERAP</Point>
+            <Point>SS604</Point>
+            <Point>KAREP</Point>
+            <Point>SS612</Point>
+            <Point>SS614</Point>
+            <Point>SS626</Point>
+            <Point>SS628</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>SS606</Point>
+            <Point>RADKA</Point>
+            <Point>SS608</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>SS624</Point>
+            <Point>TABKO</Point>
+            <Point>SS620</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>SS602</Point>
+            <Point>SS610</Point>
+            <Point>SS618</Point>
+            <Point>GERAP</Point>
+            <Point>SS604</Point>
+            <Point>KAREP</Point>
+            <Point>SS612</Point>
+            <Point>SS614</Point>
+            <Point>SS626</Point>
+            <Point>SS628</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>SS606</Point>
+            <Point>RADKA</Point>
+            <Point>SS608</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>SS624</Point>
+            <Point>TABKO</Point>
+            <Point>SS620</Point>
+        </Label>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 36 SIDs -->
+    <Map Type="System" Name="RWY36 SIDs Labels" Priority="0" Center="+15.590354+032.553153">
+        <Symbol Type="HollowTriangle">
+            <Point>SS702</Point>
+            <Point>SS712</Point>
+            <Point>SS714</Point>
+            <Point>GERAP</Point>
+            <Point>SS450</Point>
+            <Point>SS720</Point>
+            <Point>KAREP</Point>
+            <Point>SS704</Point>
+            <Point>KUVTI</Point>
+            <Point>SS706</Point>
+            <Point>SS708</Point>
+            <Point>SS710</Point>
+            <Point>PASIL</Point>
+            <Point>SS718</Point>
+            <Point>RADKA</Point>
+            <Point>SS716</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>SS702</Point>
+            <Point>SS712</Point>
+            <Point>SS714</Point>
+            <Point>GERAP</Point>
+            <Point>SS450</Point>
+            <Point>SS720</Point>
+            <Point>KAREP</Point>
+            <Point>SS704</Point>
+            <Point>KUVTI</Point>
+            <Point>SS706</Point>
+            <Point>SS708</Point>
+            <Point>SS710</Point>
+            <Point>PASIL</Point>
+            <Point>SS718</Point>
+            <Point>RADKA</Point>
+            <Point>SS716</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Label>
+    </Map>
+
+    <Map Name="RWY18_RNP" Type="System" Pattern="Solid" Priority="0" Center="+15.590354+032.553153">
+        <Label HasLeader="true">
+            <Point>MISAL</Point>
+            <Point>SS404</Point>
+            <Point>SS402</Point>
+        </Label>
+        <Symbol Type="SolidStar">
+            <Point>MISAL</Point>
+            <Point>SS404</Point>
+            <Point>SS402</Point>
+        </Symbol>
+        <Line>MISAL/SS404/SS402/+15.666656+032.552467/+15.602975+032.553039/+15.602975+032.553039</Line>
+    </Map>
+    <Map Name="RWY36_RNP" Type="System" Pattern="Solid" Priority="0" Center="+15.590354+032.553153">
+        <Label HasLeader="true">
+            <Point>BOROG</Point>
+            <Point>SS504</Point>
+            <Point>SS502</Point>
+        </Label>
+        <Symbol Type="SolidStar">
+            <Point>BOROG</Point>
+            <Point>SS504</Point>
+            <Point>SS502</Point>
+        </Symbol>
+        <Line>BOROG/SS504/SS502/+15.511969+032.553867/+15.576050+032.553289/+15.576050+032.553289/</Line>
     </Map>
 </Maps>
