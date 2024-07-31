@@ -5,6 +5,7 @@
   <!--ACC Positions-->
 
   <Group Name="Enroute">
+
     <Position Name="Khartoum North (Bandbox)" Type="ASD" DefaultCenter="+14.229056+030.242251" DefaultRange="2500">
       <Sectors>
         <Sector Name="KRN" />
@@ -21,6 +22,8 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -55,6 +58,8 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -89,6 +94,8 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -106,11 +113,13 @@
         <Line>Covering HJJJ FIR up to FL245 | Report Callsign, Aircraft Type and Position on Initial Contact</Line>
       </ControllerInfo>
     </Position>
+
   </Group>
 
   <!--APP Positions-->
 
   <Group Name="Approach">
+
     <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.197889+032.556797" DefaultRange="800">
       <Sectors>
         <Sector Name="KRA" />
@@ -119,6 +128,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -146,6 +158,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -174,6 +189,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -201,6 +219,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -229,6 +250,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -247,12 +271,13 @@
         <Line>Covering Port Sudan TMA upto FL195</Line>
       </ControllerInfo>
     </Position>
+
   </Group>
 
   <!--Control TWR Positions-->
 
   <Group Name="Control Tower">
-    <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.589444+032.553056" DefaultRange="50">
+    <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.589444+032.553056" DefaultRange="180">
       <Sectors>
         <Sector Name="KR ADC" />
       </Sectors>
@@ -260,6 +285,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -276,7 +304,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Port Sudan" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="50">
+    <Position Name="Port Sudan" Type="ASD" DefaultCenter="+19.433667+037.234167" DefaultRange="180">
       <Sectors>
         <Sector Name="PS ADC" />
       </Sectors>
@@ -284,6 +312,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -300,7 +331,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Merowe" Type="ASD" DefaultCenter="+18.443056+031.843056" DefaultRange="50">
+    <Position Name="Merowe" Type="ASD" DefaultCenter="+18.443056+031.843056" DefaultRange="180">
       <Sectors>
         <Sector Name="MR ADC" />
       </Sectors>
@@ -308,6 +339,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -327,7 +361,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Genina" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="50">
+    <Position Name="Genina" Type="ASD" DefaultCenter="+13.477500+022.537167" DefaultRange="180">
       <Sectors>
         <Sector Name="GN ADC" />
       </Sectors>
@@ -335,6 +369,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -351,7 +388,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="El-Fashir" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="50">
+    <Position Name="El-Fashir" Type="ASD" DefaultCenter="+13.614722+025.324445" DefaultRange="180">
       <Sectors>
         <Sector Name="FS ADC" />
       </Sectors>
@@ -359,6 +396,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -375,7 +415,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Neyala" Type="ASD" DefaultCenter="+12.053611+024.956111" DefaultRange="50">
+    <Position Name="Neyala" Type="ASD" DefaultCenter="+12.053611+024.956111" DefaultRange="180">
       <Sectors>
         <Sector Name="NY ADC" />
       </Sectors>
@@ -383,6 +423,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -398,7 +441,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Dongola" Type="ASD" DefaultCenter="+19.153611+030.430000" DefaultRange="50">
+    <Position Name="Dongola" Type="ASD" DefaultCenter="+19.153611+030.430000" DefaultRange="180">
       <Sectors>
         <Sector Name="DN ADC" />
       </Sectors>
@@ -406,6 +449,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -421,7 +467,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="El-Obied" Type="ASD" DefaultCenter="+13.152833+030.232833" DefaultRange="50">
+    <Position Name="El-Obied" Type="ASD" DefaultCenter="+13.152833+030.232833" DefaultRange="180">
       <Sectors>
         <Sector Name="OB ADC" />
       </Sectors>
@@ -429,6 +475,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -444,7 +493,7 @@
       </ControllerInfo>
     </Position>
 
-    <Position Name="Kassala" Type="ASD" DefaultCenter="+15.387222+036.328611" DefaultRange="50">
+    <Position Name="Kassala" Type="ASD" DefaultCenter="+15.387222+036.328611" DefaultRange="180">
       <Sectors>
         <Sector Name="KS ADC" />
       </Sectors>
@@ -452,6 +501,9 @@
         <Map Name="ALL_NAVAIDS"/>
         <Map Name="ALL_NAVAIDS_NAMES"/>
         <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
         <Map Name="ALL_ROUTE_HIGH"/>
         <Map Name="ALL_POINTS_HIGH"/>
       </Maps>
@@ -466,12 +518,204 @@
         <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
       </ControllerInfo>
     </Position>
+
+    <Position Name="Juba" Type="ASD" DefaultCenter="+04.871944+031.601111" DefaultRange="180">
+      <Sectors>
+        <Sector Name="JB ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_NAVAIDS"/>
+        <Map Name="ALL_NAVAIDS_NAMES"/>
+        <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
+        <Map Name="ALL_ROUTE_HIGH"/>
+        <Map Name="ALL_POINTS_HIGH"/>
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="HJJJ" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="HJJJ" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>"Juba Tower"</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+      <ControllerInfo>
+        <Line>"Juba Ground"</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+    </Position>
+
   </Group>
 
+  <!--Procedural TWR Positions-->
 
+  <Group Name="Procedural Tower">
+    <Position Name="Atbara" Type="ASD" DefaultCenter="+17.709667+034.057167" DefaultRange="100">
+      <Sectors>
+        <Sector Name="AT ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_NAVAIDS"/>
+        <Map Name="ALL_NAVAIDS_NAMES"/>
+        <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
+        <Map Name="ALL_ROUTE_HIGH"/>
+        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_AIRPORTS"/>
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="HSAT" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="HSAT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>"Atbara Radio" | Procedural Service</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+    </Position>
 
+    <Position Name="Wadi Halfa" Type="ASD" DefaultCenter="+21.802833+031.522000" DefaultRange="100">
+      <Sectors>
+        <Sector Name="WF ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_NAVAIDS"/>
+        <Map Name="ALL_NAVAIDS_NAMES"/>
+        <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
+        <Map Name="ALL_ROUTE_HIGH"/>
+        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_AIRPORTS"/>
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="HSWW" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="HSWW" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>"Wadi Halfa Radio" | Procedural Service</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+    </Position>
 
+    <Position Name="Damazin" Type="ASD" DefaultCenter="+11.786167+034.333333" DefaultRange="100">
+      <Sectors>
+        <Sector Name="DZ ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_NAVAIDS"/>
+        <Map Name="ALL_NAVAIDS_NAMES"/>
+        <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
+        <Map Name="ALL_ROUTE_HIGH"/>
+        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_AIRPORTS"/>
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="HSDZ" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="HSDZ" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>"Damazin Radio" | Procedural Service</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+    </Position>
 
+    <Position Name="Wau" Type="ASD" DefaultCenter="+07.725833+027.975000" DefaultRange="100">
+      <Sectors>
+        <Sector Name="WO ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_NAVAIDS"/>
+        <Map Name="ALL_NAVAIDS_NAMES"/>
+        <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
+        <Map Name="ALL_ROUTE_HIGH"/>
+        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_AIRPORTS"/>
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="HJWW" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="HJWW" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>"Wau Radio" | Procedural Service</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+    </Position>
 
+    <Position Name="Kadugli" Type="ASD" DefaultCenter="+11.137222+029.699167" DefaultRange="100">
+      <Sectors>
+        <Sector Name="KD ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_NAVAIDS"/>
+        <Map Name="ALL_NAVAIDS_NAMES"/>
+        <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
+        <Map Name="ALL_ROUTE_HIGH"/>
+        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_AIRPORTS"/>
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="HSLI" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="HSLI" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>"Kadugli Radio" | Procedural Service</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+    </Position>
+
+    <Position Name="Malakal" Type="ASD" DefaultCenter="+09.558889+031.652222" DefaultRange="100">
+      <Sectors>
+        <Sector Name="ML ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_NAVAIDS"/>
+        <Map Name="ALL_NAVAIDS_NAMES"/>
+        <Map Name="COAST"/>
+        <Map Name="FIR_BDRY"/>
+        <Map Name="ALL_TMA"/>
+        <Map Name="ALL_CTR"/>
+        <Map Name="ALL_ROUTE_HIGH"/>
+        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_AIRPORTS"/>
+      </Maps>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="HJMK" Visible="true" />
+      </Strips>
+      <ArrivalLists>
+        <Airport Name="HJMK" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>"Malakal Radio" | Procedural Service</Line>
+        <Line>Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+      </ControllerInfo>
+    </Position>
+
+  </Group>
 
 </Positions>
