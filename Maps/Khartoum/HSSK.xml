@@ -1,14 +1,336 @@
 <Maps>
-    <Map Name="HSSK_RWY18" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
+
+    <Map Name="RWY18" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
         <Runway Name="18">
             <Threshold Name="18" Position="+15.602931+032.553030" ExtendedCentrelineTrack="179.2" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
             <Threshold Name="36" Position="+15.576167+032.553319" />
         </Runway>
     </Map>
-    <Map Name="HSSK_RWY36" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
+
+    <!-- Runway 18 STARs -->
+    <Map Type="System" Name="18 STARs" Priority="0">
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:GERAP1A-->
+        GERAP/SOGEX/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:KAREP1A-->
+        KAREP/SS450/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:KUVTI1A-->
+        KUVTI/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:PASIL1A-->
+        PASIL/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:RADKA1A-->
+        RADKA/SS450/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:SIVIL1A-->
+        SIVIL/SS416/SS414/SS412/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:SODAB1A-->
+        SODAB/SS416/SS414/SS412/SS408/MISAL
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:18:TABKO1A-->
+        TABKO/SOGEX/SS408/MISAL
+        </Line>
+    </Map>
+
+    <Map Name="RWY36" Type="System" Pattern="Solid" Priority="1" Center="+15.590354+032.553153">
         <Runway Name="18">
             <Threshold Name="18" Position="+15.602931+032.553030" />
             <Threshold Name="36" Position="+15.576167+032.553319" ExtendedCentrelineTrack="359.3" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
         </Runway>
+    </Map>
+
+    <!-- Runway 36 STARs -->
+    <Map Type="System" Name="36 STARs" Priority="0">
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:GERAP1B-->
+        GERAP/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:KAREP1B-->
+        KAREP/SS518/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:KUVTI1B-->
+        KUVTI/SS514/SS512/SS510/SS508/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:PASIL1B-->
+        PASIL/SS514/SS512/SS510/SS508/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:RADKA1B-->
+        RADKA/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:SIVIL1B-->
+        SIVIL/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:SODAB1B-->
+        SODAB/BOROG
+        </Line>
+        <Line Pattern="Solid">
+            <!--STAR HSSK:36:TABKO1B-->
+        TABKO/SOGEX/SS516/SS510/SS508/BOROG
+        </Line>
+    </Map>
+
+    <!-- Runway 18 SIDs -->
+    <Map Type="System" Name="18 SIDs" Priority="0">
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:GERAP1A-->
+        SS602/SS610/SS618/GERAP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:KAREP1A-->
+        SS602/SS604/KAREP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:KUVTI1A-->
+        SS602/SS612/SS614/SS626/SS628/KUVTI
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:PASIL1A-->
+        SS602/SS612/SS614/SS626/PASIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:RADKA1A-->
+        SS602/SS606/RADKA
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:SIVIL1A-->
+        SS602/SS608/SIVIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:SODAB1A-->
+        SS602/SS608/SODAB
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:TABKO1A-->
+        SS602/SS612/SS624/TABKO
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:18:TABKO1C-->
+        SS602/SS610/SS618/SS620/TABKO
+        </Line>
+    </Map>
+
+    <!-- Runway 36 SIDs -->
+    <Map Type="System" Name="36 SIDs" Priority="0">
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:GERAP2B-->
+        SS702/SS712/SS714/GERAP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:KAREP2B-->
+        SS702/SS450/SS720/KAREP
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:KUVTI2B-->
+        SS702/SS704/KUVTI
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:PASIL2B-->
+        SS702/SS706/SS708/SS710/PASIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:RADKA2B-->
+        SS702/SS450/SS718/RADKA
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:SIVIL2B-->
+        SS702/SS712/SS714/SS716/SIVIL
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:SODAB2B-->
+        SS702/SS712/SS714/SS716/SODAB
+        </Line>
+        <Line Pattern="Solid">
+            <!--SID HSSK:36:TABKO2B-->
+        SS702/SS706/SS708/SS710/TABKO
+        </Line>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 18 STARs -->
+    <Map Type="System" Name="18 STARs Labels" Priority="0">
+        <Symbol Type="HollowStar">
+            <Point>GERAP</Point>
+            <Point>SOGEX</Point>
+            <Point>SS408</Point>
+            <Point>MISAL</Point>
+            <Point>KAREP</Point>
+            <Point>SS450</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SS416</Point>
+            <Point>SS414</Point>
+            <Point>SS412</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>GERAP</Point>
+            <Point>SOGEX</Point>
+            <Point>SS408</Point>
+            <Point>MISAL</Point>
+            <Point>KAREP</Point>
+            <Point>SS450</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SS416</Point>
+            <Point>SS414</Point>
+            <Point>SS412</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Label>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 36 STARs -->
+    <Map Type="System" Name="36 STARs Labels" Priority="0">
+        <Symbol Type="HollowStar">
+            <Point>GERAP</Point>
+            <Point>BOROG</Point>
+            <Point>KAREP</Point>
+            <Point>SS518</Point>
+            <Point>KUVTI</Point>
+            <Point>SS514</Point>
+            <Point>SS512</Point>
+            <Point>SS510</Point>
+            <Point>SS508</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+            <Point>SOGEX</Point>
+            <Point>SS516</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>GERAP</Point>
+            <Point>BOROG</Point>
+            <Point>KAREP</Point>
+            <Point>SS518</Point>
+            <Point>KUVTI</Point>
+            <Point>SS514</Point>
+            <Point>SS512</Point>
+            <Point>SS510</Point>
+            <Point>SS508</Point>
+            <Point>PASIL</Point>
+            <Point>RADKA</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+            <Point>SOGEX</Point>
+            <Point>SS516</Point>
+        </Label>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 18 SIDs -->
+    <Map Type="System" Name="18 SIDs Labels" Priority="0">
+        <Symbol Type="HollowTriangle">
+            <Point>SS602</Point>
+            <Point>SS610</Point>
+            <Point>SS618</Point>
+            <Point>GERAP</Point>
+            <Point>SS604</Point>
+            <Point>KAREP</Point>
+            <Point>SS612</Point>
+            <Point>SS614</Point>
+            <Point>SS626</Point>
+            <Point>SS628</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>SS606</Point>
+            <Point>RADKA</Point>
+            <Point>SS608</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>SS624</Point>
+            <Point>TABKO</Point>
+            <Point>SS620</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>SS602</Point>
+            <Point>SS610</Point>
+            <Point>SS618</Point>
+            <Point>GERAP</Point>
+            <Point>SS604</Point>
+            <Point>KAREP</Point>
+            <Point>SS612</Point>
+            <Point>SS614</Point>
+            <Point>SS626</Point>
+            <Point>SS628</Point>
+            <Point>KUVTI</Point>
+            <Point>PASIL</Point>
+            <Point>SS606</Point>
+            <Point>RADKA</Point>
+            <Point>SS608</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>SS624</Point>
+            <Point>TABKO</Point>
+            <Point>SS620</Point>
+        </Label>
+    </Map>
+
+    <!-- Symbols and Labels for Runway 36 SIDs -->
+    <Map Type="System" Name="36 SIDs Labels" Priority="0">
+        <Symbol Type="HollowTriangle">
+            <Point>SS702</Point>
+            <Point>SS712</Point>
+            <Point>SS714</Point>
+            <Point>GERAP</Point>
+            <Point>SS450</Point>
+            <Point>SS720</Point>
+            <Point>KAREP</Point>
+            <Point>SS704</Point>
+            <Point>KUVTI</Point>
+            <Point>SS706</Point>
+            <Point>SS708</Point>
+            <Point>SS710</Point>
+            <Point>PASIL</Point>
+            <Point>SS718</Point>
+            <Point>RADKA</Point>
+            <Point>SS716</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Symbol>
+        <Label HasLeader="false">
+            <Point>SS702</Point>
+            <Point>SS712</Point>
+            <Point>SS714</Point>
+            <Point>GERAP</Point>
+            <Point>SS450</Point>
+            <Point>SS720</Point>
+            <Point>KAREP</Point>
+            <Point>SS704</Point>
+            <Point>KUVTI</Point>
+            <Point>SS706</Point>
+            <Point>SS708</Point>
+            <Point>SS710</Point>
+            <Point>PASIL</Point>
+            <Point>SS718</Point>
+            <Point>RADKA</Point>
+            <Point>SS716</Point>
+            <Point>SIVIL</Point>
+            <Point>SODAB</Point>
+            <Point>TABKO</Point>
+        </Label>
     </Map>
 </Maps>
