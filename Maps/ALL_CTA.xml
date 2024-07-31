@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <Maps>
-        <Map Type="System2" Name="ALL_TMA" Priority="0">
-                <Line Name="HSSK_B_TMA" Pattern="Solid">
+        <Map Type="System" Name="ALL_TMA" Priority="2">
+                <Line Name="HSSK_B_TMA" Pattern="Dashed">
 +16.564882+032.550556/
 +16.552518+032.712855/
 +16.552518+032.712855/
@@ -83,7 +83,7 @@
 +16.552518+032.388257/
 +16.564882+032.550556/
                 </Line>
-                <Line Name="HSSK_A_TMA" Pattern="Solid">
+                <Line Name="HSSK_A_TMA" Pattern="Dashed">
 +17.074231+033.337449/
 +17.175021+033.086719/
 +17.175021+033.086719/
@@ -171,7 +171,7 @@
 +16.936704+033.568819/
 +17.074231+033.337449/
                 </Line>
-                <Line Name="HSSG_TMA" Pattern="Solid">
+                <Line Name="HSSG_TMA" Pattern="Dashed">
 +14.272369+022.425842/
 +14.224451+022.568665/
 +14.224451+022.568665/
@@ -241,7 +241,7 @@
 +14.307494+022.533611/
 +14.272369+022.425842/
                 </Line>
-                <Line Name="HSPN_TMA" Pattern="Solid">
+                <Line Name="HSPN_TMA" Pattern="Dashed">
 +20.071332+037.601885/
 +20.009638+037.708204/
 +20.009638+037.708204/
@@ -323,7 +323,7 @@
 +20.116533+037.486680/
 +20.071332+037.601885/
                 </Line>
-                <Line Name="HSOB_TMA" Pattern="Solid">
+                <Line Name="HSOB_TMA" Pattern="Dashed">
 +13.935539+030.358772/
 +13.945827+030.225000/
 +13.945827+030.225000/
@@ -405,7 +405,7 @@
 +13.904931+030.489249/
 +13.935539+030.358772/
                 </Line>
-                <Line Name="HSNN_TMA" Pattern="Solid">
+                <Line Name="HSNN_TMA" Pattern="Dashed">
 +12.709363+025.181374/
 +12.733828+025.077416/
 +12.733828+025.077416/
@@ -487,7 +487,7 @@
 +12.669264+025.280146/
 +12.709363+025.181374/
                 </Line>
-                <Line Name="HSMN_TMA" Pattern="Solid">
+                <Line Name="HSMN_TMA" Pattern="Dashed">
 +18.766838+032.202665/
 +18.817872+032.139827/
 +18.817872+032.139827/
@@ -569,7 +569,7 @@
 +18.707106+032.256333/
 +18.766838+032.202665/
                 </Line>
-                <Line Name="HSFS_TMA" Pattern="Solid">
+                <Line Name="HSFS_TMA" Pattern="Dashed">
 +14.425816+025.434322/
 +14.395203+025.565065/
 +14.395203+025.565065/
@@ -651,7 +651,7 @@
 +14.436105+025.300278/
 +14.425816+025.434322/
                 </Line>
-                <Line Name="HSDN_TMA" Pattern="Solid">
+                <Line Name="HSDN_TMA" Pattern="Dashed">
 +19.777767+030.747199/
 +19.817925+030.644933/
 +19.817925+030.644933/
@@ -733,7 +733,7 @@
 +19.722955+030.841578/
 +19.777767+030.747199/
                 </Line>
-                <Line Name="HJJJ_TMA_T1" Pattern="Solid">
+                <Line Name="HJJJ_TMA_T1" Pattern="Dashed">
 +04.000000+033.021667/
 +04.000000+030.204445/
 +04.116327+030.161591/
@@ -766,7 +766,7 @@
 +04.118289+033.089242/
 +04.000000+033.021667/
                 </Line>
-                <Line Name="HJJJ_TMA_T2" Pattern="Solid">
+                <Line Name="HJJJ_TMA_T2" Pattern="Dashed">
 +05.708755+031.599753/
 +05.698489+031.730509/
 +05.667944+031.858045/
