@@ -38,7 +38,7 @@
     <Lat>+18.443939</Lat>
     <Long>+031.838631</Long>
   </Radar>
-  <Radar Name="Nyala" Type="ADSB" Elevation="2095" MaxRange="25">
+  <Radar Name="Nyala" Type="ADSB" Elevation="2095" MaxRange="256">
     <Lat>+12.053639</Lat>
     <Long>+024.951639</Long>
   </Radar>
