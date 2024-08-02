@@ -2,49 +2,52 @@
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-  <!--ACC Positions-->
+  <!--ACC
+  Positions-->
 
   <Group Name="Enroute">
 
-    <Position Name="Khartoum North (Bandbox)" Type="ASD" DefaultCenter="+14.229056+030.242251" DefaultRange="2500">
+    <Position Name="Khartoum North (Bandbox)" Type="ASD" DefaultCenter="+14.229056+030.242251"
+      DefaultRange="2500">
       <Sectors>
         <Sector Name="KRN" />
         <Sector Name="KRS" />
         <Sector Name="JUB" />
       </Sectors>
       <ManualVisibility>
-        <Point>+19.401144+037.241725</Point>
-        <Point>+04.876111+031.599722</Point>
-        <Point>+19.182569+030.427283</Point>
-        <Point>+13.598358+025.302961</Point>
+        <Point>+17.334444+034.673889</Point>
+        <Point>+18.433611+029.096667</Point>
+        <Point>+12.508333+027.110833</Point>
+        <Point>+08.655556+031.638611</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true"/>
-        <Window Type="State" State="Announced" Visible="true"/>
-        <Window Type="State" State="Preactive" Visible="true"/>
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <ArrivalLists>
-        <Airport Name="HSSK"/>
-        <Airport Name="HSPN"/>
-        <Airport Name="HJJJ"/>
+        <Airport Name="HSSK" />
+        <Airport Name="HSPN" />
+        <Airport Name="HJJJ" />
       </ArrivalLists>
-      <CFL QuickLevel="4000"/>
+      <CFL QuickLevel="4000" />
       <ControllerInfo>
         <Line>"Khartoum Center"</Line>
         <Line>Covering Khartoum and Juba FIR when local ATC offline</Line>
       </ControllerInfo>
     </Position>
 
-    <Position Name="Khartoum South" Type="ASD" DefaultCenter="+11.299281+029.989239" DefaultRange="1500">
+    <Position Name="Khartoum South" Type="ASD" DefaultCenter="+11.299281+029.989239"
+      DefaultRange="1500">
       <Sectors>
         <Sector Name="KRS" />
         <Sector Name="JUB" />
@@ -55,26 +58,26 @@
         <Point>+15.407639+036.337222</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true"/>
-        <Window Type="State" State="Announced" Visible="true"/>
-        <Window Type="State" State="Preactive" Visible="true"/>
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <ArrivalLists>
-        <Airport Name="HJJJ"/>
-        <Airport Name="HSNN"/>
-        <Airport Name="HSOB"/>
-        <Airport Name="HSFS"/>
+        <Airport Name="HJJJ" />
+        <Airport Name="HSNN" />
+        <Airport Name="HSOB" />
+        <Airport Name="HSFS" />
       </ArrivalLists>
-      <CFL QuickLevel="4000"/>
+      <CFL QuickLevel="4000" />
       <ControllerInfo>
         <Line>"Khartoum Center"</Line>
         <Line>Covering the South Sector above FL245+ and Juba FIR when local ATC offline</Line>
@@ -91,32 +94,34 @@
         <Point>+15.407639+036.337222</Point>
       </ManualVisibility>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true"/>
-        <Window Type="State" State="Announced" Visible="true"/>
-        <Window Type="State" State="Preactive" Visible="true"/>
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <ArrivalLists>
-        <Airport Name="HJJJ"/>
+        <Airport Name="HJJJ" />
       </ArrivalLists>
-      <CFL QuickLevel="6000"/>
+      <CFL QuickLevel="6000" />
       <ControllerInfo>
         <Line>"Juba Control"</Line>
-        <Line>Covering HJJJ FIR up to FL245 | Report Callsign, Aircraft Type and Position on Initial Contact</Line>
+        <Line>Covering HJJJ FIR up to FL245 | Report Callsign, Aircraft Type and Position on Initial
+          Contact</Line>
       </ControllerInfo>
     </Position>
 
   </Group>
 
-  <!--APP Positions-->
+  <!--APP
+  Positions-->
 
   <Group Name="Approach">
 
@@ -125,25 +130,25 @@
         <Sector Name="KRA" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true"/>
-        <Window Type="State" State="Announced" Visible="true"/>
-        <Window Type="State" State="Preactive" Visible="true"/>
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <ArrivalLists>
-        <Airport Name="HSSK"/>
+        <Airport Name="HSSK" />
       </ArrivalLists>
-      <CFL QuickLevel="4000"/>
-      <CFL QuickLevel="28000"/>
+      <CFL QuickLevel="4000" />
+      <CFL QuickLevel="28000" />
       <ControllerInfo>
         <Line>"Khartoum Approach"</Line>
         <Line>Covering Khartoum TMA upto FL285</Line>
@@ -155,25 +160,25 @@
         <Sector Name="MRA" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true"/>
-        <Window Type="State" State="Announced" Visible="true"/>
-        <Window Type="State" State="Preactive" Visible="true"/>
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
       <ArrivalLists>
-        <Airport Name="HSMN"/>
+        <Airport Name="HSMN" />
       </ArrivalLists>
-      <CFL QuickLevel="4000"/>
-      <CFL QuickLevel="19000"/>
+      <CFL QuickLevel="4000" />
+      <CFL QuickLevel="19000" />
       <ControllerInfo>
         <Line>"Merowe Approach"</Line>
         <Line>Covering Merowe TMA upto FL195</Line>
@@ -186,14 +191,14 @@
         <Sector Name="FSA" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -216,14 +221,14 @@
         <Sector Name="GNA" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -247,14 +252,14 @@
         <Sector Name="PSA" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -274,7 +279,8 @@
 
   </Group>
 
-  <!--Control TWR Positions-->
+  <!--Control
+  TWR Positions-->
 
   <Group Name="Control Tower">
     <Position Name="Khartoum" Type="ASD" DefaultCenter="+15.589444+032.553056" DefaultRange="180">
@@ -282,14 +288,14 @@
         <Sector Name="KR ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSSK" Visible="true" />
@@ -309,14 +315,14 @@
         <Sector Name="PS ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSPN" Visible="true" />
@@ -336,14 +342,14 @@
         <Sector Name="MR ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSMN" Visible="true" />
@@ -366,14 +372,14 @@
         <Sector Name="GN ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSSG" Visible="true" />
@@ -393,14 +399,14 @@
         <Sector Name="FS ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSFS" Visible="true" />
@@ -420,14 +426,14 @@
         <Sector Name="NY ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSSK" Visible="true" />
@@ -446,14 +452,14 @@
         <Sector Name="DN ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSDN" Visible="true" />
@@ -472,14 +478,14 @@
         <Sector Name="OB ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSOB" Visible="true" />
@@ -498,14 +504,14 @@
         <Sector Name="KS ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSKA" Visible="true" />
@@ -524,14 +530,14 @@
         <Sector Name="JB ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HJJJ" Visible="true" />
@@ -551,7 +557,8 @@
 
   </Group>
 
-  <!--Procedural TWR Positions-->
+  <!--Procedural
+  TWR Positions-->
 
   <Group Name="Procedural Tower">
     <Position Name="Atbara" Type="ASD" DefaultCenter="+17.709667+034.057167" DefaultRange="100">
@@ -559,15 +566,15 @@
         <Sector Name="AT ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
-        <Map Name="ALL_AIRPORTS"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="ALL_AIRPORTS" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSAT" Visible="true" />
@@ -586,15 +593,15 @@
         <Sector Name="WF ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
-        <Map Name="ALL_AIRPORTS"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="ALL_AIRPORTS" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSWW" Visible="true" />
@@ -613,15 +620,15 @@
         <Sector Name="DZ ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
-        <Map Name="ALL_AIRPORTS"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="ALL_AIRPORTS" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSDZ" Visible="true" />
@@ -640,15 +647,15 @@
         <Sector Name="WO ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
-        <Map Name="ALL_AIRPORTS"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="ALL_AIRPORTS" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HJWW" Visible="true" />
@@ -667,15 +674,15 @@
         <Sector Name="KD ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
-        <Map Name="ALL_AIRPORTS"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="ALL_AIRPORTS" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HSLI" Visible="true" />
@@ -694,15 +701,15 @@
         <Sector Name="ML ADC" />
       </Sectors>
       <Maps>
-        <Map Name="ALL_NAVAIDS"/>
-        <Map Name="ALL_NAVAIDS_NAMES"/>
-        <Map Name="COAST"/>
-        <Map Name="FIR_BDRY"/>
-        <Map Name="ALL_TMA"/>
-        <Map Name="ALL_CTR"/>
-        <Map Name="ALL_ROUTE_HIGH"/>
-        <Map Name="ALL_POINTS_HIGH"/>
-        <Map Name="ALL_AIRPORTS"/>
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="ALL_NAVAIDS_NAMES" />
+        <Map Name="COAST" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="ALL_TMA" />
+        <Map Name="ALL_CTR" />
+        <Map Name="ALL_ROUTE_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="ALL_AIRPORTS" />
       </Maps>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="HJMK" Visible="true" />

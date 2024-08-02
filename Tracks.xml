@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <TrackSymbols>
 	<TrackSymbol Type="Primary">
 		<PathGeometry>
@@ -137,7 +137,8 @@
 		</PathGeometry>
 	</TrackSymbol>
 
-	<!--Flight plan square-->
+	<!--Flight
+	plan square-->
 	<TrackSymbol Type="FlightPlan">
 		<RectangleGeometry TopLeft="-6,-6" BottomRight="6,6" />
 	</TrackSymbol>
