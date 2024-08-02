@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Profile Name="Sudan" FullName="Eurocat Sudan (HSSS/HJJJ)">
-	<Version AIRAC="2407" Revision="b" PublishDate="20240711" />
+	<Version AIRAC="2407" Revision="b" PublishDate="20240711" UpdateURL="https://github.com/NEAvACC/Khartoum-Dataset/raw/release/Published"/>
 	<Servers>
 		<VATSIMStatus url="https://status.vatsim.net/" />
 		<GRIB url="https://sawbe.com/GRIB/" />
 		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
-		<SweatBox url="sweatbox01-training.vatpac.org" />
-		<SweatBox2 url="sweatbox02-training.vatpac.org" />
 	</Servers>
 </Profile>
