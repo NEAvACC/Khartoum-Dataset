@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="Ground_INF" Name="ASMGCS_STANDS" Priority="0" Center="+15.590278+032.553056">
+        <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+            <!-- HSSK Stands -->
+            <Point Name="S01">+15.600400+032.550300</Point>
+            <Point Name="S02">+15.599700+032.550300</Point>
+            <Point Name="S03">+15.599100+032.550300</Point>
+            <Point Name="S04">+15.598400+032.550400</Point>
+            <Point Name="S05">+15.597700+032.550500</Point>
+            <Point Name="S06">+15.597100+032.550500</Point>
+            <Point Name="S07">+15.596700+032.550600</Point>
+            <Point Name="S08">+15.596300+032.550600</Point>
+            <Point Name="S09">+15.595900+032.550600</Point>
+            <Point Name="S10">+15.595400+032.550600</Point>
+            <Point Name="S11">+15.595000+032.550600</Point>
+            <Point Name="S12">+15.594600+032.550600</Point>
+            <Point Name="S13">+15.594200+032.550600</Point>
+            <Point Name="S14">+15.593700+032.550600</Point>
+            <Point Name="S15">+15.593100+032.550600</Point>
+            <Point Name="S16">+15.592600+032.550600</Point>
+            <Point Name="S17">+15.592000+032.550600</Point>
+            <Point Name="S18">+15.591500+032.550600</Point>
+            <Point Name="S19">+15.590900+032.550600</Point>
+            <Point Name="S20">+15.590400+032.550600</Point>
+            <Point Name="S21">+15.589800+032.550600</Point>
+            <Point Name="S22">+15.589200+032.550600</Point>
+            <Point Name="S23">+15.588700+032.550600</Point>
+            <Point Name="S24">+15.588100+032.550600</Point>
+            <Point Name="S25">+15.587600+032.550700</Point>
+            <Point Name="S26">+15.587000+032.550700</Point>
+            <Point Name="S27">+15.586600+032.550700</Point>
+            <Point Name="S28">+15.586200+032.550700</Point>
+            <Point Name="S29">+15.585800+032.550700</Point>
+            <Point Name="S30">+15.585400+032.550700</Point>
+            <Point Name="S31">+15.585000+032.550700</Point>
+            <Point Name="S32">+15.584600+032.550700</Point>
+            <Point Name="S33">+15.584200+032.550700</Point>
+            <Point Name="S34">+15.583800+032.550700</Point>
+            <Point Name="S35">+15.583400+032.550700</Point>
+            <Point Name="S36">+15.583000+032.550700</Point>
+            <Point Name="S37">+15.582600+032.550800</Point>
+            <Point Name="S38">+15.582400+032.550800</Point>
+            <Point Name="S39">+15.582100+032.550800</Point>
+            <Point Name="S40">+15.581900+032.550800</Point>
+            <Point Name="S41">+15.581600+032.550900</Point>
+            <Point Name="S42">+15.581300+032.550900</Point>
+            <Point Name="S43">+15.581100+032.550900</Point>
+            <Point Name="S44">+15.580800+032.551000</Point>
+            <Point Name="S45">+15.580600+032.551000</Point>
+            <!-- HSPN-->
+            <Point Name="S4">+19.433973+037.236720</Point>
+            <Point Name="S3">+19.434151+037.237469</Point>
+            <Point Name="S1">+19.434573+037.237355</Point>
+            <Point Name="S2">+19.434419+037.236609</Point>
+        </Label>
+    </Map>
+</Maps>
