@@ -725,4 +725,21 @@
 
   </Group>
 
+  <Position Name="HSSK" Type="ASMGCS" ASMGCSAirport="HSSK" DefaultCenter="+15.590278+032.553056"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Khartoum/HSSK_TWYS" />
+      <Map Name="Khartoum/HSSK_BLDS" />
+      <Map Name="Khartoum/HSSK_RWYS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
+  <Position Name="HSPN" Type="ASMGCS" ASMGCSAirport="HSPN" DefaultCenter="+19.433611+037.234167"
+    DefaultRange="3">
+    <Maps>
+      <Map Name="Port Sudan/HSPN_TWYS" />
+      <Map Name="Port Sudan/HSPN_RWYS" />
+      <Map Name="ASMGCS_TAXI_ALL" />
+    </Maps>
+  </Position>
 </Positions>
