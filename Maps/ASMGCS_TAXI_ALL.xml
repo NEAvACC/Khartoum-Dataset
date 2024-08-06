@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="Ground_INF" Name="ASMGCS_TAXI_ALL" Priority="0" Center="+15.590278+032.553056">
+    <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+      <!-- HSSK TWY -->
+      <Point Name="18">+15.602783+032.553076</Point>
+      <Point Name="36">+15.576675+032.553261</Point>
+      <Point Name="M">+15.602000+032.552100</Point>
+      <Point Name="M">+15.602000+032.550500</Point>
+      <Point Name="A">+15.599300+032.552300</Point>
+      <Point Name="B">+15.593800+032.552300</Point>
+      <Point Name="C">+15.589900+032.552300</Point>
+      <Point Name="D">+15.585400+032.552300</Point>
+      <Point Name="G">+15.579600+032.552000</Point>
+      <!-- HSSK Aprons -->
+      <Point Name="GREEN FLAG AVIATION APRON">+15.598600+032.557900</Point>
+      <Point Name="APRON 2">+15.600600+032.549500</Point>
+      <Point Name="APRON 1">+15.597000+032.549500</Point>
+      <Point Name="APRON 3">+15.594300+032.549200</Point>
+      <Point Name="APRON 4">+15.586100+032.548800</Point>
+      <Point Name="GENERAL AVIATION APRON">+15.580100+032.548800</Point>
+      <Point Name="MAINTENANCE HANGER">+15.581800+032.548800</Point>
+      <Point Name="MILITARY APRON">+15.600400+032.546000</Point>
+      <Point Name="VIP APRON">+15.597900+032.548500</Point>
+      <!-- HSPN-->
+      <Point Name="34">+19.422775+037.236635</Point>
+      <Point Name="16">+19.444325+037.231563</Point>
+      <Point Name="B">+19.432679+037.235000</Point>
+      <Point Name="A">+19.434856+037.234436</Point>
+      <Point Name="MILITARY APRON">+19.449287+037.236429</Point>
+      <Point Name="PASSENGER TERMINAL">+19.434988+037.239005</Point>
+    </Label>
+  </Map>
+</Maps>
