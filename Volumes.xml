@@ -4660,7 +4660,21 @@
   </Volume>
 
   <!-- Neighbouring FIRs -->
-
+  <Volume Name="GULF" LowerLimit="24000" UpperLimit="60000">
+    <Boundaries>OEJD,HECC6,HECC5</Boundaries>
+  </Volume>
+  <Volume Name="AFRE" LowerLimit="24000" UpperLimit="60000">
+    <Boundaries>HHAA,HAAA</Boundaries>
+  </Volume>
+  <Volume Name="AFRN" LowerLimit="24000" UpperLimit="60000">
+    <Boundaries>FTTT,HLLL</Boundaries>
+  </Volume>
+  <Volume Name="AFRC" LowerLimit="24000" UpperLimit="60000">
+    <Boundaries>FZZZ,HUEC,HKNA</Boundaries>
+  </Volume>
+  <Volume Name="AFRW" LowerLimit="24000" UpperLimit="60000">
+    <Boundaries>FCCC</Boundaries>
+  </Volume>
   <Volume Name="FTTT" LowerLimit="0" UpperLimit="60000">
     <Boundaries>FTTT</Boundaries>
   </Volume>
