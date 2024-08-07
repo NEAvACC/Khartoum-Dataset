@@ -2,13 +2,13 @@
 
   <!-- ACC -->
 
-  <Sector Name="KRN" FullName="Khartoum Center" Frequency="125.400" Callsign="HSSS_1_CTR">
+  <Sector Name="KRN" FullName="Khartoum Center" Frequency="127.500" Callsign="HSSS_1_CTR">
     <Volumes>HSSS_N</Volumes>
-    <ResponsibleSectors>KRA,MRA,PSA,DNA</ResponsibleSectors>
+    <ResponsibleSectors>KRS,JUB</ResponsibleSectors>
   </Sector>
-  <Sector Name="KRS" FullName="Khartoum Center" Frequency="125.700" Callsign="HSSS_2_CTR">
+  <Sector Name="KRS" FullName="Khartoum Center" Frequency="127.300" Callsign="HSSS_2_CTR">
     <Volumes>HSSS_S</Volumes>
-    <ResponsibleSectors>OBA,NYA,GNA,FSA,JUB</ResponsibleSectors>
+    <ResponsibleSectors>JUB</ResponsibleSectors>
   </Sector>
   <Sector Name="JUB" FullName="Juba Control" Frequency="123.900" Callsign="HJJJ_1_CTR">
     <Volumes>HJJJ_FIR</Volumes>
@@ -114,49 +114,59 @@
 
   <!-- Sectors for handoff (!!YET TO BE COMPLETED!!)-->
 
-  <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFC">
-    <Volumes>HAAA,HHAA</Volumes>
-  </Sector>
-  <Sector FullName="East Africa Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFE">
-    <Volumes>HAAA,HHAA</Volumes>
-  </Sector>
-  <Sector FullName="North Africa Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFN">
-    <Volumes>FTTT</Volumes>
-  </Sector>
-  <Sector FullName="Africa South Control" Frequency="134.575" Callsign="AFRS_FSS" Name="AFS">
-    <Volumes>FCCC,FZAA,HNKA</Volumes>
-  </Sector>
-  <Sector FullName="Africa West Control" Frequency="132.225" Callsign="AFRW_FSS" Name="AFW">
-    <Volumes>FCCC,FZAA,HNKA</Volumes>
-  </Sector>
-  <Sector FullName="Brazzaville Control" Frequency="127.100" Callsign="FCCC_CTR" Name="FCC">
-    <Volumes>FCCC</Volumes>
-  </Sector>
-  <Sector FullName="N'Djamena Control" Frequency="120.500" Callsign="FTTT_1_CTR" Name="NDC">
-    <Volumes>FTTT</Volumes>
-  </Sector>
-  <Sector FullName="Kinshasa Control" Frequency="126.100" Callsign="FZZA_CTR" Name="KNC">
-    <Volumes>FZAA</Volumes>
-  </Sector>
-  <Sector FullName="Kisangani Control" Frequency="130.100" Callsign="FZZA_E_CTR" Name="KEC">
-    <Volumes>FZZA</Volumes>
-  </Sector>
+  <!-- FSS -->
   <Sector FullName="Gulf Control" Frequency="133.650" Callsign="GULF_FSS" Name="GCC">
     <Volumes>HECC5,HECC6,OEJD</Volumes>
   </Sector>
   <Sector FullName="Gulf Control" Frequency="133.500" Callsign="GULF_W_FSS" Name="GCW">
     <Volumes>HECC5,HECC6,OEJD</Volumes>
   </Sector>
-  <Sector FullName="Addis Control" Frequency="125.100" Callsign="HAAA_1_CTR" Name="AAW">
+
+
+  <Sector FullName="East Africa Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFE">
+    <Volumes>HAAA,HHAA</Volumes>
+  </Sector>
+  <Sector FullName="North Africa Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFN">
+    <Volumes>FTTT,HLLL</Volumes>
+  </Sector>
+
+  <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFC">
+    <Volumes>HUEC,HKNA,FZZA</Volumes>
+  </Sector>
+  <Sector FullName="Africa West Control" Frequency="132.225" Callsign="AFRW_FSS" Name="AFW">
+    <Volumes>FCCC</Volumes>
+  </Sector>
+
+  <!-- FCCC  -->
+  <Sector FullName="Brazzaville Control" Frequency="127.100" Callsign="FCCC_CTR" Name="BRZ">
+    <Volumes>FCCC</Volumes>
+  </Sector>
+
+  <!-- FTTT -->
+  <Sector FullName="N'Djamena Control" Frequency="120.500" Callsign="FTTT_1_CTR" Name="NDJ">
+    <Volumes>FTTT</Volumes>
+  </Sector>
+
+
+  <!-- FZZA -->
+  <Sector FullName="Kinshasa Control" Frequency="126.100" Callsign="FZZA_CTR" Name="KNC">
+    <Volumes>FZAA</Volumes>
+  </Sector>
+  <Sector FullName="Kisangani Control" Frequency="130.100" Callsign="FZZA_E_CTR" Name="KNE">
+    <Volumes>FZZA</Volumes>
+  </Sector>
+
+
+  <!-- HAAA -->
+  <Sector FullName="Addis Control" Frequency="125.100" Callsign="HAAA_1_CTR" Name="ADD">
     <Volumes>HAAA</Volumes>
   </Sector>
-  <Sector FullName="Addis Control" Frequency="125.200" Callsign="HAAA_2_CTR" Name="AAE">
-    <Volumes>HAAA</Volumes>
-  </Sector>
+
+  <!-- HECC -->
   <Sector FullName="Cairo Control" Frequency="128.725" Callsign="HECC_1X_CTR" Name="CX1">
     <Volumes>HECC5,HECC6</Volumes>
   </Sector>
-  <Sector FullName="Cairo Control" Frequency="127.700" Callsign="HECC_1_CTR" Name="CC1">
+  <Sector FullName="Cairo Control" Frequency="127.700" Callsign="HECC_1_CTR" Name="CAI">
     <Volumes>HECC5,HECC6</Volumes>
   </Sector>
   <Sector FullName="Cairo Control" Frequency="126.725" Callsign="HECC_2X_CTR" Name="CX2">
@@ -201,28 +211,35 @@
   <Sector FullName="Cairo Control" Frequency="125.175" Callsign="HECC_C_CTR" Name="CCR">
     <Volumes>HECC5,HECC6</Volumes>
   </Sector>
-  <Sector FullName="Asmara Center" Frequency="129.500" Callsign="HHAA_1_CTR" Name="ASS">
+
+  <!-- HHAA -->
+  <Sector FullName="Asmara Control" Frequency="129.500" Callsign="HHAA_1_CTR" Name="ASM">
     <Volumes>HHAA</Volumes>
   </Sector>
-  <Sector FullName="Asmara Approach" Frequency="120.700" Callsign="HHAS_APP" Name="ASA">
-    <Volumes>HHAA</Volumes>
-  </Sector>
+
+  <!-- HKNA -->
   <Sector FullName="Loki Tower" Frequency="118.900" Callsign="HKLK_TWR" Name="LKT"
     DisplayInSectorsWindow="False">
     <Volumes>HKNA</Volumes>
   </Sector>
-  <Sector FullName="Nairobi Control" Frequency="121.300" Callsign="HKNA_CTR" Name="NRC">
+  <Sector FullName="Nairobi Control" Frequency="121.300" Callsign="HKNA_CTR" Name="NBO">
     <Volumes>HKNA</Volumes>
   </Sector>
+
+  <!-- HLLL -->
   <Sector FullName="Tripoli Control" Frequency="120.900" Callsign="HLLL_CTR" Name="TRC">
     <Volumes>HLLL</Volumes>
   </Sector>
   <Sector FullName="Tripoli Control" Frequency="128.400" Callsign="HLLL_S_CTR" Name="TRS">
     <Volumes>HLLL</Volumes>
   </Sector>
+
+  <!-- HUEC -->
   <Sector FullName="Entebbe Control" Frequency="128.500" Callsign="HUEC_CTR" Name="ENC">
     <Volumes>HUEC</Volumes>
   </Sector>
+
+  <!-- OEJD -->
   <Sector FullName="Jeddah Control" Frequency="126.500" Callsign="OEJD_1_CTR" Name="JDC">
     <Volumes>OEJD</Volumes>
   </Sector>
