@@ -739,6 +739,7 @@
     <Maps>
       <Map Name="Port Sudan/HSPN_TWYS" />
       <Map Name="Port Sudan/HSPN_RWYS" />
+      <Map Name="Port Sudan/HSPN_GRASS" />
       <Map Name="ASMGCS_TAXI_ALL" />
     </Maps>
   </Position>
