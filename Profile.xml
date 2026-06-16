@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" ?>
 <Profile Name="Khartoum" FullName="Khartoum Eurocat (HSSS/HJJJ)">
-	<Version AIRAC="2408" Revision="A" PublishDate="20240831"
-		UpdateURL="https://github.com/NEAvACC/Khartoum-Dataset/raw/release/Published" />
-	<Servers>
-		<VATSIMStatus url="https://status.vatsim.net/" />
-		<GRIB url="https://sawbe.com/GRIB/" />
-		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
-	</Servers>
+    <Version AIRAC="2606" Revision="" PublishDate="20260616" UpdateURL="https://github.com/NEAvACC/Khartoum-Dataset/raw/release/Published"/>
+    <Servers>
+        <VATSIMStatus url="https://status.vatsim.net/"/>
+        <GRIB url="https://sawbe.com/GRIB/"/>
+        <G2G url="antifaff.vatsys.sawbe.com" port="64738"/>
+    </Servers>
 </Profile>
